@@ -15,11 +15,10 @@ RUN pip install --no-cache-dir /tmp/*.whl && \
     rm -rf /root/.cache
 
 # Verify
-RUN python3 -c "from stationeers_ic10_mcp.server import instructions, devices; print(f'Loaded {len(instructions())} instructions, {len(devices())} devices')"
+RUN python3 -c "from stationeers_ic10_mcp.server import mcp; print(f'FastMCP server: {mcp.name}')"
 
 # Default: SSE/HTTP mode for Docker deployment
-# Override with: docker run ... stationeers-ic10-mcp (stdio)
 ENV MCP_TRANSPORT=sse
 EXPOSE 8765
+
 ENTRYPOINT ["python3", "-m", "stationeers_ic10_mcp.server"]
-CMD ["--sse", "--host", "0.0.0.0", "--port", "8765"]
