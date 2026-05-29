@@ -1,0 +1,89 @@
+{
+  "name": "Ice Crusher – Unofficial Stationeers Wiki",
+  "properties": [
+    {
+      "property": "Activate",
+      "type": "Boolean",
+      "description": "1 to activate, otherwise 0",
+      "_section": "parameters"
+    },
+    {
+      "property": "Lock",
+      "type": "Boolean",
+      "description": "One(1) is locked, where as zero(0) is not locked",
+      "_section": "parameters"
+    },
+    {
+      "property": "Setting",
+      "type": "Integer",
+      "description": "Temperature of the output in degrees kelvin",
+      "_section": "parameters"
+    },
+    {
+      "property": "On",
+      "type": "Boolean",
+      "description": "One(1) is On, where as zero(0) is off",
+      "_section": "parameters"
+    },
+    {
+      "property": "ClearMemory",
+      "type": "Boolean",
+      "description": "when set to 1, clears counter memory, resets itself to 0 when actioned",
+      "_section": "parameters"
+    },
+    {
+      "property": "Power",
+      "type": "Boolean",
+      "description": "One(1) is on, where as zero (0) is off",
+      "_section": "outputs"
+    },
+    {
+      "property": "Error",
+      "description": "1 if in error state",
+      "_raw_type": "1 if in error state",
+      "_section": "outputs"
+    },
+    {
+      "property": "Maximum",
+      "type": "Integer",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "Ratio",
+      "type": "Integer",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "RequiredPower",
+      "type": "Integer",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "ImportCount",
+      "type": "Integer",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "Prefabhash",
+      "type": "Integer",
+      "description": "443849486",
+      "_section": "outputs"
+    },
+    {
+      "property": "ReferenceId",
+      "type": "Integer",
+      "description": "Unique Reference identifier for this object",
+      "_section": "outputs"
+    },
+    {
+      "property": "NameHash",
+      "type": "Integer",
+      "description": "The hash value for the name of the object",
+      "_section": "outputs"
+    }
+  ]
+}

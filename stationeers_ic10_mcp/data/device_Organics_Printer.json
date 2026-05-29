@@ -1,0 +1,119 @@
+{
+  "name": "Organics Printer – Unofficial Stationeers Wiki",
+  "properties": [
+    {
+      "property": "Product",
+      "description": "Joules Consumed",
+      "_raw_type": "Ticks to print",
+      "_section": "unknown"
+    },
+    {
+      "property": "Corn",
+      "description": "100000",
+      "_raw_type": "120",
+      "_section": "unknown"
+    },
+    {
+      "property": "Fern",
+      "description": "100000",
+      "_raw_type": "120",
+      "_section": "unknown"
+    },
+    {
+      "property": "Fertilized Egg",
+      "description": "10000000",
+      "_raw_type": "300",
+      "_section": "unknown"
+    },
+    {
+      "property": "Potato",
+      "description": "100000",
+      "_raw_type": "120",
+      "_section": "unknown"
+    },
+    {
+      "property": "Soybean",
+      "description": "100000",
+      "_raw_type": "120",
+      "_section": "unknown"
+    },
+    {
+      "property": "Wheat",
+      "description": "100000",
+      "_raw_type": "120",
+      "_section": "unknown"
+    },
+    {
+      "property": "Open",
+      "type": "Boolean",
+      "description": "Starts the Organics Printer Unit, when set to 1. Stops it, when set to 0.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Activate",
+      "type": "Boolean",
+      "description": "Activates the Organics Printer when set to 1. Deactivates it, when set to 0.",
+      "_section": "parameters"
+    },
+    {
+      "property": "On",
+      "type": "Boolean",
+      "description": "Turns the Organics Printer on when set to 1. Turns it off, when set to 0.",
+      "_section": "parameters"
+    },
+    {
+      "property": "RecipeHash",
+      "type": "Integer",
+      "description": "Read recipehash of selected recipe Number is calculated using hash on prefabname",
+      "_section": "parameters"
+    },
+    {
+      "property": "Power",
+      "type": "Boolean",
+      "description": "Returns whether the Organics Printer is turned on and receives power. (0 for no, 1 for yes)",
+      "_section": "outputs"
+    },
+    {
+      "property": "Error",
+      "type": "Boolean",
+      "description": "Returns whether the Organics Printer is flashing an error. (0 for no, 1 for yes)",
+      "_section": "outputs"
+    },
+    {
+      "property": "Reagents",
+      "type": "(Unknown)",
+      "description": "(Unknown)",
+      "_section": "outputs"
+    },
+    {
+      "property": "ImportQuantity",
+      "type": "Integer",
+      "description": "Returns the size of the current stack inside the Organics Printer 's input slot.",
+      "_section": "outputs"
+    },
+    {
+      "property": "ImportSlotOccupant",
+      "type": "Boolean",
+      "description": "Returns whether the import slot holds an item. (0 for no, 1 for yes)",
+      "_section": "outputs"
+    },
+    {
+      "property": "ExportQuantity",
+      "type": "(Unknown)",
+      "description": "(Unknown)",
+      "_section": "outputs"
+    },
+    {
+      "property": "ExportSlotOccupant",
+      "type": "Boolean",
+      "description": "Returns whether the export slot currently holds an item. (0 for no, 1 for yes) This only turns to 1 for a short moment after the product is finished, before the product is ejected.",
+      "_section": "outputs"
+    },
+    {
+      "property": "RequiredPower",
+      "type": "Integer",
+      "description": "Returns the current amount of power, required by the Organics Printer, in Watts. [1]",
+      "_section": "outputs"
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "name": "Furnace",
+  "properties": [
+    {
+      "property": "Vol",
+      "description": "N2O",
+      "_raw_type": "X",
+      "_section": "unknown"
+    },
+    {
+      "property": "1 Biomass",
+      "description": "0.0",
+      "_raw_type": "8.0",
+      "_section": "unknown"
+    },
+    {
+      "property": "1 Coal",
+      "description": "0.0",
+      "_raw_type": "0.0",
+      "_section": "unknown"
+    },
+    {
+      "property": "1 Silicon",
+      "description": "0.0",
+      "_raw_type": "0.0",
+      "_section": "unknown"
+    },
+    {
+      "property": "1 Iron",
+      "description": "0.0",
+      "_raw_type": "0.0",
+      "_section": "unknown"
+    },
+    {
+      "property": "1 Gold",
+      "description": "0.0",
+      "_raw_type": "0.0",
+      "_section": "unknown"
+    },
+    {
+      "property": "1 Copper",
+      "description": "0.0",
+      "_raw_type": "0.0",
+      "_section": "unknown"
+    },
+    {
+      "property": "1 Silver",
+      "description": "1.0",
+      "_raw_type": "0.0",
+      "_section": "unknown"
+    },
+    {
+      "property": "1 Lead",
+      "description": "0.4",
+      "_raw_type": "0.0",
+      "_section": "unknown"
+    },
+    {
+      "property": "1 Nickel",
+      "description": "0.0",
+      "_raw_type": "0.0",
+      "_section": "unknown"
+    },
+    {
+      "property": "1 Cobalt",
+      "description": "0.0",
+      "_raw_type": "1.0",
+      "_section": "unknown"
+    },
+    {
+      "property": "Prime",
+      "description": "Out: Mols",
+      "_raw_type": "FAR",
+      "_section": "unknown"
+    },
+    {
+      "property": "H2",
+      "description": "X",
+      "_raw_type": "O2",
+      "_section": "unknown"
+    },
+    {
+      "property": "1,400 KPa    Fuel",
+      "description": "100Steel",
+      "_raw_type": "24 Mols Volatiles \n  12.3 Mols Oxygen",
+      "_section": "unknown"
+    },
+    {
+      "property": "160 KPa    Fuel",
+      "description": "100Electrum",
+      "_raw_type": "2.8 Mols Volatiles \n  1.43 Mols Oxygen",
+      "_section": "unknown"
+    },
+    {
+      "property": "30 KPa    Fuel",
+      "description": "100Solder",
+      "_raw_type": "0.516 Mols Volatiles \n  0.264Mols Oxygen",
+      "_section": "unknown"
+    },
+    {
+      "property": "(2x) 7,500 KPa   Fuel",
+      "description": "100Constantan",
+      "_raw_type": "256 Mols Volatiles \n  131 Mols Oxygen",
+      "_section": "unknown"
+    },
+    {
+      "property": "(2x)  6,000 KPa   Fuel       (2x) 9,500 KPa Pressurant",
+      "description": "100Invar",
+      "_raw_type": "205 Mols Volatiles \n  105 Mols Oxygen \n \n  538 Mols Pressurant ^^^",
+      "_section": "unknown"
+    },
+    {
+      "property": "Activate",
+      "type": "Boolean",
+      "description": "Activates the Furnace, when set to 1.",
+      "_section": "parameters"
+    },
+    {
+      "property": "ClearMemory",
+      "type": "Boolean",
+      "description": "When set to 1,clears the counter memory(e.g.ExportCount). Will set itself back to 0 when actioned.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Lock",
+      "type": "Boolean",
+      "description": "Locks the Furnace, when set to 1. Unlocks it when set to 0.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Mode",
+      "type": "Integer",
+      "description": "Returns whether the Furnace is smelting. (0 for no, 1 for yes).",
+      "_section": "parameters"
+    },
+    {
+      "property": "Open",
+      "type": "Boolean",
+      "description": "Opens the Furnace, when set to 1. Closes it, when set to 0.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Setting",
+      "type": "Float",
+      "description": "(Unknown) Affects the Setting output.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Combustion",
+      "type": "Boolean",
+      "description": "Returns 1 if the furnace atmosphere is on fire.",
+      "_section": "outputs"
+    },
+    {
+      "property": "ExportCount",
+      "type": "Integer",
+      "description": "How many items exported since last ClearMemory.",
+      "_section": "outputs"
+    },
+    {
+      "property": "ImportCount",
+      "type": "Integer",
+      "description": "How many items imported since last ClearMemory.",
+      "_section": "outputs"
+    },
+    {
+      "property": "Maximum",
+      "type": "Integer",
+      "description": "(Unknown) Returns 100.",
+      "_section": "outputs"
+    },
+    {
+      "property": "PrefabHash",
+      "type": "Integer",
+      "description": "The hash of the structure.",
+      "_section": "outputs"
+    },
+    {
+      "property": "Pressure",
+      "type": "Float",
+      "description": "Returns the pressure in the Furnace in kilo pascal.",
+      "_section": "outputs"
+    },
+    {
+      "property": "Ratio",
+      "type": "Float",
+      "description": "(Unknown) Returns 0.5.",
+      "_section": "outputs"
+    },
+    {
+      "property": "RatioCarbonDioxide",
+      "type": "Float",
+      "description": "Returns a range from 0.0 to 1.0. Returns the percentage ratio of the amount of carbon dioxide in the Furnace.",
+      "_section": "outputs"
+    },
+    {
+      "property": "RatioNitrogen",
+      "type": "Float",
+      "description": "Returns a range from 0.0 to 1.0. Returns the percentage ratio of the amount of nitrogen in the Furnace.",
+      "_section": "outputs"
+    },
+    {
+      "property": "RatioNitrousOxide",
+      "type": "Float",
+      "description": "Returns a range from 0.0 to 1.0. Returns the percentage ratio of the amount of nitrous oxide in the Furnace.",
+      "_section": "outputs"
+    },
+    {
+      "property": "RatioOxygen",
+      "type": "Float",
+      "description": "Returns a range from 0.0 to 1.0. Returns the percentage ratio of the amount of oxygen in the Furnace.",
+      "_section": "outputs"
+    },
+    {
+      "property": "RatioPollutant",
+      "type": "Float",
+      "description": "Returns a range from 0.0 to 1.0. Returns the percentage ratio of the amount of pollutant in the Furnace.",
+      "_section": "outputs"
+    },
+    {
+      "property": "RatioVolatiles",
+      "type": "Float",
+      "description": "Returns a range from 0.0 to 1.0. Returns the percentage ratio of the amount of volatiles in the Furnace.",
+      "_section": "outputs"
+    },
+    {
+      "property": "RatioWater",
+      "type": "Float",
+      "description": "Returns a range from 0.0 to 1.0. Returns the percentage ratio of the amount of water in the Furnace.",
+      "_section": "outputs"
+    },
+    {
+      "property": "Reagents",
+      "type": "Float",
+      "description": "Returns the amount of reagents (smeltable ores, not counting ice) in the Furnace, in grams.",
+      "_section": "outputs"
+    },
+    {
+      "property": "RecipeHash",
+      "type": "int",
+      "description": "Current hash of the recipe the device is set to produce.",
+      "_section": "outputs"
+    },
+    {
+      "property": "Temperature",
+      "type": "Float",
+      "description": "Returns the temperature in the Furnace in kelvin.",
+      "_section": "outputs"
+    },
+    {
+      "property": "TotalMoles",
+      "type": "Float",
+      "description": "Returns the total moles of the furnace.",
+      "_section": "outputs"
+    }
+  ]
+}

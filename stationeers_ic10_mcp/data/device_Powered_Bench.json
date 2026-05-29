@@ -1,0 +1,29 @@
+{
+  "name": "Powered Bench – Unofficial Stationeers Wiki",
+  "properties": [
+    {
+      "property": "On",
+      "type": "Boolean",
+      "description": "Turns the bench on, when set to 1. Turns it off, when set to 0.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Power",
+      "type": "Boolean",
+      "description": "Returns whether the Bench is turned on and receives power. (0 for no, 1 for yes)",
+      "_section": "outputs"
+    },
+    {
+      "property": "Error",
+      "type": "Boolean",
+      "description": "Returns whether the Bench is flashing an error. (0 for no, 1 for yes)",
+      "_section": "outputs"
+    },
+    {
+      "property": "RequiredPower",
+      "type": "Integer",
+      "description": "Returns the power, currently needed by the Bench and it's connected appliances, in watts.",
+      "_section": "outputs"
+    }
+  ]
+}

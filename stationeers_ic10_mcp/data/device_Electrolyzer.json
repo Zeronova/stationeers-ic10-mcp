@@ -1,0 +1,35 @@
+{
+  "name": "Electrolyzer – Unofficial Stationeers Wiki",
+  "properties": [
+    {
+      "property": "Lock",
+      "type": "Boolean",
+      "description": "Locks the Electrolyzer , when set to 1. Unlocks it, when set to 0.",
+      "_section": "parameters"
+    },
+    {
+      "property": "On",
+      "type": "Boolean",
+      "description": "Turns the Electrolyzer on, when set to 1. Turns it off, when set to 0.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Power",
+      "type": "Boolean",
+      "description": "Returns whether the Electrolyzer is turned on and receives power. (0 for no, 1 for yes)",
+      "_section": "outputs"
+    },
+    {
+      "property": "Error",
+      "type": "Boolean",
+      "description": "Returns whether the Electrolyzer is flashing an error. (0 for no, 1 for yes)",
+      "_section": "outputs"
+    },
+    {
+      "property": "RequiredPower",
+      "type": "Integer",
+      "description": "Returns the current amount of power, required by the Electrolyzer, in Watts.",
+      "_section": "outputs"
+    }
+  ]
+}

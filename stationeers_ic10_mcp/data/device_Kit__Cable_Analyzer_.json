@@ -1,0 +1,23 @@
+{
+  "name": "Kit (Cable Analyzer) – Unofficial Stationeers Wiki",
+  "properties": [
+    {
+      "property": "PowerPotential",
+      "type": "Integer",
+      "description": "Returns the available amount of power in the network, in Watts.",
+      "_section": "outputs"
+    },
+    {
+      "property": "PowerActual",
+      "type": "Integer",
+      "description": "Returns the currently drawn amount of power in the network, in Watts.",
+      "_section": "outputs"
+    },
+    {
+      "property": "PowerRequired",
+      "type": "Integer",
+      "description": "Returns the currently required amount of power in the network, in Watts.",
+      "_section": "outputs"
+    }
+  ]
+}

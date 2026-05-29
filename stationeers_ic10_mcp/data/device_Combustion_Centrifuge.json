@@ -1,0 +1,725 @@
+{
+  "name": "Combustion Centrifuge",
+  "properties": [
+    {
+      "property": "Power",
+      "type": "Boolean",
+      "access": "Read",
+      "value": "0",
+      "description": "Unpowered",
+      "col5": "Can be read to return if the Combustion Centrifuge is correctly powered or not, set via the power system, return 1 if powered and 0 if not",
+      "_section": "parameters"
+    },
+    {
+      "property": "Open",
+      "type": "Integer",
+      "access": "Read Write",
+      "value": "0",
+      "description": "Closed",
+      "col5": "1 if device is open, otherwise 0",
+      "_section": "parameters"
+    },
+    {
+      "property": "Error",
+      "type": "Boolean",
+      "access": "Read",
+      "value": "0",
+      "description": "",
+      "col5": "1 if device is in error state, otherwise 0",
+      "_section": "parameters"
+    },
+    {
+      "property": "Pressure",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "The current pressure reading of the Combustion Centrifuge",
+      "_section": "parameters"
+    },
+    {
+      "property": "Temperature",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "The current temperature reading of the Combustion Centrifuge",
+      "_section": "parameters"
+    },
+    {
+      "property": "Lock",
+      "type": "Boolean",
+      "access": "Read Write",
+      "value": "0",
+      "description": "Unlocked",
+      "col5": "Disable manual operation of the Combustion Centrifuge.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Reagents",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Total number of reagents recorded by the Combustion Centrifuge.  Max reagent capacity is 3000, at which time centrifuge will spin down and flash an error. IC/Logic required for automation, otherwise manual operation.",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioOxygen",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Oxygen in device atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioCarbonDioxide",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Carbon Dioxide in device atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioNitrogen",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Nitrogen in device atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioPollutant",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Pollutant in device atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioVolatiles",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Volatiles in device atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioWater",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Water in device atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "On",
+      "type": "Boolean",
+      "access": "Read Write",
+      "value": "0",
+      "description": "Off",
+      "col5": "The current state of the Combustion Centrifuge.",
+      "_section": "parameters"
+    },
+    {
+      "property": "RequiredPower",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Idle operating power quantity, does not necessarily include extra demand power",
+      "_section": "parameters"
+    },
+    {
+      "property": "ClearMemory",
+      "type": "Integer",
+      "access": "Write",
+      "value": "",
+      "description": "",
+      "col5": "When set to 1, clears the counter memory (e.g. ExportCount). Will set itself back to 0 when actioned",
+      "_section": "parameters"
+    },
+    {
+      "property": "ExportCount",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "How many items exported since last ClearMemory",
+      "_section": "parameters"
+    },
+    {
+      "property": "ImportCount",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "How many items imported since last ClearMemory",
+      "_section": "parameters"
+    },
+    {
+      "property": "TotalMoles",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Returns the total moles of the Combustion Centrifuge",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioNitrousOxide",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Nitrous Oxide in device atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "PrefabHash",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "The hash of the structure",
+      "_section": "parameters"
+    },
+    {
+      "property": "Combustion",
+      "type": "Boolean",
+      "access": "Read",
+      "value": "0 or 1",
+      "description": "",
+      "col5": "Assess if the atmosphere is on fire. Returns 1 if atmosphere is on fire, 0 if not.",
+      "_section": "parameters"
+    },
+    {
+      "property": "PressureInput",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "The current pressure reading of the Combustion Centrifuge's Input Network",
+      "_section": "parameters"
+    },
+    {
+      "property": "TemperatureInput",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "The current temperature reading of the Combustion Centrifuge's Input Network",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioOxygenInput",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Oxygen in device's input network",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioCarbonDioxideInput",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Carbon Dioxide in device's input network",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioNitrogenInput",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Nitrogen in device's input network",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioPollutantInput",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Pollutant in device's input network",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioVolatilesInput",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Volatiles in device's input network",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioWaterInput",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Water in device's input network",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioNitrousOxideInput",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Nitrous Oxide in device's input network",
+      "_section": "parameters"
+    },
+    {
+      "property": "TotalMolesInput",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Returns the total moles of the Combustion Centrifuge's Input Network",
+      "_section": "parameters"
+    },
+    {
+      "property": "PressureOutput",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "The current pressure reading of the Combustion Centrifuge's Output Network",
+      "_section": "parameters"
+    },
+    {
+      "property": "TemperatureOutput",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "The current temperature reading of the Combustion Centrifuge's Output Network",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioOxygenOutput",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Oxygen in device's Output network",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioCarbonDioxideOutput",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Carbon Dioxide in device's Output network",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioNitrogenOutput",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Nitrogen in device's Output network",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioPollutantOutput",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Pollutant in device's Output network",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioVolatilesOutput",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Volatiles in device's Output network",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioWaterOutput",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Water in device's Output network",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioNitrousOxideOutput",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Nitrous Oxide in device's Output network",
+      "_section": "parameters"
+    },
+    {
+      "property": "TotalMolesOutput",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Returns the total moles of the Combustion Centrifuge's Output Network",
+      "_section": "parameters"
+    },
+    {
+      "property": "CombustionInput",
+      "type": "Boolean",
+      "access": "Read",
+      "value": "0 or 1",
+      "description": "",
+      "col5": "Assess if the atmosphere is on fire. Returns 1 if device's input network is on fire, 0 if not.",
+      "_section": "parameters"
+    },
+    {
+      "property": "CombustionOutput",
+      "type": "Boolean",
+      "access": "Read",
+      "value": "0 or 1",
+      "description": "",
+      "col5": "Assess if the atmosphere is on fire. Returns 1 if device's Output network is on fire, 0 if not.",
+      "_section": "parameters"
+    },
+    {
+      "property": "CombustionLimiter",
+      "type": "Integer",
+      "access": "Read Write",
+      "value": "",
+      "description": "",
+      "col5": "Retards the rate of combustion inside the machine (range: 0-100), with 0 being the slowest rate of combustion and 100 being the fastest",
+      "_section": "parameters"
+    },
+    {
+      "property": "Throttle",
+      "type": "Integer",
+      "access": "Read Write",
+      "value": "",
+      "description": "",
+      "col5": "Increases the rate at which the machine works (range: 0-100)",
+      "_section": "parameters"
+    },
+    {
+      "property": "Rpm",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "The number of revolutions per minute that the Combustion Centrifuge's spinning mechanism is doing",
+      "_section": "parameters"
+    },
+    {
+      "property": "Stress",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Machines get stressed when working hard. When Stress reaches 100 the machine will automatically shut down",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidNitrogen",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Liquid Nitrogen in device atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidNitrogenInput",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Liquid Nitrogen in device's input network",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidNitrogenOutput",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Liquid Nitrogen in device's Output network",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidOxygen",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Liquid Oxygen in device's Atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidOxygenInput",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Liquid Oxygen in device's Input Atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidOxygenOutput",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Liquid Oxygen in Combustion Centrifuge's Output Atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidVolatiles",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Liquid Volatiles in device's Atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidVolatilesInput",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Liquid Volatiles in device's Input Atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidVolatilesOutput",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Liquid Volatiles in Combustion Centrifuge's Output Atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioSteam",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Steam in device's Atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioSteamInput",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Steam in device's Input Atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioSteamOutput",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Steam in Combustion Centrifuge's Output Atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidCarbonDioxide",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Liquid Carbon Dioxide in device's Atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidCarbonDioxideInput",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Liquid Carbon Dioxide in device's Input Atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidCarbonDioxideOutput",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Liquid Carbon Dioxide in Combustion Centrifuge's Output Atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidPollutant",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Liquid Pollutant in device's Atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidPollutantInput",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Liquid Pollutant in device's Input Atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidPollutantOutput",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Liquid Pollutant in Combustion Centrifuge's Output Atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidNitrousOxide",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Liquid Nitrous Oxide in device's Atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidNitrousOxideInput",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Liquid Nitrous Oxide in device's Input Atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidNitrousOxideOutput",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Liquid Nitrous Oxide in Combustion Centrifuge's Output Atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "ReferenceId",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Unique Reference Identifier for this object",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioHydrogen",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "DEPRECATED",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidHydrogen",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "DEPRECATED",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioPollutedWater",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of polluted water in device atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "NameHash",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Provides the hash value for the name of the object as a 32 bit integer.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Slot Name",
+      "description": "Index",
+      "_raw_type": "Type",
+      "_section": "unknown"
+    },
+    {
+      "property": "Import",
+      "description": "0",
+      "_raw_type": "None",
+      "_section": "unknown"
+    },
+    {
+      "property": "Export",
+      "description": "1",
+      "_raw_type": "None",
+      "_section": "unknown"
+    },
+    {
+      "property": "Programmable Chip",
+      "description": "2",
+      "_raw_type": "Programmable Chip",
+      "_section": "unknown"
+    },
+    {
+      "property": "Connection Name",
+      "description": "Index",
+      "_raw_type": "Index",
+      "_section": "unknown"
+    },
+    {
+      "property": "Chute Input",
+      "description": "0",
+      "_raw_type": "0",
+      "_section": "unknown"
+    },
+    {
+      "property": "Chute Output",
+      "description": "1",
+      "_raw_type": "1",
+      "_section": "unknown"
+    },
+    {
+      "property": "Data",
+      "description": "2",
+      "_raw_type": "2",
+      "_section": "unknown"
+    },
+    {
+      "property": "Pipe Input",
+      "description": "4",
+      "_raw_type": "4",
+      "_section": "unknown"
+    }
+  ]
+}

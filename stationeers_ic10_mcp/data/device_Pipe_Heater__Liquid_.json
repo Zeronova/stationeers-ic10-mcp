@@ -1,0 +1,41 @@
+{
+  "name": "Pipe Heater (Liquid) – Unofficial Stationeers Wiki",
+  "properties": [
+    {
+      "property": "Lock",
+      "type": "Boolean",
+      "description": "",
+      "_section": "parameters"
+    },
+    {
+      "property": "On",
+      "type": "Boolean",
+      "description": "",
+      "_section": "parameters"
+    },
+    {
+      "property": "Error",
+      "type": "Boolean",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "Power",
+      "type": "Boolean",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "PrefabHash",
+      "type": "Integer",
+      "description": "Item hash",
+      "_section": "outputs"
+    },
+    {
+      "property": "RequiredPower",
+      "type": "Integer",
+      "description": "In Watts",
+      "_section": "outputs"
+    }
+  ]
+}

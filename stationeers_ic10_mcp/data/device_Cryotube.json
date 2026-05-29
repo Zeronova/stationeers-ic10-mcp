@@ -1,0 +1,35 @@
+{
+  "name": "Cryotube – Unofficial Stationeers Wiki",
+  "properties": [
+    {
+      "property": "Open",
+      "type": "Boolean",
+      "description": "Opens the CryoTube, when set to 1. Closes it, when set to 0.",
+      "_section": "parameters"
+    },
+    {
+      "property": "On",
+      "type": "Boolean",
+      "description": "Turns the CryoTube on, when set to 1. Turns it off, when set to 0.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Power",
+      "type": "Boolean",
+      "description": "Returns whether the CryoTube is turned on and receives power. (0 for no, 1 for yes)",
+      "_section": "outputs"
+    },
+    {
+      "property": "Error",
+      "type": "Boolean",
+      "description": "Returns whether the CryoTube is flashing an error. (0 for no, 1 for yes)",
+      "_section": "outputs"
+    },
+    {
+      "property": "RequiredPower",
+      "type": "Integer",
+      "description": "Returns the current amount of power, required by the CryoTube, in watts.",
+      "_section": "outputs"
+    }
+  ]
+}

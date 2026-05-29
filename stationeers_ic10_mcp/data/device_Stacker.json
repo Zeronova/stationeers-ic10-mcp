@@ -1,0 +1,83 @@
+{
+  "name": "Stacker – Unofficial Stationeers Wiki",
+  "properties": [
+    {
+      "property": "Mode",
+      "type": "Integer",
+      "description": "0 = Automatic stacking and export,\n 1 = Stack and hold until Activate = 1",
+      "_section": "parameters"
+    },
+    {
+      "property": "Activate",
+      "type": "Boolean",
+      "description": "If set to 1, the Stacker will clear its content via its Export Slot without regard to the Setting",
+      "_section": "parameters"
+    },
+    {
+      "property": "Lock",
+      "type": "Boolean",
+      "description": "",
+      "_section": "parameters"
+    },
+    {
+      "property": "Setting",
+      "type": "Integer",
+      "description": "Default is 1. Sets the Stack Size (won't actually stack to that size if item's max stack size is smaller)",
+      "_section": "parameters"
+    },
+    {
+      "property": "On",
+      "type": "Boolean",
+      "description": "",
+      "_section": "parameters"
+    },
+    {
+      "property": "ClearMemory",
+      "type": "Integer?",
+      "description": "Writing on this Parameter will reset the ExportCount and ImportCount values to zero.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Output",
+      "type": "Integer",
+      "description": "Value of 0 for Mode 0. If you set this to 1 while in Mode 1 the stacker will export a batch of items from storage with quantity Setting.  If there are not enough items in storage, they will not be output.",
+      "_section": "parameters"
+    },
+    {
+      "property": "ImportCount",
+      "type": "Integer",
+      "description": "Incremented each time an item stack enter by the Import slot",
+      "_section": "outputs"
+    },
+    {
+      "property": "ExportCount",
+      "type": "Integer",
+      "description": "Incremented each time an item stack exit by the Export Slot",
+      "_section": "outputs"
+    },
+    {
+      "property": "Error",
+      "type": "Boolean",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "RequiredPower",
+      "type": "Integer",
+      "description": "In watts. The Stacker requires 5W to operate.",
+      "_section": "outputs"
+    },
+    {
+      "property": "PrefabHash",
+      "type": "Float",
+      "description": "Hash ID of the Stacker.",
+      "_section": "outputs"
+    },
+    {
+      "property": "Power",
+      "type": "Boolean",
+      "description": "",
+      "_section": "outputs"
+    }
+  ]
+}

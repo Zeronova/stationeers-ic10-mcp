@@ -1,0 +1,59 @@
+{
+  "name": "Linear Rail Door – Unofficial Stationeers Wiki",
+  "properties": [
+    {
+      "property": "Power",
+      "type": "Boolean",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "1 if powered, otherwise 0",
+      "_section": "parameters"
+    },
+    {
+      "property": "Open",
+      "type": "Boolean",
+      "access": "Read Write",
+      "value": "",
+      "description": "",
+      "col5": "1 if the door is opened, otherwise 0",
+      "_section": "parameters"
+    },
+    {
+      "property": "RequiredPower",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Idle operating power quantity, does not necessarily include extra demand power",
+      "_section": "parameters"
+    },
+    {
+      "property": "PrefabHash",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "The hash of the structure",
+      "_section": "parameters"
+    },
+    {
+      "property": "ReferenceId",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Unique Reference Identifier for this object",
+      "_section": "parameters"
+    },
+    {
+      "property": "NameHash",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Provides the hash value for the name of the object as a 32 bit integer.",
+      "_section": "parameters"
+    }
+  ]
+}

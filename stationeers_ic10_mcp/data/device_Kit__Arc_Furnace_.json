@@ -1,0 +1,185 @@
+{
+  "name": "Kit (Arc Furnace)",
+  "properties": [
+    {
+      "property": "Item",
+      "description": "Input",
+      "_raw_type": "Input",
+      "_section": "unknown"
+    },
+    {
+      "property": "Furnace Input",
+      "description": "H2O (mols)",
+      "_raw_type": "X (mols)",
+      "_section": "unknown"
+    },
+    {
+      "property": "Coal 50g",
+      "description": "0",
+      "_raw_type": "150 X @ 200°C",
+      "_section": "unknown"
+    },
+    {
+      "property": "Charcoal 50g",
+      "description": "0",
+      "_raw_type": "150 X @ 400°C",
+      "_section": "unknown"
+    },
+    {
+      "property": "Biomass 50g",
+      "description": "0",
+      "_raw_type": "200 X",
+      "_section": "unknown"
+    },
+    {
+      "property": "Iron 50g",
+      "description": "0",
+      "_raw_type": "100 X",
+      "_section": "unknown"
+    },
+    {
+      "property": "Copper 50g",
+      "description": "0",
+      "_raw_type": "50 X",
+      "_section": "unknown"
+    },
+    {
+      "property": "Gold 50g",
+      "description": "0",
+      "_raw_type": "100 X",
+      "_section": "unknown"
+    },
+    {
+      "property": "Silver 50g",
+      "description": "0",
+      "_raw_type": "50 X",
+      "_section": "unknown"
+    },
+    {
+      "property": "Lead 50g",
+      "description": "0",
+      "_raw_type": "100 X",
+      "_section": "unknown"
+    },
+    {
+      "property": "Nickel 50g",
+      "description": "0",
+      "_raw_type": "50 X",
+      "_section": "unknown"
+    },
+    {
+      "property": "Silicon 50g",
+      "description": "0",
+      "_raw_type": "50 X",
+      "_section": "unknown"
+    },
+    {
+      "property": "Cobalt 50g",
+      "description": "0",
+      "_raw_type": "0",
+      "_section": "unknown"
+    },
+    {
+      "property": "Uranium 50g",
+      "description": "0",
+      "_raw_type": "1750 X @ 300°C",
+      "_section": "unknown"
+    },
+    {
+      "property": "Ice (Nitrice) 50g",
+      "description": "0",
+      "_raw_type": "0",
+      "_section": "unknown"
+    },
+    {
+      "property": "Ice (Oxite) 50g",
+      "description": "0",
+      "_raw_type": "0",
+      "_section": "unknown"
+    },
+    {
+      "property": "Ice (Volatiles) 50g",
+      "description": "0",
+      "_raw_type": "0",
+      "_section": "unknown"
+    },
+    {
+      "property": "Ice (Water) 50g",
+      "description": "1000 H2O (Liquid) @ 5°C",
+      "_raw_type": "0",
+      "_section": "unknown"
+    },
+    {
+      "property": "Activate",
+      "type": "Boolean",
+      "description": "Activates the furnace when set to 1. Deactivates it, when set to 0. Note: Deactivating the furnace currently has a bug. (See #Bugs)",
+      "_section": "parameters"
+    },
+    {
+      "property": "Lock",
+      "type": "Boolean",
+      "description": "Locks the Arc Furnace when set to 1. Unlocks it, when set to 0.",
+      "_section": "parameters"
+    },
+    {
+      "property": "On",
+      "type": "Boolean",
+      "description": "Turns the Arc Furnace on when set to 1. Turns it off, when set to 0.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Power",
+      "type": "Boolean",
+      "description": "Returns whether the Arc Furnace is turned on and receives power. (0 for no, 1 for yes)",
+      "_section": "outputs"
+    },
+    {
+      "property": "PreFabHash",
+      "type": "Float",
+      "description": "247344692",
+      "_section": "outputs"
+    },
+    {
+      "property": "Reagents",
+      "type": "Boolean",
+      "description": "Returns the amount of ore items it has already processed and will export if turned off or deactivated.",
+      "_section": "outputs"
+    },
+    {
+      "property": "RecipeHash",
+      "type": "Float",
+      "description": "Returns the hash number of the current recipe",
+      "_section": "outputs"
+    },
+    {
+      "property": "RequiredPower",
+      "type": "Integer",
+      "description": "Returns the current amount of power, required by the Arc Furnace, in Watts. Note: This output currently has a bug. (See #Bugs)",
+      "_section": "outputs"
+    },
+    {
+      "property": "Error",
+      "type": "Boolean",
+      "description": "Returns whether the Arc Furnace is flashing an error. (0 for no, 1 for yes)",
+      "_section": "outputs"
+    },
+    {
+      "property": "ExportCount",
+      "type": "Integer",
+      "description": "Returns the nuymber of times it exported a stack of ingots.",
+      "_section": "outputs"
+    },
+    {
+      "property": "Idle",
+      "type": "Boolean",
+      "description": "Returns whether the Arc Furnace is idling. (0 for no, 1 for yes)",
+      "_section": "outputs"
+    },
+    {
+      "property": "ImportCount",
+      "type": "Integer",
+      "description": "Returns the number of times a stack of ores was introduced in the input slot.",
+      "_section": "outputs"
+    }
+  ]
+}

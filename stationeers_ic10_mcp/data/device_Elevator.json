@@ -1,0 +1,59 @@
+{
+  "name": "Elevator – Unofficial Stationeers Wiki",
+  "properties": [
+    {
+      "property": "On",
+      "type": "Boolean",
+      "description": "Turns the device on, when set >= 1. Turns it off, when set to <1.",
+      "_section": "parameters"
+    },
+    {
+      "property": "ElevatorSpeed",
+      "type": "Integer",
+      "description": "Sets the desired speed of the elevator. (0.5 - 20)",
+      "_section": "parameters"
+    },
+    {
+      "property": "ElevatorLevel",
+      "type": "Integer",
+      "description": "When written to, makes the carriage go to that level.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Power",
+      "type": "Boolean",
+      "description": "Returns whether the device is turned on and receives power. (0 for no, 1 for yes)",
+      "_section": "outputs"
+    },
+    {
+      "property": "RequiredPower",
+      "type": "Integer",
+      "description": "Returns the current amount of power, required by the device, in watts.",
+      "_section": "outputs"
+    },
+    {
+      "property": "Open",
+      "type": "Boolean",
+      "description": "Opens the device , when set >= 1. Closes it, when set to < 1.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Lock",
+      "type": "Boolean",
+      "description": "Locks the device , when set >= 1. Unlocks it, when set to <1.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Elevatorlevel",
+      "type": "Integer",
+      "description": "When written to, makes the carriage go to that level.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Error",
+      "type": "Boolean",
+      "description": "Returns whether the device is flashing an error. (0 for no, 1 for yes)",
+      "_section": "outputs"
+    }
+  ]
+}

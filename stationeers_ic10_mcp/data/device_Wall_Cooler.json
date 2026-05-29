@@ -1,0 +1,53 @@
+{
+  "name": "Wall Cooler – Unofficial Stationeers Wiki",
+  "properties": [
+    {
+      "property": "Lock",
+      "type": "",
+      "description": "",
+      "_section": "parameters"
+    },
+    {
+      "property": "Setting",
+      "type": "Boolean",
+      "description": "Unused",
+      "_section": "parameters"
+    },
+    {
+      "property": "On",
+      "type": "",
+      "description": "",
+      "_section": "parameters"
+    },
+    {
+      "property": "Power",
+      "type": "",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "Error",
+      "type": "",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "Maximum",
+      "type": "",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "Ratio",
+      "type": "",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "Required Power",
+      "type": "",
+      "description": "",
+      "_section": "outputs"
+    }
+  ]
+}

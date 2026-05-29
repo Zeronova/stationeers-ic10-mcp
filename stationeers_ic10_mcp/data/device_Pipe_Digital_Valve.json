@@ -1,0 +1,59 @@
+{
+  "name": "Pipe Digital Valve – Unofficial Stationeers Wiki",
+  "properties": [
+    {
+      "property": "Lock",
+      "type": "Boolean",
+      "description": "Locks the Pipe Digital Valve, when set to 1. Unlocks it, when set to 0.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Setting",
+      "type": "Float",
+      "description": "Does not function.",
+      "_section": "parameters"
+    },
+    {
+      "property": "On",
+      "type": "Boolean",
+      "description": "Turns the Pipe Digital Valve on, when set to 1. Turns it off, when set to 0.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Maximum",
+      "type": "Integer",
+      "description": "Returns 100. (Assumption) Returns the maximum throughput percentage of the Pipe Digital Valve.",
+      "_section": "outputs"
+    },
+    {
+      "property": "Error",
+      "type": "Boolean",
+      "description": "Returns whether the Pipe Digital Valve is currently flashing an error. (0 for no, 1 for yes)",
+      "_section": "outputs"
+    },
+    {
+      "property": "RequiredPower",
+      "type": "Integer",
+      "description": "Returns the current amount of power needed for the Pipe Digital Valve.",
+      "_section": "outputs"
+    },
+    {
+      "property": "Ratio",
+      "type": "Float",
+      "description": "Returns a range from 0.0 to 1.0. Does not function. (Assumption) Returns the differential in pressure between the sides of the Pipe Digital Valve.",
+      "_section": "outputs"
+    },
+    {
+      "property": "Prefab Hash",
+      "type": "Integer",
+      "description": "(Assumption) Returns (-1280984102) a unique type identifier for the Pipe Digital Valve.",
+      "_section": "outputs"
+    },
+    {
+      "property": "Power",
+      "type": "Boolean",
+      "description": "Returns whether the Pipe Digital Valve is receiving power and is turned on. (0 for no, 1 for yes)",
+      "_section": "outputs"
+    }
+  ]
+}

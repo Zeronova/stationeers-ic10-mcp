@@ -1,0 +1,329 @@
+{
+  "name": "Stirling Engine",
+  "properties": [
+    {
+      "property": "On",
+      "type": "Boolean",
+      "access": "Read Write",
+      "value": "0",
+      "description": "Off",
+      "col5": "The current state of the Stirling Engine.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Setting",
+      "type": "Integer",
+      "access": "Read Write",
+      "value": "",
+      "description": "",
+      "col5": "?.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Power",
+      "type": "Boolean",
+      "access": "Read",
+      "value": "0",
+      "description": "Unpowered",
+      "col5": "Can be read to return if the Stirling Engine is correctly powered or not, set via the power system, return 1 if powered and 0 if not",
+      "_section": "parameters"
+    },
+    {
+      "property": "Error",
+      "type": "Boolean",
+      "access": "Read",
+      "value": "0",
+      "description": "",
+      "col5": "1 if device is in error state, otherwise 0",
+      "_section": "parameters"
+    },
+    {
+      "property": "Pressure",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "In kPa",
+      "_section": "parameters"
+    },
+    {
+      "property": "Temperature",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "In Kelvin",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioOxygen",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Ratio of gaseous Oxygen in the atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioCarbonDioxide",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Ratio of gaseous Carbon Dioxide in the atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioNitrogen",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Ratio of gaseous Nitrogen in the atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioPollutant",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Ratio of gaseous Pollutant in the atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioVolatiles",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Ratio of gaseous Volatiles in the atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioWater",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Ratio of liquid Water in the atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "Maximum",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "?",
+      "_section": "parameters"
+    },
+    {
+      "property": "Ratio",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "?",
+      "_section": "parameters"
+    },
+    {
+      "property": "Quantity",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "?",
+      "_section": "parameters"
+    },
+    {
+      "property": "RequiredPower",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Idle operating power quantity, does not necessarily include extra demand power",
+      "_section": "parameters"
+    },
+    {
+      "property": "PowerGeneration",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Returns how much power is being generated",
+      "_section": "parameters"
+    },
+    {
+      "property": "TotalMoles",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "",
+      "_section": "parameters"
+    },
+    {
+      "property": "Volume",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "In L",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioNitrousOxide",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Ratio of gaseous Nitrous Oxide in the atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "Combustion",
+      "type": "Boolean",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "1 if the atmosphere is on fire, 0 otherwise",
+      "_section": "parameters"
+    },
+    {
+      "property": "EnvironmentEfficiency",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Environment Efficiency reported by the machine, as a float between 0 and 1",
+      "_section": "parameters"
+    },
+    {
+      "property": "WorkingGasEfficiency",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Working Gas Efficiency reported by the machine, as a float between 0 and 1",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidNitrogen",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Ratio of liquid Nitrogen in the atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidOxygen",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Ratio of liquid Oxygen in the atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidVolatiles",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Ratio of liquid Volatiles in the atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioSteam",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Ratio of gaseous Water in the atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidCarbonDioxide",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Ratio of liquid Carbon Dioxide in the atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidPollutant",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Ratio of liquid Pollutant in the atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidNitrousOxide",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Ratio of liquid Nitrous Oxide in the atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioHydrogen",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Ratio of gaseous Hydrogen in the atmosphere (Hydrogen is deprecated and has been replaced by Volatiles)",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidHydrogen",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Ratio of liquid Hydrogen in the atmosphere (Hydrogen is deprecated and has been replaced by Volatiles)",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioPollutedWater",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Ratio of liquid Polluted Water in the atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "PrefabHash",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "The hash of the structure",
+      "_section": "parameters"
+    },
+    {
+      "property": "ReferenceId",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Unique Reference Identifier for this object",
+      "_section": "parameters"
+    },
+    {
+      "property": "NameHash",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Provides the hash value for the name of the object as a 32 bit integer.",
+      "_section": "parameters"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "name": "Kit (Rocket Gas Fuel Tank) – Unofficial Stationeers Wiki",
+  "properties": [
+    {
+      "property": "Maximum",
+      "type": "Float",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "Temperature",
+      "type": "Float",
+      "description": "Returns the temperature inside the tank.",
+      "_section": "outputs"
+    },
+    {
+      "property": "Setting",
+      "type": "Boolean",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "RatioWater",
+      "type": "Float",
+      "description": "Returns the ratio of Water (H2O) inside the tank.",
+      "_section": "outputs"
+    },
+    {
+      "property": "RatioVolatiles",
+      "type": "Float",
+      "description": "Returns the ratio of Volatiles (H2) inside the tank.",
+      "_section": "outputs"
+    },
+    {
+      "property": "RatioPollutant",
+      "type": "Float",
+      "description": "Returns the ratio of Pollutant (X) inside the tank.",
+      "_section": "outputs"
+    },
+    {
+      "property": "RatioOxygen",
+      "type": "Float",
+      "description": "Returns the ratio of Oxygen (O2) inside the tank.",
+      "_section": "outputs"
+    },
+    {
+      "property": "RatioNitrousOxide",
+      "type": "Float",
+      "description": "Returns the ratio of Nitrous Oxide (NO2) inside the tank.",
+      "_section": "outputs"
+    },
+    {
+      "property": "RatioNitrogen",
+      "type": "Float",
+      "description": "Returns the ratio of Nitrogen (N2) inside the tank.",
+      "_section": "outputs"
+    },
+    {
+      "property": "RatioCarbonDioxide",
+      "type": "Float",
+      "description": "Returns the ratio of Carbon Dioxide (CO2) inside the tank.",
+      "_section": "outputs"
+    },
+    {
+      "property": "Ratio",
+      "type": "Float",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "Quantity",
+      "type": "Float",
+      "description": "Returns the quantity inside the tank in Mols.",
+      "_section": "outputs"
+    },
+    {
+      "property": "Pressure",
+      "type": "Float",
+      "description": "Returns the pressure inside the tank in kilo Pascals.",
+      "_section": "outputs"
+    },
+    {
+      "property": "PrefabHash",
+      "type": "Integer",
+      "description": "Returns Prefab Hash number.",
+      "_section": "outputs"
+    },
+    {
+      "property": "Open",
+      "type": "Boolean",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "Combustion",
+      "type": "",
+      "description": "",
+      "_section": "outputs"
+    }
+  ]
+}

@@ -1,0 +1,521 @@
+{
+  "name": "Tool Manufactory",
+  "properties": [
+    {
+      "property": "Tier",
+      "description": "Build Time",
+      "_raw_type": "Creation",
+      "_section": "unknown"
+    },
+    {
+      "property": "Tier One",
+      "description": "x1",
+      "_raw_type": "x1",
+      "_section": "unknown"
+    },
+    {
+      "property": "Tier Two",
+      "description": "x0,66",
+      "_raw_type": "x1",
+      "_section": "unknown"
+    },
+    {
+      "property": "Item",
+      "description": "Input",
+      "_raw_type": "Tier",
+      "_section": "unknown"
+    },
+    {
+      "property": "Mk II Crowbar",
+      "description": "10            500            5            5",
+      "_raw_type": "Tier Two",
+      "_section": "unknown"
+    },
+    {
+      "property": "Mk II Wrench",
+      "description": "10            500            3            3",
+      "_raw_type": "Tier Two",
+      "_section": "unknown"
+    },
+    {
+      "property": "Mk II Duct Tape",
+      "description": "5            500            1            2",
+      "_raw_type": "Tier Two",
+      "_section": "unknown"
+    },
+    {
+      "property": "Mk II Mining Drill",
+      "description": "10            500            5            5            5",
+      "_raw_type": "Tier Two",
+      "_section": "unknown"
+    },
+    {
+      "property": "Mk II Screwdriver",
+      "description": "10            500            2            2",
+      "_raw_type": "Tier Two",
+      "_section": "unknown"
+    },
+    {
+      "property": "Mk II Arc Welder",
+      "description": "30            2500            14            5            10            10",
+      "_raw_type": "Tier Two",
+      "_section": "unknown"
+    },
+    {
+      "property": "Mk II Angle Grinder",
+      "description": "10            500            1            4            3",
+      "_raw_type": "Tier Two",
+      "_section": "unknown"
+    },
+    {
+      "property": "Mk II Wire Cutters",
+      "description": "5            500            5            3",
+      "_raw_type": "Tier Two",
+      "_section": "unknown"
+    },
+    {
+      "property": "Spray Gun",
+      "description": "10            2000            5            10            10",
+      "_raw_type": "Tier Two",
+      "_section": "unknown"
+    },
+    {
+      "property": "Crowbar",
+      "description": "10            500            5",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Headlamp",
+      "description": "15            500            2            2",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Disposable Battery Charger",
+      "description": "10            1000            5            2            2",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Tracking Beacon",
+      "description": "10            500            2            1            2",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Wrench",
+      "description": "10            500            3",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Duct Tape",
+      "description": "5            500            2",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Drill",
+      "description": "10            500            5            5",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "File:ToyLuna.png   Toy Luna",
+      "description": "10            500            1            5",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Screwdriver",
+      "description": "10            500            2",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Arc Welder",
+      "description": "30            2500            10            5            10            10",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Welding Torch",
+      "description": "10            500            1            3",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Angle Grinder",
+      "description": "10            500            1            3",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Terrain Manipulator",
+      "description": "15            600            3            2            5",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Dirt Canister",
+      "description": "5            400            3",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Wire Cutters",
+      "description": "5            500            3",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Labeller",
+      "description": "5            500            1            2",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Remote Detonator",
+      "description": "4,5            500            1            3",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Mining Drill",
+      "description": "5            500            2            3",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Pneumatic Mining Drill",
+      "description": "20            2000            4            4            6",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Mining Drill (Heavy)",
+      "description": "30            2500            5            10            10            10",
+      "_raw_type": "Tier Two",
+      "_section": "unknown"
+    },
+    {
+      "property": "Pickaxe",
+      "description": "1            500            1            2",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Mining Belt",
+      "description": "5            500            3",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Mining Belt MK II",
+      "description": "10            1000            5            10",
+      "_raw_type": "Tier Two",
+      "_section": "unknown"
+    },
+    {
+      "property": "Mining Backpack",
+      "description": "8            800            6",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Hard Mining Backpack",
+      "description": "10            1000            1            6",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Space Helmet",
+      "description": "15            500            2            2",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Spacepack",
+      "description": "5            500            2            5",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Basic Jetpack",
+      "description": "30            1500            2            5            10",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Eva Suit",
+      "description": "5            500            2            5",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Tool Belt",
+      "description": "5            500            3",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Tool Belt Mk II",
+      "description": "5            500            5            3",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Energy Pistol",
+      "description": "120            3000            20            10            10            10",
+      "_raw_type": "Tier Two",
+      "_section": "unknown"
+    },
+    {
+      "property": "Energy Rifle",
+      "description": "240            10000            10            20            10            10            10            20",
+      "_raw_type": "Tier Two",
+      "_section": "unknown"
+    },
+    {
+      "property": "Uniform Commander",
+      "description": "5            500            25",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Jump Suit (Orange)",
+      "description": "5            500            10",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Marine Uniform",
+      "description": "5            500            10",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "File:ItemClothingBagOveralls Aus.png   ClothingBagOveralls_Aus",
+      "description": "5            500            25",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "File:ItemClothingBagOveralls Brazil.png   ClothingBagOveralls_Brazil",
+      "description": "5            500            25",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "File:ItemClothingBagOveralls Canada.png   ClothingBagOveralls_Canada",
+      "description": "5            500            25",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "File:ItemClothingBagOveralls China.png   ClothingBagOveralls_China",
+      "description": "5            500            25",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "File:ItemClothingBagOveralls EU.png   ClothingBagOveralls_EU",
+      "description": "5            500            25",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "File:ItemClothingBagOveralls France.png   ClothingBagOveralls_France",
+      "description": "5            500            25",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "File:ItemClothingBagOveralls Germany.png   ClothingBagOveralls_Germany",
+      "description": "5            500            25",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "File:ItemClothingBagOveralls Japan.png   ClothingBagOveralls_Japan",
+      "description": "5            500            25",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "File:ItemClothingBagOveralls Korea.png   ClothingBagOveralls_Korea",
+      "description": "5            500            25",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "File:ItemClothingBagOveralls NZ.png   ClothingBagOveralls_NZ",
+      "description": "5            500            25",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "File:ItemClothingBagOveralls Russia.png   ClothingBagOveralls_Russia",
+      "description": "5            500            25",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "File:ItemClothingBagOveralls SouthAfrica.png   ClothingBagOveralls_SouthAfrica",
+      "description": "5            500            25",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "File:ItemClothingBagOveralls UK.png   ClothingBagOveralls_UK",
+      "description": "5            500            25",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "File:ItemClothingBagOveralls Ukraine.png   ClothingBagOveralls_Ukraine",
+      "description": "5            500            25",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "File:ItemClothingBagOveralls US.png   ClothingBagOveralls_US",
+      "description": "5            500            25",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Road Flare",
+      "description": "1            500            1",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Chem Light (Blue)",
+      "description": "1            500            1",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Chem Light (Green)",
+      "description": "1            500            1",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Chem Light (Red)",
+      "description": "1            500            1",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Chem Light (White)",
+      "description": "1            500            1",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Chem Light (Yellow)",
+      "description": "1            500            1",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Igniter)",
+      "description": "1            500            3",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Hardsuit",
+      "description": "60            3000            10            20            2",
+      "_raw_type": "Tier Two",
+      "_section": "unknown"
+    },
+    {
+      "property": "Fire Extinguisher",
+      "description": "10            500            5",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Hardsuit Helmet",
+      "description": "50            1750            2            10            2",
+      "_raw_type": "Tier Two",
+      "_section": "unknown"
+    },
+    {
+      "property": "Marine Armor",
+      "description": "60            3000            10            10            20",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Marine Helmet",
+      "description": "45            1750            4            4            8",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Night Vision Goggles",
+      "description": "45            2750            10            5            5",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Sensor Lenses",
+      "description": "45            3500            5            5            5",
+      "_raw_type": "Tier Two",
+      "_section": "unknown"
+    },
+    {
+      "property": "Sensor Processing Unit (Ore Scanner)",
+      "description": "15            100            5            5            5            5",
+      "_raw_type": "Tier Two",
+      "_section": "unknown"
+    },
+    {
+      "property": "Glasses",
+      "description": "20            250            15            10",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Hardsuit Backpack",
+      "description": "30            1500            5            15            5",
+      "_raw_type": "Tier Two",
+      "_section": "unknown"
+    },
+    {
+      "property": "Hardsuit Jetpack",
+      "description": "40            1750            8            20            8            8",
+      "_raw_type": "Tier Two",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Small Flag)",
+      "description": "1            500            1",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Basket Ball",
+      "description": "1            500            1",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Basket)",
+      "description": "1            500            2            5",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Plant Sampler",
+      "description": "10            500            5            5",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    }
+  ]
+}

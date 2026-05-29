@@ -1,0 +1,329 @@
+{
+  "name": "Filtration – Unofficial Stationeers Wiki",
+  "properties": [
+    {
+      "property": "Name",
+      "description": "Function",
+      "_raw_type": "Type",
+      "_section": "unknown"
+    },
+    {
+      "property": "Filter (Right)",
+      "description": "Port for a gas filter. If gas of the same type is present in the incoming mixture, it will be redirected out the \"Filtered\" pipe port.",
+      "_raw_type": "Slot 0",
+      "_section": "unknown"
+    },
+    {
+      "property": "Filter (Left)",
+      "description": "Another Port for a gas filter that functions the same as its twin slot. May contain the same or a different filter.",
+      "_raw_type": "Slot 1",
+      "_section": "unknown"
+    },
+    {
+      "property": "v",
+      "description": "IC10 placed in filtration unit (has 2 Input/Outputs)",
+      "_raw_type": "Slot 2",
+      "_section": "unknown"
+    },
+    {
+      "property": "On",
+      "description": "Switches Filtration unit between turned on or turned off. (On=1/Off=0)",
+      "_raw_type": "Switch",
+      "_section": "unknown"
+    },
+    {
+      "property": "Open",
+      "type": "Boolean",
+      "description": "",
+      "_section": "parameters"
+    },
+    {
+      "property": "Setting",
+      "type": "Integer",
+      "description": "",
+      "_section": "parameters"
+    },
+    {
+      "property": "Lock",
+      "type": "Boolean",
+      "description": "",
+      "_section": "parameters"
+    },
+    {
+      "property": "Mode",
+      "type": "Boolean",
+      "description": "0: idle, 1: Active",
+      "_section": "parameters"
+    },
+    {
+      "property": "Power",
+      "type": "Boolean",
+      "description": "Returns whether the Filtration unit is turned on and receives power. (0 for no, 1 for yes)",
+      "_section": "outputs"
+    },
+    {
+      "property": "Error",
+      "type": "Boolean",
+      "description": "Returns whether the Filtration unit is flashing an error. (0 for no, 1 for yes)",
+      "_section": "outputs"
+    },
+    {
+      "property": "Maximum",
+      "type": "Integer",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "Ratio",
+      "type": "Float",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "RequiredPower",
+      "type": "Integer",
+      "description": "Returns the current amount of power in Watts required by the Filtration unit.",
+      "_section": "outputs"
+    },
+    {
+      "property": "PressureInput",
+      "type": "Float",
+      "description": "Input pressure in kilopascals",
+      "_section": "outputs"
+    },
+    {
+      "property": "TemperatureInput",
+      "type": "Float",
+      "description": "Input temperature in kelvin",
+      "_section": "outputs"
+    },
+    {
+      "property": "RatioOxygenInput",
+      "type": "Float",
+      "description": "Percentage of Oxygen in input as ratio between 0 and 1",
+      "_section": "outputs"
+    },
+    {
+      "property": "RatioCarbonDioxideInput",
+      "type": "Float",
+      "description": "Percentage of Carbon Dioxide in input as ratio between 0 and 1",
+      "_section": "outputs"
+    },
+    {
+      "property": "RatioNitrogenInput",
+      "type": "Float",
+      "description": "Percentage of Nitrogen in input as ratio between 0 and 1",
+      "_section": "outputs"
+    },
+    {
+      "property": "RatioPollutantInput",
+      "type": "Float",
+      "description": "Percentage of Pollutant in input as ratio between 0 and 1",
+      "_section": "outputs"
+    },
+    {
+      "property": "RatioVolatilesInput",
+      "type": "Float",
+      "description": "Percentage of Volatiles in input as ratio between 0 and 1",
+      "_section": "outputs"
+    },
+    {
+      "property": "RatioWaterInput",
+      "type": "Float",
+      "description": "Percentage of Water in input as ratio between 0 and 1",
+      "_section": "outputs"
+    },
+    {
+      "property": "RatioNitrousOxideInput",
+      "type": "Float",
+      "description": "Percentage of Nitrous Oxide in input as ratio between 0 and 1",
+      "_section": "outputs"
+    },
+    {
+      "property": "TotalMolesInput",
+      "type": "Float",
+      "description": "Total quantity of gas in input measured in moles",
+      "_section": "outputs"
+    },
+    {
+      "property": "PressureOutput",
+      "type": "Float",
+      "description": "Output pressure in kilopascals",
+      "_section": "outputs"
+    },
+    {
+      "property": "TemperatureOutput",
+      "type": "Float",
+      "description": "Output temperature in kelvin",
+      "_section": "outputs"
+    },
+    {
+      "property": "RatioOxygenOutput",
+      "type": "Float",
+      "description": "Percentage of Oxygen in output as ratio between 0 and 1",
+      "_section": "outputs"
+    },
+    {
+      "property": "RatioCarbonDioxideOutput",
+      "type": "Float",
+      "description": "Percentage of Carbon Dioxide in output as ratio between 0 and 1",
+      "_section": "outputs"
+    },
+    {
+      "property": "RatioNitrogenOutput",
+      "type": "Float",
+      "description": "Percentage of Nitrogen in output as ratio between 0 and 1",
+      "_section": "outputs"
+    },
+    {
+      "property": "RatioPollutantOutput",
+      "type": "Float",
+      "description": "Percentage of Pollutant in output as ratio between 0 and 1",
+      "_section": "outputs"
+    },
+    {
+      "property": "RatioVolatilesOutput",
+      "type": "Float",
+      "description": "Percentage of Volatiles in output as ratio between 0 and 1",
+      "_section": "outputs"
+    },
+    {
+      "property": "RatioWaterOutput",
+      "type": "Float",
+      "description": "Percentage of Water in output as ratio between 0 and 1",
+      "_section": "outputs"
+    },
+    {
+      "property": "RatioNitrousOxideOutput",
+      "type": "Float",
+      "description": "Percentage of Nitrous Oxide in output as ratio between 0 and 1",
+      "_section": "outputs"
+    },
+    {
+      "property": "TotalMolesOutput",
+      "type": "Float",
+      "description": "Total quantity of gas in output measured in moles",
+      "_section": "outputs"
+    },
+    {
+      "property": "PressureOutput2",
+      "type": "Float",
+      "description": "Waste pressure in kilopascals",
+      "_section": "outputs"
+    },
+    {
+      "property": "TemperatureOutput2",
+      "type": "Float",
+      "description": "Waste temperature in kelvin",
+      "_section": "outputs"
+    },
+    {
+      "property": "RatioOxygenOutput2",
+      "type": "Float",
+      "description": "Percentage of Oxygen in waste as ratio between 0 and 1",
+      "_section": "outputs"
+    },
+    {
+      "property": "RatioCarbonDioxideOutput2",
+      "type": "Float",
+      "description": "Percentage of Carbon Dioxide in waste as ratio between 0 and 1",
+      "_section": "outputs"
+    },
+    {
+      "property": "RatioNitrogenOutput2",
+      "type": "Float",
+      "description": "Percentage of Nitrogen in waste as ratio between 0 and 1",
+      "_section": "outputs"
+    },
+    {
+      "property": "RatioPollutantOutput2",
+      "type": "Float",
+      "description": "Percentage of Pollutant in waste as ratio between 0 and 1",
+      "_section": "outputs"
+    },
+    {
+      "property": "RatioVolatilesOutput2",
+      "type": "Float",
+      "description": "Percentage of Volatiles in waste as ratio between 0 and 1",
+      "_section": "outputs"
+    },
+    {
+      "property": "RatioWaterOutput2",
+      "type": "Float",
+      "description": "Percentage of Water in waste as ratio between 0 and 1",
+      "_section": "outputs"
+    },
+    {
+      "property": "RatioNitrousOxideOutput2",
+      "type": "Float",
+      "description": "Percentage of Nitrous Oxide in waste as ratio between 0 and 1",
+      "_section": "outputs"
+    },
+    {
+      "property": "TotalMolesOutput2",
+      "type": "Float",
+      "description": "Total quantity of gas in waste measured in moles",
+      "_section": "outputs"
+    },
+    {
+      "property": "CombustionInput",
+      "type": "Float",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "CombustionOutput",
+      "type": "Float",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "CombustionOutput2",
+      "type": "Float",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "Occupied",
+      "type": "Boolean",
+      "description": "Returns whether the slot is occupied. (0 for no, 1 for yes)",
+      "_section": "outputs"
+    },
+    {
+      "property": "OccupantHash",
+      "type": "Integer",
+      "description": "Returns the hash of the object in the slot.",
+      "_section": "outputs"
+    },
+    {
+      "property": "Quantity",
+      "type": "Integer",
+      "description": "Returns the filter life remaining, in percent.",
+      "_section": "outputs"
+    },
+    {
+      "property": "Damage",
+      "type": "Integer",
+      "description": "Returns the damage state of the item in the slot.",
+      "_section": "outputs"
+    },
+    {
+      "property": "Class",
+      "type": "Integer",
+      "description": "Returns an integer representing the class of object.",
+      "_section": "outputs"
+    },
+    {
+      "property": "MaxQuanity",
+      "type": "Integer",
+      "description": "Returns max stack size of the item in the slot.",
+      "_section": "outputs"
+    },
+    {
+      "property": "PrefabHash",
+      "type": "Integer",
+      "description": "Returns the hash of the structure in the slot.",
+      "_section": "outputs"
+    }
+  ]
+}

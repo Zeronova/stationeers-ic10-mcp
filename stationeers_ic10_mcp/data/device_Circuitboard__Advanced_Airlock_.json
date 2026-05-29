@@ -1,0 +1,113 @@
+{
+  "name": "Circuitboard (Advanced Airlock) – Unofficial Stationeers Wiki",
+  "properties": [
+    {
+      "property": "Name",
+      "description": "Function",
+      "_raw_type": "Type",
+      "_section": "unknown"
+    },
+    {
+      "property": "Cancel Depressurize",
+      "description": "Cancel depressurization and proceed to repressurization (Warning: Atmospheric mixing may occur)",
+      "_raw_type": "Console button",
+      "_section": "unknown"
+    },
+    {
+      "property": "Cancel Pressurize",
+      "description": "Cancel pressurization and opens door",
+      "_raw_type": "Console button",
+      "_section": "unknown"
+    },
+    {
+      "property": "Emergency Override",
+      "description": "Unused",
+      "_raw_type": "Console button",
+      "_section": "unknown"
+    },
+    {
+      "property": "Cycle to Exterior",
+      "description": "Begin airlock operations to allow access to Exterior environment",
+      "_raw_type": "Console button",
+      "_section": "unknown"
+    },
+    {
+      "property": "Cycle to Interior",
+      "description": "Begin airlock operations to allow access to Interior environment",
+      "_raw_type": "Console button",
+      "_section": "unknown"
+    },
+    {
+      "property": "External #Pa",
+      "description": "Set minimum internal airlock pressure to open exterior portal",
+      "_raw_type": "Set minimum internal airlock pressure to open exterior portal",
+      "_section": "unknown"
+    },
+    {
+      "property": "Internal #Pa",
+      "description": "Set minimum internal airlock pressure to open interior portal",
+      "_raw_type": "Set minimum internal airlock pressure to open interior portal",
+      "_section": "unknown"
+    },
+    {
+      "property": "«Portal» EXTERNAL",
+      "description": "Designates one portal to exterior environment",
+      "_raw_type": "Designates one portal to exterior environment",
+      "_section": "unknown"
+    },
+    {
+      "property": "«Portal» INTERNAL",
+      "description": "Designates one portal to interior environment",
+      "_raw_type": "Designates one portal to interior environment",
+      "_section": "unknown"
+    },
+    {
+      "property": "«Active Vent» EXTERNAL",
+      "description": "Designates one Active Vent for exterior atmosphere",
+      "_raw_type": "Designates one Active Vent for exterior atmosphere",
+      "_section": "unknown"
+    },
+    {
+      "property": "«Active Vent» INTERNAL",
+      "description": "Designates one Active Vent for interior atmosphere",
+      "_raw_type": "Designates one Active Vent for interior atmosphere",
+      "_section": "unknown"
+    },
+    {
+      "property": "«Gas Sensor» SENSOR",
+      "description": "Designates one or more Gas Sensors for airlock pressure measurements",
+      "_raw_type": "Designates one or more Gas Sensors for airlock pressure measurements",
+      "_section": "unknown"
+    },
+    {
+      "property": "«Light» LIGHT",
+      "description": "Designates one or more Lights to be activated only during airlock operation",
+      "_raw_type": "Designates one or more Lights to be activated only during airlock operation",
+      "_section": "unknown"
+    },
+    {
+      "property": "«Console» MAKE SLAVE",
+      "description": "Designates one or more Console Slaves",
+      "_raw_type": "Designates one or more Console Slaves",
+      "_section": "unknown"
+    },
+    {
+      "property": "Manufacturer",
+      "description": "Requirements",
+      "_raw_type": "Requirements",
+      "_section": "unknown"
+    },
+    {
+      "property": "Electronics Printer",
+      "description": "#J Power, 1g Iron, 5g Gold, 5g Copper",
+      "_raw_type": "#J Power, 1g Iron, 5g Gold, 5g Copper",
+      "_section": "unknown"
+    },
+    {
+      "property": "Fabricator",
+      "description": "#J Power, 1g Iron, 5g Gold, 5g Copper",
+      "_raw_type": "#J Power, 1g Iron, 5g Gold, 5g Copper",
+      "_section": "unknown"
+    }
+  ]
+}

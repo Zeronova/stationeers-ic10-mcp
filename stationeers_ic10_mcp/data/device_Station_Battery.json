@@ -1,0 +1,65 @@
+{
+  "name": "Station Battery",
+  "properties": [
+    {
+      "property": "Value",
+      "description": "Display",
+      "_raw_type": "Display",
+      "_section": "unknown"
+    },
+    {
+      "property": "Mode",
+      "type": "Integer",
+      "description": "Expects values 0-6. Setting this, will let the charge display of the Battery show the according charge value for about a second. Afterwards it will switch back to showing the actual charge value. This influences the \"Mode\" output as well. (See Mode Values.)",
+      "_section": "parameters"
+    },
+    {
+      "property": "Lock",
+      "type": "Boolean",
+      "description": "Locks the Battery, when set to 1. Unlocks it, when set to 0.",
+      "_section": "parameters"
+    },
+    {
+      "property": "On",
+      "type": "Boolean",
+      "description": "Turns the Battery on, when set to 1. Turns it off, when set to 0.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Error",
+      "type": "Boolean",
+      "description": "Returns whether the Battery is flashing an error. (0 for no, 1 for yes)",
+      "_section": "outputs"
+    },
+    {
+      "property": "Charge",
+      "type": "Integer",
+      "description": "Returns the current charge of the Battery in watt*tic.",
+      "_section": "outputs"
+    },
+    {
+      "property": "Maximum",
+      "type": "Integer",
+      "description": "Returns the maximum charge of the Battery in watt*tic.",
+      "_section": "outputs"
+    },
+    {
+      "property": "Ratio",
+      "type": "Float",
+      "description": "Returns a range from 0.0 to 1.0. Returns the current charge percentage of the battery.",
+      "_section": "outputs"
+    },
+    {
+      "property": "PowerPotential",
+      "type": "Integer",
+      "description": "Returns the current power potential at the input of the Battery in watts.",
+      "_section": "outputs"
+    },
+    {
+      "property": "PowerActual",
+      "type": "Integer",
+      "description": "Returns the amount of power, currently being output by the Battery in watts.",
+      "_section": "outputs"
+    }
+  ]
+}

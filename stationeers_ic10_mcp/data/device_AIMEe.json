@@ -1,0 +1,311 @@
+{
+  "name": "AIMEe",
+  "properties": [
+    {
+      "property": "Power",
+      "type": "Boolean",
+      "access": "Read",
+      "value": "0",
+      "description": "Unpowered",
+      "col5": "Can be read to return if the AIMeE Bot is correctly powered or not, set via the power system, return 1 if powered and 0 if not",
+      "_section": "parameters"
+    },
+    {
+      "property": "Mode",
+      "type": "Integer",
+      "access": "Read Write",
+      "value": "0",
+      "description": "RobotMode.None",
+      "col5": "The mode of the AIMeE Bot.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Error",
+      "type": "Boolean",
+      "access": "Read",
+      "value": "0",
+      "description": "",
+      "col5": "1 if device is in error state, otherwise 0",
+      "_section": "parameters"
+    },
+    {
+      "property": "PressureExternal",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Setting for external pressure safety, in KPa",
+      "_section": "parameters"
+    },
+    {
+      "property": "On",
+      "type": "Boolean",
+      "access": "Read Write",
+      "value": "0",
+      "description": "Off",
+      "col5": "The current state of the AIMeE Bot.",
+      "_section": "parameters"
+    },
+    {
+      "property": "TemperatureExternal",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "The temperature of the outside of the AIMeE Bot, usually the world atmosphere surrounding it",
+      "_section": "parameters"
+    },
+    {
+      "property": "PositionX",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "The current position in X dimension in world coordinates",
+      "_section": "parameters"
+    },
+    {
+      "property": "PositionY",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "The current position in Y dimension in world coordinates",
+      "_section": "parameters"
+    },
+    {
+      "property": "PositionZ",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "The current position in Z dimension in world coordinates",
+      "_section": "parameters"
+    },
+    {
+      "property": "VelocityMagnitude",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "The current magnitude of the velocity vector",
+      "_section": "parameters"
+    },
+    {
+      "property": "VelocityRelativeX",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "The current velocity X relative to the forward vector of this",
+      "_section": "parameters"
+    },
+    {
+      "property": "VelocityRelativeY",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "The current velocity Y relative to the forward vector of this",
+      "_section": "parameters"
+    },
+    {
+      "property": "VelocityRelativeZ",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "The current velocity Z relative to the forward vector of this",
+      "_section": "parameters"
+    },
+    {
+      "property": "TargetX",
+      "type": "Integer",
+      "access": "Write",
+      "value": "",
+      "description": "",
+      "col5": "The target position in X dimension in world coordinates",
+      "_section": "parameters"
+    },
+    {
+      "property": "TargetY",
+      "type": "Integer",
+      "access": "Write",
+      "value": "",
+      "description": "",
+      "col5": "The target position in Y dimension in world coordinates",
+      "_section": "parameters"
+    },
+    {
+      "property": "TargetZ",
+      "type": "Integer",
+      "access": "Write",
+      "value": "",
+      "description": "",
+      "col5": "The target position in Z dimension in world coordinates",
+      "_section": "parameters"
+    },
+    {
+      "property": "MineablesInVicinity",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Returns the amount of potential mineables within an extended area around AIMEe.",
+      "_section": "parameters"
+    },
+    {
+      "property": "MineablesInQueue",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Returns the amount of mineables AIMEe has queued up to mine.",
+      "_section": "parameters"
+    },
+    {
+      "property": "ReferenceId",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Unique Reference Identifier for this object",
+      "_section": "parameters"
+    },
+    {
+      "property": "ForwardX",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "The direction the entity is facing expressed as a normalized vector",
+      "_section": "parameters"
+    },
+    {
+      "property": "ForwardY",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "The direction the entity is facing expressed as a normalized vector",
+      "_section": "parameters"
+    },
+    {
+      "property": "ForwardZ",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "The direction the entity is facing expressed as a normalized vector",
+      "_section": "parameters"
+    },
+    {
+      "property": "Orientation",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "The orientation of the entity in degrees in a plane relative towards the north origin",
+      "_section": "parameters"
+    },
+    {
+      "property": "VelocityX",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "The world velocity of the entity in the X axis",
+      "_section": "parameters"
+    },
+    {
+      "property": "VelocityY",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "The world velocity of the entity in the Y axis",
+      "_section": "parameters"
+    },
+    {
+      "property": "VelocityZ",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "The world velocity of the entity in the Z axis",
+      "_section": "parameters"
+    },
+    {
+      "property": "Number",
+      "description": "Description",
+      "_raw_type": "Name",
+      "_section": "unknown"
+    },
+    {
+      "property": "2-9",
+      "description": "Internal storage slots.",
+      "_raw_type": "Storage",
+      "_section": "unknown"
+    },
+    {
+      "property": "Name",
+      "description": "Description",
+      "_raw_type": "Data Type",
+      "_section": "unknown"
+    },
+    {
+      "property": "Occupied",
+      "description": "Returns whether the slot occupied. (0 for no, 1 for yes).",
+      "_raw_type": "Boolean",
+      "_section": "unknown"
+    },
+    {
+      "property": "OccupantHash",
+      "description": "Returns ItemHash of item in slot.",
+      "_raw_type": "Integer",
+      "_section": "unknown"
+    },
+    {
+      "property": "MaxQuantity",
+      "description": "Max Size of stack.",
+      "_raw_type": "Integer",
+      "_section": "unknown"
+    },
+    {
+      "property": "Damage",
+      "description": "Item durability in percent.",
+      "_raw_type": "Integer",
+      "_section": "unknown"
+    },
+    {
+      "property": "Class",
+      "description": "Item class ID.",
+      "_raw_type": "Integer",
+      "_section": "unknown"
+    },
+    {
+      "property": "Quantity",
+      "description": "Size of stack.",
+      "_raw_type": "Integer",
+      "_section": "unknown"
+    },
+    {
+      "property": "ChargeRatio",
+      "description": "Ratio of charge 0-1.",
+      "_raw_type": "Integer",
+      "_section": "unknown"
+    },
+    {
+      "property": "Charge",
+      "description": "Charge in joules.",
+      "_raw_type": "Integer",
+      "_section": "unknown"
+    },
+    {
+      "property": "PrefabHash",
+      "description": "Returns ItemHash of item in slot.",
+      "_raw_type": "Integer",
+      "_section": "unknown"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Beacon – Unofficial Stationeers Wiki",
+  "properties": [
+    {
+      "property": "Lock",
+      "type": "Boolean",
+      "description": "Locks the Beacon when set to 1. Unlocks it, when set to 0.",
+      "_section": "parameters"
+    },
+    {
+      "property": "On",
+      "type": "Boolean",
+      "description": "Turns the Beacon on when set to 1. Turns it off, when set to 0.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Color",
+      "type": "Integer",
+      "description": "Sets the color of the Beacon. (See Data Network Colors.)",
+      "_section": "parameters"
+    },
+    {
+      "property": "Power",
+      "type": "Boolean",
+      "description": "Returns whether the Beacon is turned on and receives power. (0 for no, 1 for yes)",
+      "_section": "outputs"
+    },
+    {
+      "property": "Error",
+      "type": "Boolean",
+      "description": "Returns whether the Beacon is flashing an error. (0 for no, 1 for yes)",
+      "_section": "outputs"
+    },
+    {
+      "property": "RequiredPower",
+      "type": "Integer",
+      "description": "Returns the current amount of power, required by the Beacon, in watts.",
+      "_section": "outputs"
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "name": "Pipe Analyzer – Unofficial Stationeers Wiki",
+  "properties": [
+    {
+      "property": "Lock",
+      "type": "Boolean",
+      "description": "",
+      "_section": "parameters"
+    },
+    {
+      "property": "On",
+      "type": "Boolean",
+      "description": "",
+      "_section": "parameters"
+    },
+    {
+      "property": "Power",
+      "type": "Boolean",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "Error",
+      "type": "Boolean",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "Pressure",
+      "type": "Float",
+      "description": "In kPa",
+      "_section": "outputs"
+    },
+    {
+      "property": "Temperature",
+      "type": "Float",
+      "description": "In Kelvin",
+      "_section": "outputs"
+    },
+    {
+      "property": "RatioOxygen",
+      "type": "Float",
+      "description": "The ratio of oxygen in the pipe. A value between 0 (no oxygen at all, or 0%) and 1 ( pure oxygen atmosphere, or 100%)",
+      "_section": "outputs"
+    },
+    {
+      "property": "RatioCarbonDioxide",
+      "type": "Float",
+      "description": "ratio in mass percent / 100",
+      "_section": "outputs"
+    },
+    {
+      "property": "RatioNitrogen",
+      "type": "Float",
+      "description": "ratio in mass percent / 100",
+      "_section": "outputs"
+    },
+    {
+      "property": "RatioNitrousOxide",
+      "type": "Float",
+      "description": "ratio in mass percent / 100",
+      "_section": "outputs"
+    },
+    {
+      "property": "RatioPollutant",
+      "type": "Float",
+      "description": "ratio in mass percent / 100",
+      "_section": "outputs"
+    },
+    {
+      "property": "RatioVolatiles",
+      "type": "Float",
+      "description": "ratio in mass percent / 100",
+      "_section": "outputs"
+    },
+    {
+      "property": "RatioWater",
+      "type": "Float",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "Requiredpower",
+      "type": "Integer",
+      "description": "In Watts. The Pipe Analyzer require 5W of power to function",
+      "_section": "outputs"
+    },
+    {
+      "property": "TotalMoles",
+      "type": "Float",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "Volume",
+      "type": "float",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "PrefabHash",
+      "type": "float",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "Combustion",
+      "type": "bool",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "RatioLiquidNitrogen",
+      "type": "float",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "VolumeOfLiquid",
+      "type": "float",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "RatioLiquidOxygen",
+      "type": "float",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "RatioLiquidVolatiles",
+      "type": "float",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "RatioSteam",
+      "type": "float",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "RatioLiquidCarbonDioxide",
+      "type": "float",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "RatioLiquidPollutant",
+      "type": "float",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "RatioLiquidNitrousOxide",
+      "type": "float",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "ReferenceId",
+      "type": "float",
+      "description": "Globally Unique Device Identifier",
+      "_section": "outputs"
+    }
+  ]
+}

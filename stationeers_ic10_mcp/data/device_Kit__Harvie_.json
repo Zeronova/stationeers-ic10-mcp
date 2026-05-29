@@ -1,0 +1,131 @@
+{
+  "name": "Kit (Harvie)",
+  "properties": [
+    {
+      "property": "Activate",
+      "type": "Integer",
+      "description": "Idle = 0, Planting = 1, Harvesting = 2",
+      "_section": "parameters"
+    },
+    {
+      "property": "ClearMemory",
+      "type": "Boolean",
+      "description": "",
+      "_section": "parameters"
+    },
+    {
+      "property": "Harvest",
+      "type": "Boolean",
+      "description": "",
+      "_section": "parameters"
+    },
+    {
+      "property": "Lock",
+      "type": "Boolean",
+      "description": "Locks the device when set to 1. Unlocks it when set to 0.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Mode",
+      "type": "Integer",
+      "description": "Idle = 0, Happy = 1, Unhappy = 2, Dead = 3",
+      "_section": "parameters"
+    },
+    {
+      "property": "On",
+      "type": "Boolean",
+      "description": "",
+      "_section": "parameters"
+    },
+    {
+      "property": "Plant",
+      "type": "Boolean",
+      "description": "",
+      "_section": "parameters"
+    },
+    {
+      "property": "Error",
+      "type": "Boolean",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "ExportCount",
+      "type": "Integer",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "ImportCount",
+      "type": "Integer",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "Power",
+      "type": "Boolean",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "PrefabHash",
+      "type": "Integer",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "RequiredPower",
+      "type": "Integer",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "Number",
+      "description": "Description",
+      "_raw_type": "Name",
+      "_section": "unknown"
+    },
+    {
+      "property": "Name",
+      "description": "Description",
+      "_raw_type": "Data Type",
+      "_section": "unknown"
+    },
+    {
+      "property": "Occupied",
+      "description": "Returns whether the slot occupied. (0 for no, 1 for yes).",
+      "_raw_type": "Boolean",
+      "_section": "unknown"
+    },
+    {
+      "property": "OccupantHash",
+      "description": "Returns ItemHash of item in slot.",
+      "_raw_type": "Integer",
+      "_section": "unknown"
+    },
+    {
+      "property": "MaxQuantity",
+      "description": "Max Size of stack.",
+      "_raw_type": "Integer",
+      "_section": "unknown"
+    },
+    {
+      "property": "Damage",
+      "description": "Item durability in percent.",
+      "_raw_type": "Integer",
+      "_section": "unknown"
+    },
+    {
+      "property": "Class",
+      "description": "Item class ID.",
+      "_raw_type": "Integer",
+      "_section": "unknown"
+    },
+    {
+      "property": "Quantity",
+      "description": "Size of stack.",
+      "_raw_type": "Integer",
+      "_section": "unknown"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Logic Transmitter – Unofficial Stationeers Wiki",
+  "properties": [
+    {
+      "property": "On",
+      "type": "Boolean",
+      "description": "",
+      "_section": "parameters"
+    },
+    {
+      "property": "Mode",
+      "type": "Boolean",
+      "description": "0 for Passive, 1 for Active",
+      "_section": "parameters"
+    },
+    {
+      "property": "Setting",
+      "type": "Any",
+      "description": "Any setted or mirrored value from another device",
+      "_section": "parameters"
+    },
+    {
+      "property": "Power",
+      "type": "Boolean",
+      "description": "If is taking power",
+      "_section": "outputs"
+    },
+    {
+      "property": "PrefabHash",
+      "type": "Integer",
+      "description": "-693235651",
+      "_section": "outputs"
+    },
+    {
+      "property": "RequiredPower",
+      "type": "Integer",
+      "description": "Power required to work (50W)",
+      "_section": "outputs"
+    }
+  ]
+}

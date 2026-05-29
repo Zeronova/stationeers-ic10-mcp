@@ -1,0 +1,47 @@
+{
+  "name": "Kit (Atmospherics) Electrolyzer – Unofficial Stationeers Wiki",
+  "properties": [
+    {
+      "property": "Name",
+      "description": "Function",
+      "_raw_type": "Type",
+      "_section": "unknown"
+    },
+    {
+      "property": "On/Off",
+      "description": "Switches Electrolyzer between turned on or turned off.",
+      "_raw_type": "Switch",
+      "_section": "unknown"
+    },
+    {
+      "property": "Lock",
+      "type": "Boolean",
+      "description": "Locks the Electrolyzer when set to 1. Unlocks it when set to 0.",
+      "_section": "parameters"
+    },
+    {
+      "property": "On",
+      "type": "Boolean",
+      "description": "Powers on the Electrolyzer on when set to 1. Powers off when set to 0.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Power",
+      "type": "Boolean",
+      "description": "Returns whether the Electrolyzer is turned on and receives power. (0 for no, 1 for yes)",
+      "_section": "outputs"
+    },
+    {
+      "property": "Error",
+      "type": "Boolean",
+      "description": "Returns whether the Electrolyzer is flashing an error. (0 for no, 1 for yes)",
+      "_section": "outputs"
+    },
+    {
+      "property": "RequiredPower",
+      "type": "Integer",
+      "description": "Returns the current amount of power in Watts required by the Electrolyzer.",
+      "_section": "outputs"
+    }
+  ]
+}

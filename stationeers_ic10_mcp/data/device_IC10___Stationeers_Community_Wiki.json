@@ -1,0 +1,173 @@
+{
+  "name": "IC10",
+  "properties": [
+    {
+      "property": "Batch Mode",
+      "description": "Result",
+      "_raw_type": "Result",
+      "_section": "unknown"
+    },
+    {
+      "property": "Average (0)",
+      "description": "nan",
+      "_raw_type": "nan",
+      "_section": "unknown"
+    },
+    {
+      "property": "Sum (1)",
+      "description": "0",
+      "_raw_type": "0",
+      "_section": "unknown"
+    },
+    {
+      "property": "Minimum (2)",
+      "description": "0*",
+      "_raw_type": "0*",
+      "_section": "unknown"
+    },
+    {
+      "property": "Maximum (3)",
+      "description": "ninf",
+      "_raw_type": "ninf",
+      "_section": "unknown"
+    },
+    {
+      "property": "suffix",
+      "description": "set register",
+      "_raw_type": "description",
+      "_section": "unknown"
+    },
+    {
+      "property": "prefix:",
+      "description": "s-",
+      "_raw_type": "",
+      "_section": "unknown"
+    },
+    {
+      "property": "-eq",
+      "description": "seq",
+      "_raw_type": "if a == b",
+      "_section": "unknown"
+    },
+    {
+      "property": "-eqz",
+      "description": "seqz",
+      "_raw_type": "if a == 0",
+      "_section": "unknown"
+    },
+    {
+      "property": "-ge",
+      "description": "sge",
+      "_raw_type": "if a >= b",
+      "_section": "unknown"
+    },
+    {
+      "property": "-gez",
+      "description": "sgez",
+      "_raw_type": "if a >= 0",
+      "_section": "unknown"
+    },
+    {
+      "property": "-gt",
+      "description": "sgt",
+      "_raw_type": "if a > b",
+      "_section": "unknown"
+    },
+    {
+      "property": "-gtz",
+      "description": "sgtz",
+      "_raw_type": "if a > 0",
+      "_section": "unknown"
+    },
+    {
+      "property": "-le",
+      "description": "sle",
+      "_raw_type": "if a <= b",
+      "_section": "unknown"
+    },
+    {
+      "property": "-lez",
+      "description": "slez",
+      "_raw_type": "if a <= 0",
+      "_section": "unknown"
+    },
+    {
+      "property": "-lt",
+      "description": "slt",
+      "_raw_type": "if a < b",
+      "_section": "unknown"
+    },
+    {
+      "property": "-ltz",
+      "description": "sltz",
+      "_raw_type": "if a < 0",
+      "_section": "unknown"
+    },
+    {
+      "property": "-ne",
+      "description": "sne",
+      "_raw_type": "if a != b",
+      "_section": "unknown"
+    },
+    {
+      "property": "-nez",
+      "description": "snez",
+      "_raw_type": "if a != 0",
+      "_section": "unknown"
+    },
+    {
+      "property": "-nan",
+      "description": "snan",
+      "_raw_type": "if a == NaN",
+      "_section": "unknown"
+    },
+    {
+      "property": "-nanz",
+      "description": "snanz",
+      "_raw_type": "if a != NaN",
+      "_section": "unknown"
+    },
+    {
+      "property": "-dns",
+      "description": "sdns",
+      "_raw_type": "if device d is not set",
+      "_section": "unknown"
+    },
+    {
+      "property": "-dse",
+      "description": "sdse",
+      "_raw_type": "if device d is set",
+      "_section": "unknown"
+    },
+    {
+      "property": "-ap",
+      "description": "sap",
+      "_raw_type": "if a approximately equals b",
+      "_section": "unknown"
+    },
+    {
+      "property": "-apz",
+      "description": "sapz",
+      "_raw_type": "if a approximately equals 0",
+      "_section": "unknown"
+    },
+    {
+      "property": "-na",
+      "description": "sna",
+      "_raw_type": "if a not approximately equals b",
+      "_section": "unknown"
+    },
+    {
+      "property": "-naz",
+      "description": "snaz",
+      "_raw_type": "if a not approximately equals 0",
+      "_section": "unknown"
+    },
+    {
+      "property": "Value",
+      "description": "Hex",
+      "_raw_type": "Color",
+      "_section": "unknown"
+    }
+  ]
+}

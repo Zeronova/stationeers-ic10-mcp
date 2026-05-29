@@ -1,0 +1,47 @@
+{
+  "name": "Kit (Switch) – Unofficial Stationeers Wiki",
+  "properties": [
+    {
+      "property": "Lock",
+      "type": "Boolean",
+      "description": "Prevents using the switch when set to 1 (not working as of v0.2.2891.14453)",
+      "_section": "parameters"
+    },
+    {
+      "property": "Open",
+      "type": "Boolean",
+      "description": "Set the current switch state",
+      "_section": "parameters"
+    },
+    {
+      "property": "Setting",
+      "type": "Integer",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "PrefabHash",
+      "type": "String",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "Activate",
+      "type": "Boolean",
+      "description": "Sets the button setting to 1",
+      "_section": "parameters"
+    },
+    {
+      "property": "Mode",
+      "type": "Integer",
+      "description": "Sets the maximum value you can set when using the dial",
+      "_section": "parameters"
+    },
+    {
+      "property": "Ratio",
+      "type": "Integer",
+      "description": "",
+      "_section": "outputs"
+    }
+  ]
+}

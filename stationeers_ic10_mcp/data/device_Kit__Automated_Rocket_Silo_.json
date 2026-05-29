@@ -1,0 +1,101 @@
+{
+  "name": "Kit (Automated Rocket Silo) – Unofficial Stationeers Wiki",
+  "properties": [
+    {
+      "property": "Mode",
+      "type": "Integer",
+      "description": "Unknown.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Lock",
+      "type": "Boolean",
+      "description": "Unknown.",
+      "_section": "parameters"
+    },
+    {
+      "property": "ClearMemory",
+      "type": "Boolean",
+      "description": "Resets internal counters, such as ExportCount, to zero when set to 1.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Activate",
+      "type": "Boolean",
+      "description": "Unknown",
+      "_section": "parameters"
+    },
+    {
+      "property": "Setting",
+      "type": "Float",
+      "description": "Unknown",
+      "_section": "parameters"
+    },
+    {
+      "property": "Open",
+      "type": "Boolean",
+      "description": "Set to 1 to open the silo and begin exporting its contents through the chute, or set to 0 to stop exporting.",
+      "_section": "parameters"
+    },
+    {
+      "property": "On",
+      "type": "Boolean",
+      "description": "Turns the silo's power on (1) or off (0).",
+      "_section": "parameters"
+    },
+    {
+      "property": "Maximum",
+      "type": "Integer",
+      "description": "Unknown",
+      "_section": "outputs"
+    },
+    {
+      "property": "ImportCount",
+      "type": "Integer",
+      "description": "The number of stacks imported into the silo since the memory was last cleared.",
+      "_section": "outputs"
+    },
+    {
+      "property": "ExportCount",
+      "type": "Integer",
+      "description": "The number of stacks exported from the silo since the memory was last cleared. Note that if the silo was used to mine or salvage, most if not all stacks will not be full stacks.",
+      "_section": "outputs"
+    },
+    {
+      "property": "Error",
+      "type": "Boolean",
+      "description": "Returns whether the Silo is flashing an error. (0 for no, 1 for yes)",
+      "_section": "outputs"
+    },
+    {
+      "property": "RequiredPower",
+      "type": "Float",
+      "description": "Returns the current amount of power, required by the Silo, in watts.",
+      "_section": "outputs"
+    },
+    {
+      "property": "Ratio",
+      "type": "Float",
+      "description": "Unknown",
+      "_section": "outputs"
+    },
+    {
+      "property": "Quantity",
+      "type": "Integer",
+      "description": "The number of item stacks currently held by the silo. Note that if the silo was used to mine or salvage, most if not all stacks will not be full stacks.",
+      "_section": "outputs"
+    },
+    {
+      "property": "PrefabHash",
+      "type": "Integer",
+      "description": "Unknown",
+      "_section": "outputs"
+    },
+    {
+      "property": "Power",
+      "type": "Boolean",
+      "description": "Returns whether the Silo is turned on and receives power. (0 for no, 1 for yes)",
+      "_section": "outputs"
+    }
+  ]
+}

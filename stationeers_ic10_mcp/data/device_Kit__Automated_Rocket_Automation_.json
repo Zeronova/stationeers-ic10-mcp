@@ -1,0 +1,83 @@
+{
+  "name": "Kit (Automated Rocket Automation) – Unofficial Stationeers Wiki",
+  "properties": [
+    {
+      "property": "ClearMemory",
+      "type": "Boolean",
+      "description": "Resets internal counters, such as ExportCount, to zero when set to 1.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Activate",
+      "type": "Integer",
+      "description": "Set the desired mode of the rocket.\nNote: Setting Activate to the same value multiple times will not register a change beyond the initial set point.\nTo remedy this, set Activate to a 'safe' value such as 0 or 1 first if encountering strange triggering behaviour.\n\n1 = Launch to Space.\n\n2 = Travel in Space. This can be used to find new ice, ore, or salvage.\n\n4 = Stop Traveling in Space.\n\n5 = Return to the Launch Pad. Only valid from mode 3 or 4",
+      "_section": "parameters"
+    },
+    {
+      "property": "Setting",
+      "type": "Float",
+      "description": "Unknown",
+      "_section": "parameters"
+    },
+    {
+      "property": "Open",
+      "type": "Boolean",
+      "description": "Unknown",
+      "_section": "parameters"
+    },
+    {
+      "property": "Mode",
+      "type": "Integer",
+      "description": "The current mode of the rocket.\n\n0 = Idle on the Launch Pad. The rocket can be launched by setting the Activate variable to 1.\n\n1 = Launching to Space. This will automatically transition to 4 after a short time.\n\n2 = Traveling in Space. The rocket will continue traveling unless you set the Activate variable to to 4 or 5, such as when the CollectableGoods variable changes to 1.\n\n3 = Arriving at Location in Space. This is the automatic transition state between mode 2 and 4.\n\n4 = Idle in Space. If the CollectableGoods variable is 1 you can now mine or salvage, else if 0 then you can find a new mining or salvaging spot by setting the Activate variable to 2.\n\n5 = Returning to Launch Pad. This is not automatic, the rocket must be commanded to return by setting the Activate variable to 5.\n\n6 = Returned to Launch Pad (Seemingly unused; you will see mode 0 instead).\n\n7 = Out of Fuel in Space (Can still deconstruct the launch tower to get parts back?).",
+      "_section": "outputs"
+    },
+    {
+      "property": "Maximum",
+      "type": "Integer",
+      "description": "Unknown",
+      "_section": "outputs"
+    },
+    {
+      "property": "ImportCount",
+      "type": "Integer",
+      "description": "Unknown",
+      "_section": "outputs"
+    },
+    {
+      "property": "Fuel",
+      "type": "Float",
+      "description": "The quantity of onboard fuel, in moles.",
+      "_section": "outputs"
+    },
+    {
+      "property": "ExportCount",
+      "type": "Integer",
+      "description": "Unknown",
+      "_section": "outputs"
+    },
+    {
+      "property": "CollectableGoods",
+      "type": "Boolean",
+      "description": "Whether the rocket can currently harvest ice, ore, or salvage. If 0, then the rocket must be moved to a new area by setting Mode to 2.",
+      "_section": "outputs"
+    },
+    {
+      "property": "ReturnFuelCost",
+      "type": "Integer",
+      "description": "The amount of fuel needed, in moles, for the rocket to safely return to the launch pad. The rocket does not actually consume this much fuel to return.",
+      "_section": "outputs"
+    },
+    {
+      "property": "Ratio",
+      "type": "Float",
+      "description": "Unknown",
+      "_section": "outputs"
+    },
+    {
+      "property": "PrefabHash",
+      "type": "Integer",
+      "description": "Unknown",
+      "_section": "outputs"
+    }
+  ]
+}

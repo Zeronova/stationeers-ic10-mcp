@@ -1,0 +1,65 @@
+{
+  "name": "Kit (Launch Pad) – Unofficial Stationeers Wiki",
+  "properties": [
+    {
+      "property": "Activate",
+      "type": "Boolean",
+      "description": "Unknown",
+      "_section": "parameters"
+    },
+    {
+      "property": "Setting",
+      "type": "Float",
+      "description": "Unknown",
+      "_section": "parameters"
+    },
+    {
+      "property": "Open",
+      "type": "Boolean",
+      "description": "Unknown",
+      "_section": "parameters"
+    },
+    {
+      "property": "On",
+      "type": "Boolean",
+      "description": "Unknown",
+      "_section": "parameters"
+    },
+    {
+      "property": "Power",
+      "type": "Boolean",
+      "description": "Returns whether the Launch Pad is turned on and receives power. (0 for no, 1 for yes)",
+      "_section": "outputs"
+    },
+    {
+      "property": "Error",
+      "type": "Boolean",
+      "description": "Returns whether the Launch Pad is flashing an error. (0 for no, 1 for yes)",
+      "_section": "outputs"
+    },
+    {
+      "property": "PrefabHash",
+      "type": "Integer",
+      "description": "Unknown",
+      "_section": "outputs"
+    },
+    {
+      "property": "Maximum",
+      "type": "Integer",
+      "description": "Unknown",
+      "_section": "outputs"
+    },
+    {
+      "property": "Ratio",
+      "type": "Float",
+      "description": "Unknown",
+      "_section": "outputs"
+    },
+    {
+      "property": "RequiredPower",
+      "type": "Integer",
+      "description": "Returns the current amount of power, required by the Launch Pad, in watts.",
+      "_section": "outputs"
+    }
+  ]
+}

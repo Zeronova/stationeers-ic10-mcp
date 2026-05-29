@@ -1,0 +1,41 @@
+{
+  "name": "Turbine Generator – Unofficial Stationeers Wiki",
+  "properties": [
+    {
+      "property": "PowerGeneration",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Returns how much power is being generated",
+      "_section": "parameters"
+    },
+    {
+      "property": "PrefabHash",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "The hash of the structure",
+      "_section": "parameters"
+    },
+    {
+      "property": "ReferenceId",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Unique Reference Identifier for this object",
+      "_section": "parameters"
+    },
+    {
+      "property": "NameHash",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Provides the hash value for the name of the object as a 32 bit integer.",
+      "_section": "parameters"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Hardsuit Jetpack – Unofficial Stationeers Wiki",
+  "properties": [
+    {
+      "property": "On",
+      "type": "Boolean",
+      "description": "Controls  whether the stabilizer is on or off",
+      "_section": "parameters"
+    },
+    {
+      "property": "Activate",
+      "type": "Boolean",
+      "description": "Unknown",
+      "_section": "parameters"
+    }
+  ]
+}

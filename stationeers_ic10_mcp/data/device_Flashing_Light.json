@@ -1,0 +1,29 @@
+{
+  "name": "Flashing Light – Unofficial Stationeers Wiki",
+  "properties": [
+    {
+      "property": "Lock",
+      "type": "Boolean",
+      "description": "Locks the Flashing Light, when set to 1. Unlocks it, when set to 0.",
+      "_section": "parameters"
+    },
+    {
+      "property": "On",
+      "type": "Boolean",
+      "description": "Turns the Flashing Light on, when set to 1. Turns the Flashing light off, when set to 0.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Power",
+      "type": "Boolean",
+      "description": "Returns whether the Flashing Light is receiving power and is turned on. (0 for no, 1 for yes)",
+      "_section": "outputs"
+    },
+    {
+      "property": "RequiredPower",
+      "type": "Integer",
+      "description": "Returns the currently required power of the Flashing Light, in Watts.",
+      "_section": "outputs"
+    }
+  ]
+}

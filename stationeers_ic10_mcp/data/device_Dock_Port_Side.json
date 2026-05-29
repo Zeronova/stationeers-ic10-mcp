@@ -1,0 +1,35 @@
+{
+  "name": "Dock Port Side – Unofficial Stationeers Wiki",
+  "properties": [
+    {
+      "property": "Open",
+      "type": "Boolean",
+      "description": "Opens the Docking Port, when set to 1. Closes the it, when set to 0.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Lock",
+      "type": "Boolean",
+      "description": "Locks the Docking Port, when set to 1. Unlocks it, when set to 0.",
+      "_section": "parameters"
+    },
+    {
+      "property": "On",
+      "type": "Boolean",
+      "description": "Turns the Docking Port on, when set to 1. Turns the Docking Port off, when set to 0.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Power",
+      "type": "Boolean",
+      "description": "Returns whether the Docking Port is turned on and receives power. (0 for no, 1 for yes) (Assumption)",
+      "_section": "outputs"
+    },
+    {
+      "property": "RequiredPower",
+      "type": "Integer",
+      "description": "Returns the current amount of power, required by the Docking Port, in Watts.",
+      "_section": "outputs"
+    }
+  ]
+}

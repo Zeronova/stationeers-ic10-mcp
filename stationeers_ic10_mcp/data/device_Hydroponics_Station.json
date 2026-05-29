@@ -1,0 +1,359 @@
+{
+  "name": "Hydroponics Station – Unofficial Stationeers Wiki",
+  "properties": [
+    {
+      "property": "Setting",
+      "type": "Integer",
+      "description": "",
+      "_section": "parameters"
+    },
+    {
+      "property": "On",
+      "type": "Boolean",
+      "description": "Return whether the UV light of the station is on. (1 for on, 0 for off)",
+      "_section": "parameters"
+    },
+    {
+      "property": "Logic Name",
+      "description": "Description",
+      "_raw_type": "Read Write",
+      "_section": "unknown"
+    },
+    {
+      "property": "Power",
+      "description": "Return whether the UV light of the station is on. (1 for on, 0 for off)",
+      "_raw_type": "Read",
+      "_section": "unknown"
+    },
+    {
+      "property": "Error",
+      "description": "Read",
+      "_raw_type": "Read",
+      "_section": "unknown"
+    },
+    {
+      "property": "Pressure *",
+      "description": "Pressure of the fluid alimenting the station.",
+      "_raw_type": "Read",
+      "_section": "unknown"
+    },
+    {
+      "property": "Temperature *",
+      "description": "In Kelvin. Temperature of the fluid alimenting the station.",
+      "_raw_type": "Read",
+      "_section": "unknown"
+    },
+    {
+      "property": "RatioOxygen*",
+      "description": "Ratio of oxygen in the fluid alimenting the station.",
+      "_raw_type": "Read",
+      "_section": "unknown"
+    },
+    {
+      "property": "RatioCarbonDioxide *",
+      "description": "",
+      "_raw_type": "Read",
+      "_section": "unknown"
+    },
+    {
+      "property": "RatioNitrogen *",
+      "description": "",
+      "_raw_type": "Read",
+      "_section": "unknown"
+    },
+    {
+      "property": "RatioPollutant *",
+      "description": "",
+      "_raw_type": "Read",
+      "_section": "unknown"
+    },
+    {
+      "property": "RatioVolatiles *",
+      "description": "",
+      "_raw_type": "Read",
+      "_section": "unknown"
+    },
+    {
+      "property": "RatioWater *",
+      "description": "",
+      "_raw_type": "Read",
+      "_section": "unknown"
+    },
+    {
+      "property": "Maximum",
+      "description": "Value of 100.",
+      "_raw_type": "Read",
+      "_section": "unknown"
+    },
+    {
+      "property": "Ratio",
+      "description": "Seems to be the ratio between the Setting and the Maxium. So 0.5",
+      "_raw_type": "Read",
+      "_section": "unknown"
+    },
+    {
+      "property": "RequiredPower",
+      "description": "In watts. 0 if the lamp is off, 100 if it's on.",
+      "_raw_type": "Read",
+      "_section": "unknown"
+    },
+    {
+      "property": "TotalMoles",
+      "description": "Read",
+      "_raw_type": "Read",
+      "_section": "unknown"
+    },
+    {
+      "property": "RatioNitrousOxide",
+      "description": "Read",
+      "_raw_type": "Read",
+      "_section": "unknown"
+    },
+    {
+      "property": "PrefabHash",
+      "description": "Read",
+      "_raw_type": "Read",
+      "_section": "unknown"
+    },
+    {
+      "property": "Combustion",
+      "description": "Read",
+      "_raw_type": "Read",
+      "_section": "unknown"
+    },
+    {
+      "property": "PressureOutput",
+      "description": "Read",
+      "_raw_type": "Read",
+      "_section": "unknown"
+    },
+    {
+      "property": "TemperatureOutput",
+      "description": "Read",
+      "_raw_type": "Read",
+      "_section": "unknown"
+    },
+    {
+      "property": "RatioOxygenOutput",
+      "description": "Read",
+      "_raw_type": "Read",
+      "_section": "unknown"
+    },
+    {
+      "property": "RatioCarbonDioxideOutput",
+      "description": "Read",
+      "_raw_type": "Read",
+      "_section": "unknown"
+    },
+    {
+      "property": "RatioNitrogenOutput",
+      "description": "Read",
+      "_raw_type": "Read",
+      "_section": "unknown"
+    },
+    {
+      "property": "RatioPollutantOutput",
+      "description": "Read",
+      "_raw_type": "Read",
+      "_section": "unknown"
+    },
+    {
+      "property": "RatioVolatilesOutput",
+      "description": "Read",
+      "_raw_type": "Read",
+      "_section": "unknown"
+    },
+    {
+      "property": "RatioWaterOutput",
+      "description": "Read",
+      "_raw_type": "Read",
+      "_section": "unknown"
+    },
+    {
+      "property": "TotalMolesOutput",
+      "description": "Read",
+      "_raw_type": "Read",
+      "_section": "unknown"
+    },
+    {
+      "property": "CombustionOutput",
+      "description": "Read",
+      "_raw_type": "Read",
+      "_section": "unknown"
+    },
+    {
+      "property": "RatioLiquidNitrogen",
+      "description": "Read",
+      "_raw_type": "Read",
+      "_section": "unknown"
+    },
+    {
+      "property": "RatioLiquidOxygen",
+      "description": "Read",
+      "_raw_type": "Read",
+      "_section": "unknown"
+    },
+    {
+      "property": "RatioLiquidVolatiles",
+      "description": "Read",
+      "_raw_type": "Read",
+      "_section": "unknown"
+    },
+    {
+      "property": "RatioSteam",
+      "description": "Read",
+      "_raw_type": "Read",
+      "_section": "unknown"
+    },
+    {
+      "property": "RatioLiquidCarbonDioxide",
+      "description": "Read",
+      "_raw_type": "Read",
+      "_section": "unknown"
+    },
+    {
+      "property": "ReatioLiquidPollutant",
+      "description": "Read",
+      "_raw_type": "Read",
+      "_section": "unknown"
+    },
+    {
+      "property": "RatioLiquidNitrousOxide",
+      "description": "Read",
+      "_raw_type": "Read",
+      "_section": "unknown"
+    },
+    {
+      "property": "ReferenceID",
+      "description": "Read",
+      "_raw_type": "Read",
+      "_section": "unknown"
+    },
+    {
+      "property": "RatioHydrogen",
+      "description": "Read",
+      "_raw_type": "Read",
+      "_section": "unknown"
+    },
+    {
+      "property": "RatioLiquidHydrogen",
+      "description": "Read",
+      "_raw_type": "Read",
+      "_section": "unknown"
+    },
+    {
+      "property": "RatioPollutedWater",
+      "description": "Read",
+      "_raw_type": "Read",
+      "_section": "unknown"
+    },
+    {
+      "property": "NameHash",
+      "description": "Read",
+      "_raw_type": "Read",
+      "_section": "unknown"
+    },
+    {
+      "property": "Logic Slot Name",
+      "description": "Description",
+      "_raw_type": "Values",
+      "_section": "unknown"
+    },
+    {
+      "property": "Occupied",
+      "description": "0,1,2,3,4,5,6,7",
+      "_raw_type": "0,1,2,3,4,5,6,7",
+      "_section": "unknown"
+    },
+    {
+      "property": "OccupantHash",
+      "description": "0,1,2,3,4,5,6,7",
+      "_raw_type": "0,1,2,3,4,5,6,7",
+      "_section": "unknown"
+    },
+    {
+      "property": "Quantity",
+      "description": "0,1,2,3,4,5,6,7",
+      "_raw_type": "0,1,2,3,4,5,6,7",
+      "_section": "unknown"
+    },
+    {
+      "property": "Damage",
+      "description": "0,1,2,3,4,5,6,7",
+      "_raw_type": "0,1,2,3,4,5,6,7",
+      "_section": "unknown"
+    },
+    {
+      "property": "Efficiency",
+      "description": "0,1,2,3,4,5,6,7",
+      "_raw_type": "0,1,2,3,4,5,6,7",
+      "_section": "unknown"
+    },
+    {
+      "property": "Health",
+      "description": "0,1,2,3,4,5,6,7",
+      "_raw_type": "0,1,2,3,4,5,6,7",
+      "_section": "unknown"
+    },
+    {
+      "property": "Growth",
+      "description": "0,1,2,3,4,5,6,7",
+      "_raw_type": "0,1,2,3,4,5,6,7",
+      "_section": "unknown"
+    },
+    {
+      "property": "Class",
+      "description": "0,1,2,3,4,5,6,7",
+      "_raw_type": "0,1,2,3,4,5,6,7",
+      "_section": "unknown"
+    },
+    {
+      "property": "MaxQuantity",
+      "description": "0,1,2,3,4,5,6,7",
+      "_raw_type": "0,1,2,3,4,5,6,7",
+      "_section": "unknown"
+    },
+    {
+      "property": "Mature",
+      "description": "0,1,2,3,4,5,6,7",
+      "_raw_type": "0,1,2,3,4,5,6,7",
+      "_section": "unknown"
+    },
+    {
+      "property": "Seeding",
+      "description": "0,1,2,3,4,5,6,7",
+      "_raw_type": "0,1,2,3,4,5,6,7",
+      "_section": "unknown"
+    },
+    {
+      "property": "SortingClass",
+      "description": "0,1,2,3,4,5,6,7",
+      "_raw_type": "0,1,2,3,4,5,6,7",
+      "_section": "unknown"
+    },
+    {
+      "property": "MaturityRatio",
+      "description": "0,1,2,3,4,5,6,7",
+      "_raw_type": "0,1,2,3,4,5,6,7",
+      "_section": "unknown"
+    },
+    {
+      "property": "SeedingRatio",
+      "description": "0,1,2,3,4,5,6,7",
+      "_raw_type": "0,1,2,3,4,5,6,7",
+      "_section": "unknown"
+    },
+    {
+      "property": "FreeSlots",
+      "description": "0,1,2,3,4,5,6,7",
+      "_raw_type": "0,1,2,3,4,5,6,7",
+      "_section": "unknown"
+    },
+    {
+      "property": "TotalSlots",
+      "description": "0,1,2,3,4,5,6,7",
+      "_raw_type": "0,1,2,3,4,5,6,7",
+      "_section": "unknown"
+    }
+  ]
+}

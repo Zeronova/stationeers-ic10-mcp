@@ -1,0 +1,35 @@
+{
+  "name": "Upright Wind Turbine – Unofficial Stationeers Wiki",
+  "properties": [
+    {
+      "property": "World",
+      "description": "Max Power Output (estimated, no storm)",
+      "_raw_type": "Average Power Output",
+      "_section": "unknown"
+    },
+    {
+      "property": "Mars",
+      "description": "43W",
+      "_raw_type": "~14W",
+      "_section": "unknown"
+    },
+    {
+      "property": "Europa",
+      "description": "175W",
+      "_raw_type": "~65W",
+      "_section": "unknown"
+    },
+    {
+      "property": "Venus",
+      "description": "175W",
+      "_raw_type": "~75W",
+      "_section": "unknown"
+    },
+    {
+      "property": "PrefabHash",
+      "type": "Integer",
+      "description": "Returns ItemHash of device",
+      "_section": "outputs"
+    }
+  ]
+}

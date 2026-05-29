@@ -1,0 +1,83 @@
+{
+  "name": "Fabricator – Unofficial Stationeers Wiki",
+  "properties": [
+    {
+      "property": "Lock",
+      "type": "Boolean",
+      "description": "Locks the Fabricator, when set to 1. Unlocks it when set to 0.",
+      "_section": "parameters"
+    },
+    {
+      "property": "ClearMemory",
+      "type": "Boolean",
+      "description": "Writing on this Parameter will reset the ExportCount and ImportCount values to zero. Will set itself back to 0 when actioned.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Activate",
+      "type": "Boolean",
+      "description": "Activates the Fabricator, when set to 1. Deactivates it, when set to 0.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Open",
+      "type": "Boolean",
+      "description": "Opens the Fabricator, when set to 1. Closes it, when set to 0.",
+      "_section": "parameters"
+    },
+    {
+      "property": "On",
+      "type": "Boolean",
+      "description": "Turns the Fabricator on, when set to 1. Turns it off, when set to 0.",
+      "_section": "parameters"
+    },
+    {
+      "property": "ImportCount",
+      "type": "Integer",
+      "description": "How many items imported since last ClearMemory.",
+      "_section": "outputs"
+    },
+    {
+      "property": "ExportCount",
+      "type": "Integer",
+      "description": "How many items exported since last ClearMemory.",
+      "_section": "outputs"
+    },
+    {
+      "property": "Error",
+      "type": "Boolean",
+      "description": "Returns whether the Fabricator is flashing an error. (0 for no, 1 for yes)",
+      "_section": "outputs"
+    },
+    {
+      "property": "RequiredPower",
+      "type": "Integer",
+      "description": "The amount of power, currently needed by the Fabricator, in Watts.",
+      "_section": "outputs"
+    },
+    {
+      "property": "RecipeHash",
+      "type": "Integer",
+      "description": "Current hash of the recipe the device is set to produce.",
+      "_section": "outputs"
+    },
+    {
+      "property": "Reagents",
+      "type": "Float",
+      "description": "Returns the amount of reagent contents in the Fabricator in grams.",
+      "_section": "outputs"
+    },
+    {
+      "property": "PrefabHash",
+      "type": "Integer",
+      "description": "The hash of the structure.",
+      "_section": "outputs"
+    },
+    {
+      "property": "Power",
+      "type": "Boolean",
+      "description": "Returns whether the Fabricator is turned on and receives power. (0 for no, 1 for yes)",
+      "_section": "outputs"
+    }
+  ]
+}

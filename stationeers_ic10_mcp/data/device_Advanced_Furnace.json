@@ -1,0 +1,474 @@
+{
+  "name": "Advanced Furnace",
+  "properties": [
+    {
+      "property": "Power",
+      "type": "Boolean",
+      "access": "Read",
+      "value": "0",
+      "description": "Unpowered",
+      "col5": "Can be read to return if the Advanced Furnace is correctly powered or not, set via the power system, return 1 if powered and 0 if not",
+      "_section": "parameters"
+    },
+    {
+      "property": "Open",
+      "type": "Integer",
+      "access": "Read Write",
+      "value": "",
+      "description": "",
+      "col5": "1 if device is open, otherwise 0",
+      "_section": "parameters"
+    },
+    {
+      "property": "Mode",
+      "type": "Integer",
+      "access": "Read Write",
+      "value": "0",
+      "description": "Invalid",
+      "col5": "The Advanced Furnace's smelting result.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Error",
+      "type": "Boolean",
+      "access": "Read",
+      "value": "0",
+      "description": "",
+      "col5": "1 if device is in error state, otherwise 0",
+      "_section": "parameters"
+    },
+    {
+      "property": "Pressure",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "The current pressure reading of the Advanced Furnace",
+      "_section": "parameters"
+    },
+    {
+      "property": "Temperature",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "The current temperature reading of the Advanced Furnace",
+      "_section": "parameters"
+    },
+    {
+      "property": "Activate",
+      "type": "Integer",
+      "access": "Read Write",
+      "value": "",
+      "description": "",
+      "col5": "Activates the Advanced Furnace when set to 1. Deactivates when set to 0.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Lock",
+      "type": "Boolean",
+      "access": "Read Write",
+      "value": "0",
+      "description": "Unlocked",
+      "col5": "Disable manual operation of the Advanced Furnace.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Setting",
+      "type": "Integer",
+      "access": "Read Write",
+      "value": "",
+      "description": "",
+      "col5": "A variable setting that can be read or written.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Reagents",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Total number of reagents recorded by the Advanced Furnace",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioOxygen",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Oxygen in device atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioCarbonDioxide",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Carbon Dioxide in device atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioNitrogen",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Nitrogen in device atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioPollutant",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Pollutant in device atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioVolatiles",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Volatiles in device atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioWater",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Water in device atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "Maximum",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Maximum setting of the Advanced Furnace",
+      "_section": "parameters"
+    },
+    {
+      "property": "Ratio",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "Context specific value depending on device, 0 to 1 based ratio",
+      "_section": "parameters"
+    },
+    {
+      "property": "On",
+      "type": "Boolean",
+      "access": "Read Write",
+      "value": "0",
+      "description": "Off",
+      "col5": "The current state of the Advanced Furnace.",
+      "_section": "parameters"
+    },
+    {
+      "property": "RequiredPower",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Idle operating power quantity, does not necessarily include extra demand power",
+      "_section": "parameters"
+    },
+    {
+      "property": "RecipeHash",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Current hash of the recipe the Advanced Furnace is set to produce",
+      "_section": "parameters"
+    },
+    {
+      "property": "ClearMemory",
+      "type": "Integer",
+      "access": "Write",
+      "value": "",
+      "description": "",
+      "col5": "When set to 1, clears the counter memory (e.g. ExportCount). Will set itself back to 0 when actioned",
+      "_section": "parameters"
+    },
+    {
+      "property": "ExportCount",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "How many items exported since last ClearMemory",
+      "_section": "parameters"
+    },
+    {
+      "property": "ImportCount",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "How many items imported since last ClearMemory",
+      "_section": "parameters"
+    },
+    {
+      "property": "TotalMoles",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Returns the total moles of the Advanced Furnace",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioNitrousOxide",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Nitrous Oxide in device atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "PrefabHash",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "The hash of the structure",
+      "_section": "parameters"
+    },
+    {
+      "property": "SettingInput",
+      "type": "Integer",
+      "access": "Read Write",
+      "value": "",
+      "description": "",
+      "col5": "The input setting for the Advanced Furnace",
+      "_section": "parameters"
+    },
+    {
+      "property": "SettingOutput",
+      "type": "Integer",
+      "access": "Read Write",
+      "value": "",
+      "description": "",
+      "col5": "The output setting for the Advanced Furnace",
+      "_section": "parameters"
+    },
+    {
+      "property": "Combustion",
+      "type": "Boolean",
+      "access": "Read",
+      "value": "0 or 1",
+      "description": "",
+      "col5": "Assess if the atmosphere is on fire. Returns 1 if atmosphere is on fire, 0 if not.",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidNitrogen",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Liquid Nitrogen in device atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidOxygen",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Liquid Oxygen in device's Atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidVolatiles",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Liquid Volatiles in device's Atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioSteam",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Steam in device's Atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidCarbonDioxide",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Liquid Carbon Dioxide in device's Atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidPollutant",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Liquid Pollutant in device's Atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidNitrousOxide",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Liquid Nitrous Oxide in device's Atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "ReferenceId",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Unique Reference Identifier for this object",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioHydrogen",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "DEPRECATED",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidHydrogen",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "DEPRECATED",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioPollutedWater",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of polluted water in device atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "NameHash",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Provides the hash value for the name of the object as a 32 bit integer.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Number",
+      "description": "Description",
+      "_raw_type": "Name",
+      "_section": "unknown"
+    },
+    {
+      "property": "0?",
+      "description": "Import slot.",
+      "_raw_type": "Import",
+      "_section": "unknown"
+    },
+    {
+      "property": "1?",
+      "description": "Export slot.",
+      "_raw_type": "Export",
+      "_section": "unknown"
+    },
+    {
+      "property": "Name",
+      "description": "Description",
+      "_raw_type": "Data Type",
+      "_section": "unknown"
+    },
+    {
+      "property": "OccupantHash",
+      "description": "",
+      "_section": "unknown"
+    },
+    {
+      "property": "Occupied",
+      "description": "Returns whether the slot occupied. (0 for no, 1 for yes).",
+      "_raw_type": "Boolean",
+      "_section": "unknown"
+    },
+    {
+      "property": "Quantity",
+      "description": "",
+      "_section": "unknown"
+    },
+    {
+      "property": "Class",
+      "description": "",
+      "_section": "unknown"
+    },
+    {
+      "property": "Damage",
+      "description": "",
+      "_section": "unknown"
+    },
+    {
+      "property": "MaxQuantity",
+      "description": "",
+      "_section": "unknown"
+    },
+    {
+      "property": "Alloy",
+      "description": "Pressure",
+      "_raw_type": "Ingredients",
+      "_section": "unknown"
+    },
+    {
+      "property": "3,600 KPa    Fuel",
+      "description": "50Stellite",
+      "_raw_type": "62.7 Mols Volatiles \n  32.1 Mols Oxygen",
+      "_section": "unknown"
+    },
+    {
+      "property": "(2x) 8,400 KPa    Fuel",
+      "description": "50Inconel",
+      "_raw_type": "286 Mols Volatiles \n  146 Mols Oxygen",
+      "_section": "unknown"
+    },
+    {
+      "property": "(3x) 7,225 KPa    Fuel",
+      "description": "50Astroloy",
+      "_raw_type": "371 Mols Volatiles \n  190 Mols Oxygen",
+      "_section": "unknown"
+    },
+    {
+      "property": "8,500 KPa   Fuel         (8x) 8,600 KPa Pressurant",
+      "description": "50Hastelloy",
+      "_raw_type": "146 Mols Volatiles \n  74.8 Mols Oxygen \n \n   1,900 Mols Pressurant ^^^",
+      "_section": "unknown"
+    },
+    {
+      "property": "(3x)  7,333 KPa   Fuel       (24x) 9,750 KPa Pressurant",
+      "description": "50Waspaloy",
+      "_raw_type": "376 Mols Volatiles \n  192 Mols Oxygen \n \n  6,800 Mols Pressurant ^^^",
+      "_section": "unknown"
+    }
+  ]
+}

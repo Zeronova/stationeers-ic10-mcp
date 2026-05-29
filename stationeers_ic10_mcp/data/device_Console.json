@@ -1,0 +1,83 @@
+{
+  "name": "Console",
+  "properties": [
+    {
+      "property": "Open",
+      "type": "Boolean",
+      "description": "(Unknown)",
+      "_section": "parameters"
+    },
+    {
+      "property": "On",
+      "type": "Boolean",
+      "description": "Turns the Console on, when set to 1. Turns it off, when set to 0.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Power",
+      "type": "Boolean",
+      "description": "Returns whether the Console is turned on and receives power. (0 for no, 1 for yes)",
+      "_section": "outputs"
+    },
+    {
+      "property": "Error",
+      "type": "Boolean",
+      "description": "Returns whether the Console is flashing an error. (0 for no, 1 for yes)",
+      "_section": "outputs"
+    },
+    {
+      "property": "RequiredPower",
+      "type": "Integer",
+      "description": "Returns the current amount of power required by the Console, in watts.",
+      "_section": "outputs"
+    },
+    {
+      "property": "Name",
+      "description": "Placed with",
+      "_raw_type": "Picture",
+      "_section": "unknown"
+    },
+    {
+      "property": "Small display LED",
+      "description": "1 - Kit (Consoles)",
+      "_raw_type": "",
+      "_section": "unknown"
+    },
+    {
+      "property": "Medium display LED",
+      "description": "2 - Kit (Consoles)",
+      "_raw_type": "",
+      "_section": "unknown"
+    },
+    {
+      "property": "Large display LED",
+      "description": "3 - Kit (Consoles)",
+      "_raw_type": "",
+      "_section": "unknown"
+    },
+    {
+      "property": "Value",
+      "description": "\"Setting\" parameter interpretation",
+      "_raw_type": "Meaning",
+      "_section": "unknown"
+    },
+    {
+      "property": "Mode",
+      "type": "Integer",
+      "description": "Sets the display mode of the LED Display to the passed value. (See Mode Values)",
+      "_section": "parameters"
+    },
+    {
+      "property": "Setting",
+      "type": "Float",
+      "description": "Sets the raw number to display on the LED Display.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Color",
+      "type": "Integer",
+      "description": "Sets the color of the text on the LED Display. (See Data Network Colors)",
+      "_section": "parameters"
+    }
+  ]
+}

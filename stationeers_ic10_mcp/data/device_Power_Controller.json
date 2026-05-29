@@ -1,0 +1,83 @@
+{
+  "name": "Power Controller",
+  "properties": [
+    {
+      "property": "Value",
+      "description": "Meaning",
+      "_raw_type": "Display",
+      "_section": "unknown"
+    },
+    {
+      "property": "Open",
+      "type": "Boolean",
+      "description": "Opens the Area Power Control lid, when set to 1. Closes it, when set to 0.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Mode",
+      "type": "Integer",
+      "description": "Sets the mode to the passed value. This will only be set for less than a second, before the Area Power Control will override it with it's current mode. (See Mode Values)",
+      "_section": "parameters"
+    },
+    {
+      "property": "Lock",
+      "type": "Boolean",
+      "description": "Locks the Area Power Control, when set to 1. Unlocks it, when set to 0.",
+      "_section": "parameters"
+    },
+    {
+      "property": "On",
+      "type": "Boolean",
+      "description": "Turns the Area Power Control on, when set to 1. Turns it off, when set to 0.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Power",
+      "type": "Boolean",
+      "description": "Returns whether the Area Power Control is receiving power and is turned on. (0 for no, 1 for yes)",
+      "_section": "outputs"
+    },
+    {
+      "property": "Error",
+      "type": "Boolean",
+      "description": "Returns whether the Area Power Control is flashing an error. (0 for no, 1 for yes)",
+      "_section": "outputs"
+    },
+    {
+      "property": "Charge",
+      "type": "Integer",
+      "description": "Returns the currently available power, that can be output, in Watts. (Input power plus the charge of the battery in the Area Power Control.)",
+      "_section": "outputs"
+    },
+    {
+      "property": "Maximum",
+      "type": "Integer",
+      "description": "Returns the maximum charge of the battery in the Area Power Control, in Watts.",
+      "_section": "outputs"
+    },
+    {
+      "property": "Ratio",
+      "type": "Float",
+      "description": "Returns a range from 0.0 to 1.0. It returns the current charge percentage of the battery in the Area Power Control.",
+      "_section": "outputs"
+    },
+    {
+      "property": "PowerPotential",
+      "type": "Integer",
+      "description": "Returns the current amount of power, available to the Area Power Control input, in Watts.",
+      "_section": "outputs"
+    },
+    {
+      "property": "PowerActual",
+      "type": "Integer",
+      "description": "Returns the current amount of power, output by the Area Power Control, in Watts.",
+      "_section": "outputs"
+    },
+    {
+      "property": "RequiredPower",
+      "type": "Integer",
+      "description": "Returns the current amount of power needed at the input, in Watts. (This includes the amount of power draw of the battery inside.)",
+      "_section": "outputs"
+    }
+  ]
+}

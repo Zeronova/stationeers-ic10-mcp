@@ -1,0 +1,92 @@
+{
+  "name": "Basic Chutes",
+  "properties": [
+    {
+      "property": "Manufactory",
+      "description": "Energy",
+      "_raw_type": "Materials",
+      "_section": "unknown"
+    },
+    {
+      "property": "Autolathe",
+      "description": "500",
+      "_raw_type": "3g Iron",
+      "_section": "unknown"
+    },
+    {
+      "property": "Hydraulic Pipe Bender",
+      "description": "500",
+      "_raw_type": "3g Iron",
+      "_section": "unknown"
+    },
+    {
+      "property": "Recycler",
+      "description": "1000",
+      "_raw_type": "1,5g Iron",
+      "_section": "unknown"
+    },
+    {
+      "property": "Lock",
+      "type": "Boolean",
+      "access": "Read Write",
+      "value": "0",
+      "description": "Unlocked",
+      "col5": "Disable manual operation of the Chute Outlet.",
+      "_section": "parameters"
+    },
+    {
+      "property": "ClearMemory",
+      "type": "Integer",
+      "access": "Write",
+      "value": "",
+      "description": "",
+      "col5": "When set to 1, clears the counter memory (e.g. ExportCount). Will set itself back to 0 when actioned",
+      "_section": "parameters"
+    },
+    {
+      "property": "ExportCount",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "How many items exported since last ClearMemory",
+      "_section": "parameters"
+    },
+    {
+      "property": "ImportCount",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "How many items imported since last ClearMemory",
+      "_section": "parameters"
+    },
+    {
+      "property": "PrefabHash",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "The hash of the structure",
+      "_section": "parameters"
+    },
+    {
+      "property": "ReferenceId",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Unique Reference Identifier for this object",
+      "_section": "parameters"
+    },
+    {
+      "property": "NameHash",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Provides the hash value for the name of the object as a 32 bit integer.",
+      "_section": "parameters"
+    }
+  ]
+}

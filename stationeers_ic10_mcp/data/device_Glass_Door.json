@@ -1,0 +1,47 @@
+{
+  "name": "Glass Door – Unofficial Stationeers Wiki",
+  "properties": [
+    {
+      "property": "Open",
+      "type": "Boolean",
+      "description": "Opens the Glass Door, when set to 1. Closes it, when set to 0.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Lock",
+      "type": "Boolean",
+      "description": "Locks the Glass Door, when set to 1. Unlocks it, when set to 0.",
+      "_section": "parameters"
+    },
+    {
+      "property": "On",
+      "type": "Boolean",
+      "description": "Turns the Glass Door on, when set to 1. Turns it off, when set to 0.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Mode",
+      "type": "Boolean",
+      "description": "When set to 0 console on the door opens/closes door. When set to 1 console sets/resets Setting but does not affect door.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Setting",
+      "type": "Boolean",
+      "description": "Desired state, mostly usefull for Logic based control when Mode is 1.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Power",
+      "type": "Boolean",
+      "description": "Returns whether the Glass Door is turned on and receives power. (0 for no, 1 for yes)",
+      "_section": "outputs"
+    },
+    {
+      "property": "RequiredPower",
+      "type": "Integer",
+      "description": "Returns the current amount of power, required by the Glass Door, in watts.",
+      "_section": "outputs"
+    }
+  ]
+}

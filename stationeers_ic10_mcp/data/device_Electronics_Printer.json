@@ -1,0 +1,947 @@
+{
+  "name": "Electronics Printer",
+  "properties": [
+    {
+      "property": "Tier",
+      "description": "Build Time",
+      "_raw_type": "Creation",
+      "_section": "unknown"
+    },
+    {
+      "property": "Tier One",
+      "description": "x1",
+      "_raw_type": "x1",
+      "_section": "unknown"
+    },
+    {
+      "property": "Tier Two",
+      "description": "x0,66",
+      "_raw_type": "x1",
+      "_section": "unknown"
+    },
+    {
+      "property": "Item",
+      "description": "Input",
+      "_raw_type": "Tier",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Grow Light)",
+      "description": "30  500  5  10  5",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Battery Cell (Small)",
+      "description": "10  1000  5  2  2",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Battery Cell (Large)",
+      "description": "20  20000  10  5  5",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Battery Wireless Cell",
+      "description": "10  10000  10  2  2",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Battery Wireless Cell (Big)",
+      "description": "20  20000  15  5  5",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Power Transmitter)",
+      "description": "20  500  7  5  3",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Power Transmitter Omni)",
+      "description": "20  500  8  4  4",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Battery Cell (Nuclear)",
+      "description": "180  360000  10  5  5",
+      "_raw_type": "Tier Two",
+      "_section": "unknown"
+    },
+    {
+      "property": "HEMDroid Repair Kit",
+      "description": "40  1500  10  5  5",
+      "_raw_type": "Tier Two",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Battery Charger)",
+      "description": "1  500  5  5  10",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Battery Charger (Small)",
+      "description": "1  250  2  2  5",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "File:CartridgeAtmosAnalyser.pngCartridge (Atmos Analyser)",
+      "description": "5  100  5  5  1",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "File:CartridgePlantAnalyser.pngCartridge (Plant Analyser)",
+      "description": "5  100  5  5  1",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "File:CartridgeElectronicReader.pngCartridge (Electronic Reader)",
+      "description": "5  100  5  5  1",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "File:CartridgeMedicalAnalyser.pngCartridge (Medical Analyser)",
+      "description": "5  100  5  5  1",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "File:CartridgeNetworkAnalyser.pngCartridge (Network Analyser)",
+      "description": "5  100  5  5  1",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "File:CartridgeOreScanner.pngCartridge (Ore Scanner)",
+      "description": "5  100  5  5  1",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Sound Cartridge Bass",
+      "description": "5  100  2  2  2",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Sound Cartridge Drums",
+      "description": "5  100  2  2  2",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Sound Cartridge Leads",
+      "description": "5  100  2  2  2",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Sound Cartridge Synth",
+      "description": "5  100  2  2  2",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "File:CartridgeOreScannerColor.pngCartridge (Ore Scanner Color)",
+      "description": "5  100  5  5  10  5  10  1  5  5",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (AIMeE)",
+      "description": "25  2200  10  8  5  15  5  7  22",
+      "_raw_type": "Tier Two",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Fridge Small)",
+      "description": "10  100  5  2  10",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Fridge Big)",
+      "description": "10  100  10  5  20  15",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "File:CartridgeConfiguration.pngCartridge (Configuration)",
+      "description": "5  100  5  5  1",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "File:CartridgeTracker.pngCartridge (Tracker)",
+      "description": "5  100  5  5  1",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "File:CartridgeGPS.pngCartridge (GPS)",
+      "description": "5  100  5  5  1",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "File:CircuitboardAirControl.pngCircuitboard (Air Control)",
+      "description": "5  100  5  5",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Circuitboard (Advanced Airlock Control)",
+      "description": "5  100  5  5  1",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "File:CircuitboardAirlockControl.pngCircuitboard (Airlock Control)",
+      "description": "5  100  5  5  1",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "File:CircuitboardDoorControl.pngCircuitboard (Door Control)",
+      "description": "5  100  5  5",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "File:CircuitboardGasDisplay.pngCircuitboard (Gas Display)",
+      "description": "5  100  5  5  1",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "File:CircuitboardModeControl.pngCircuitboard (Mode Control)",
+      "description": "5  100  5  5",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "File:CircuitboardPowerControl.pngCircuitboard (Power Control)",
+      "description": "5  100  5  5",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "File:CircuitboardShipDisplay.pngCircuitboard (Ship Display)",
+      "description": "5  100  5  5",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "File:CircuitboardSolarControl.pngCircuitboard (Solar Control)",
+      "description": "5  100  5  5",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "File:CircuitboardGraphDisplay.pngCircuitboard (Graph Display)",
+      "description": "5  100  5  5",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "File:CircuitboardHashDisplay.pngCircuitboard (Hash Display)",
+      "description": "5  100  5  5",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Power Control)",
+      "description": "5  5000  2  5  3",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Cable Analyser)",
+      "description": "5  100  2  1  2",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Cable Coil",
+      "description": "1  100  0,5",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Cable Coil Heavy",
+      "description": "5  500  0,5  0,5",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Cable Fuses)",
+      "description": "5  100  5  5",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Data Disk",
+      "description": "5  100  5  5",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Flashing Light)",
+      "description": "5  100  3  2",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Battery)",
+      "description": "120  12000  20  20  20",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Battery Large)",
+      "description": "240  96000  35  10  35  5  35  2",
+      "_raw_type": "Tier Two",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Computer)",
+      "description": "60  6000  10  5  5",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Console)",
+      "description": "5  100  5  3  2",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Logic I/O)",
+      "description": "10  1000  1  1",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Logic Memory)",
+      "description": "10  1000  1  1",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Speaker)",
+      "description": "10  1000  1  1  5",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Logic Processor)",
+      "description": "10  1000  2  2",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Music Machines)",
+      "description": "10  1000  2  2",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Logic Transmitter)",
+      "description": "10  1000  1  3  2  5",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Logic Switch)",
+      "description": "10  1000  1  1",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Integrated Circuit (IC10)",
+      "description": "40  4000  5  10  2  4",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (IC Housing)",
+      "description": "40  2000  10  2  4",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Power Connector)",
+      "description": "1  500  5  3  10",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Trigger Plate)",
+      "description": "10  1000  2  2",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Solid Generator)",
+      "description": "120  1000  10  50",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Gas Generator)",
+      "description": "120  1000  10  50",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Sensor)",
+      "description": "5  10  1  1  3",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Electronic Parts",
+      "description": "5  10  3  2  3",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Research Machine)",
+      "description": "5  10  3  2  9",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Weather Station)",
+      "description": "60  12000  5  3  8  3",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Research Capsule Red",
+      "description": "8  50  3  2  2",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Research Capsule Blue",
+      "description": "3  400  3  2  9",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Research Capsule Green",
+      "description": "5  10  2  3  2  9",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Research Capsule Yellow",
+      "description": "5  1000  3  3  2  9",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Solar Panel Basic)",
+      "description": "30  1000  10  2  10",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Solar Panel)",
+      "description": "60  6000  20  5  15",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Stirling Engine)",
+      "description": "60  6000  20  5  30",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "File:ItemKitSolarPanelBasicReinforced.pngKit (Solar Panel Basic Reinforced)",
+      "description": "120  24000  10  2  10  10",
+      "_raw_type": "Tier Two",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Solar Panel Reinforced)",
+      "description": "120  24000  15  20  5  10",
+      "_raw_type": "Tier Two",
+      "_section": "unknown"
+    },
+    {
+      "property": "Portable Solar Panel",
+      "description": "5  200  5  3  5",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Transformer Large)",
+      "description": "60  12000  5  10",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Transformer Small)",
+      "description": "5  500  3  1  10",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Handheld Tablet",
+      "description": "5  100  3  2  5",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Advanced Tablet",
+      "description": "60  12000  5,5  1  12  3  5  2",
+      "_raw_type": "Tier Two",
+      "_section": "unknown"
+    },
+    {
+      "property": "Laptop",
+      "description": "60  18000  5,5  5  12  5  2",
+      "_raw_type": "Tier Two",
+      "_section": "unknown"
+    },
+    {
+      "property": "Wall Light",
+      "description": "5  10  2  1",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "File:MotherboardLogic.pngMotherboard Logic",
+      "description": "5  500  5  5",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Motherboard Rockets",
+      "description": "5  500  5  5",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "File:MotherboardProgrammableChip.pngMotherboard Programmable Chip",
+      "description": "5  500  5  5",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "File:MotherboardSorter.pngMotherboard Sorter",
+      "description": "5  500  5  5",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Motherboard Comms",
+      "description": "5  500  5  2  5  5",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Beacon)",
+      "description": "5  500  2  4  2  5",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Ground Penetrating Radar (GPR)",
+      "description": "10  500  2  10  5",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Elevator)",
+      "description": "5  500  2  4  2  2",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Hydroponic Station)",
+      "description": "120  500  20  5  5  10",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Small Satellite Dish)",
+      "description": "60  6000  10  5",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Medium Satellite Dish)",
+      "description": "120  24000  15  10  20",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Large Satellite Dish)",
+      "description": "240  72000  100  50  20",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Landing Pad Basic)",
+      "description": "10  1000  1  5",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Landing Pad Atmos)",
+      "description": "10  1000  1  5",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Landing Pad Waypoint)",
+      "description": "10  1000  1  5",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Harvie)",
+      "description": "60  500  15  10  5  5  10",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Portable Generator)",
+      "description": "120  5000  15  15  5  20",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Vending Machine)",
+      "description": "60  15000  50  50  10  20",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Vending Machine Refrigerated)",
+      "description": "60  25000  80  60  30  40",
+      "_raw_type": "Tier Two",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Automated Oven)",
+      "description": "50  15000  5  15  10  10  25",
+      "_raw_type": "Tier Two",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Advanced Packaging Machine)",
+      "description": "60  18000  10  10  15  20",
+      "_raw_type": "Tier Two",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Advanced Composter)",
+      "description": "55  20000  15  20  5  30",
+      "_raw_type": "Tier Two",
+      "_section": "unknown"
+    },
+    {
+      "property": "Portable Composter",
+      "description": "55  20000  15  10",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Turbine Generator)",
+      "description": "60  6000  2  4  5  4",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "File:ItemKitUprightWindTurbine.pngKit (Upright Wind Turbine)",
+      "description": "60  12000  10  5  10",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Wind Turbine)",
+      "description": "60  12000  10  5  20",
+      "_raw_type": "Tier Two",
+      "_section": "unknown"
+    },
+    {
+      "property": "Labeller",
+      "description": "15  800  2  1  3",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Electronic Printer Mod",
+      "description": "180  72000  8  8  8  35",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Autolathe Printer Mod",
+      "description": "180  72000  8  8  8  35",
+      "_raw_type": "Tier Two",
+      "_section": "unknown"
+    },
+    {
+      "property": "Tool Printer Mod",
+      "description": "180  72000  8  8  8  35",
+      "_raw_type": "Tier Two",
+      "_section": "unknown"
+    },
+    {
+      "property": "Pipe Bender Mod",
+      "description": "180  72000  8  8  8  35",
+      "_raw_type": "Tier Two",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Advanced Furnace)",
+      "description": "180  36000  25  15  5  6  8  30",
+      "_raw_type": "Tier Two",
+      "_section": "unknown"
+    },
+    {
+      "property": "Appliance Microwave",
+      "description": "45  1500  2  1  5",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Appliance Tablet Dock",
+      "description": "30  750  2  1  5  1",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Appliance Packaging Machine",
+      "description": "30  500  2  1  10",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Appliance Desk Lamp Right",
+      "description": "10  500  2  1",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Appliance Desk Lamp Left",
+      "description": "10  500  2  1",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Appliance Reagent Processor",
+      "description": "45  1500  2  1  5",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Appliance Chemistry Station",
+      "description": "45  1500  5  1  5",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Appliance Paint Mixer",
+      "description": "45  1500  5  1  5",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Auto Miner Small)",
+      "description": "90  9000  15  50  25  15  100",
+      "_raw_type": "Tier Two",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (OGRE)",
+      "description": "60  60000  7  25  15  8  60",
+      "_raw_type": "Tier Two",
+      "_section": "unknown"
+    },
+    {
+      "property": "Credit Card",
+      "description": "5  200  2  5",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Appliance Plant Genetic Analyzer",
+      "description": "45  4500  5  1  5",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Appliance Plant Genetic Splicer",
+      "description": "50  5000  10  20",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Appliance Plant Genetic Stabilizer",
+      "description": "50  5000  10  20",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Power",
+      "type": "Boolean",
+      "access": "Read",
+      "value": "0",
+      "description": "Unpowered",
+      "col5": "Can be read to return if the Electronics Printer is turned on and receives power",
+      "_section": "parameters"
+    },
+    {
+      "property": "Open",
+      "type": "Boolean",
+      "access": "Read Write",
+      "value": "0",
+      "description": "Closed",
+      "col5": "1 if device is open, otherwise 0",
+      "_section": "parameters"
+    },
+    {
+      "property": "Error",
+      "type": "Boolean",
+      "access": "Read",
+      "value": "0",
+      "description": "",
+      "col5": "1 if device is in error state, otherwise 0",
+      "_section": "parameters"
+    },
+    {
+      "property": "Activate",
+      "type": "Boolean",
+      "access": "Read Write",
+      "value": "0",
+      "description": "Idle",
+      "col5": "Activates the Electronics Printer, when set to 1. Deactivates the it, when set to 0. Note: This can cause a minor bug to occur. (See #Bugs)",
+      "_section": "parameters"
+    },
+    {
+      "property": "Lock",
+      "type": "Boolean",
+      "access": "Read Write",
+      "value": "0",
+      "description": "Unlocked",
+      "col5": "Disable manual operation",
+      "_section": "parameters"
+    },
+    {
+      "property": "Reagents",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Returns the total amount of all contents in the Electronics Printer",
+      "_section": "parameters"
+    },
+    {
+      "property": "On",
+      "type": "Boolean",
+      "access": "Read Write",
+      "value": "0",
+      "description": "Off",
+      "col5": "The current state of the Electronics Printer.",
+      "_section": "parameters"
+    },
+    {
+      "property": "RequiredPower",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Idle operating power quantity, does not necessarily include extra demand power",
+      "_section": "parameters"
+    },
+    {
+      "property": "RecipeHash",
+      "type": "Integer",
+      "access": "Read Write",
+      "value": "",
+      "description": "",
+      "col5": "Selected recipe",
+      "_section": "parameters"
+    },
+    {
+      "property": "CompletionRatio",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Recipe completion",
+      "_section": "parameters"
+    },
+    {
+      "property": "ClearMemory",
+      "type": "Integer",
+      "access": "Write",
+      "value": "",
+      "description": "",
+      "col5": "Reset the ExportCount and ImportCount values to zero. Will set itself back to 0 when actioned",
+      "_section": "parameters"
+    },
+    {
+      "property": "ExportCount",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "How many items exported since last ClearMemory",
+      "_section": "parameters"
+    },
+    {
+      "property": "ImportCount",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "How many items imported since last ClearMemory",
+      "_section": "parameters"
+    },
+    {
+      "property": "PrefabHash",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "The hash of the structure",
+      "_section": "parameters"
+    },
+    {
+      "property": "ReferenceId",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Unique Reference Identifier for this object",
+      "_section": "parameters"
+    },
+    {
+      "property": "NameHash",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Provides the hash value for the name of the object as a 32 bit integer.",
+      "_section": "parameters"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Large Extendable Radiator – Unofficial Stationeers Wiki",
+  "properties": [
+    {
+      "property": "Open",
+      "type": "Boolean",
+      "description": "Extends or retracts the radiator.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Lock",
+      "type": "Boolean",
+      "description": "",
+      "_section": "parameters"
+    },
+    {
+      "property": "Horizontal",
+      "type": "degrees",
+      "description": "Set the horizontal rotation of the radiator (clockwise, 0-360°, data port is at 0° or 180°)",
+      "_section": "parameters"
+    },
+    {
+      "property": "Setting",
+      "type": "Integer",
+      "description": "? (0 - 100)",
+      "_section": "parameters"
+    },
+    {
+      "property": "Maximum",
+      "type": "Integer",
+      "description": "? (0 - 100)",
+      "_section": "outputs"
+    },
+    {
+      "property": "Ratio",
+      "type": "Float",
+      "description": "= Setting / Maximum (0 - 1)",
+      "_section": "outputs"
+    },
+    {
+      "property": "PrefabHash",
+      "type": "Integer",
+      "description": "-566775170",
+      "_section": "outputs"
+    }
+  ]
+}

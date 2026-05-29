@@ -1,0 +1,671 @@
+{
+  "name": "Air Conditioner",
+  "properties": [
+    {
+      "property": "Name",
+      "description": "Function",
+      "_raw_type": "Type",
+      "_section": "unknown"
+    },
+    {
+      "property": "Temperature",
+      "description": "Displays the current output temperature setting",
+      "_raw_type": "Display",
+      "_section": "unknown"
+    },
+    {
+      "property": "+",
+      "description": "Increase the current output temperature setting by 10°C and by 1°C with the Quantity Modifier key pressed.",
+      "_raw_type": "Touchkey",
+      "_section": "unknown"
+    },
+    {
+      "property": "-",
+      "description": "Decrease the current output temperature setting by 10°C and by 1°C with the Quantity Modifier key pressed.",
+      "_raw_type": "Touchkey",
+      "_section": "unknown"
+    },
+    {
+      "property": "Start",
+      "description": "Switches Air Conditioner between idle and active.",
+      "_raw_type": "Touchkey",
+      "_section": "unknown"
+    },
+    {
+      "property": "On/Off",
+      "description": "Switches Air Conditioner between turned on or turned off.",
+      "_raw_type": "Switch",
+      "_section": "unknown"
+    },
+    {
+      "property": "Power",
+      "type": "Boolean",
+      "access": "Read",
+      "value": "0",
+      "description": "Unpowered",
+      "col5": "Can be read to return if the Air Conditioner is correctly powered or not, set via the power system, return 1 if powered and 0 if not",
+      "_section": "parameters"
+    },
+    {
+      "property": "Open",
+      "type": "Integer",
+      "access": "Read Write",
+      "value": "0",
+      "description": "Closed",
+      "col5": "Returns whether the Air Conditioner's IC Slot cover is open or closed.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Mode",
+      "type": "Integer",
+      "access": "Read Write",
+      "value": "0",
+      "description": "Idle",
+      "col5": "The mode of the Air Conditioner.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Error",
+      "type": "Boolean",
+      "access": "Read",
+      "value": "0",
+      "description": "",
+      "col5": "1 if device is in error state, otherwise 0",
+      "_section": "parameters"
+    },
+    {
+      "property": "Lock",
+      "type": "Boolean",
+      "access": "Read Write",
+      "value": "0",
+      "description": "Unlocked",
+      "col5": "Disable manual operation of the Air Conditioner.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Setting",
+      "type": "Integer",
+      "access": "Read Write",
+      "value": "",
+      "description": "",
+      "col5": "Target temperature setpoint in kelvin (K).",
+      "_section": "parameters"
+    },
+    {
+      "property": "Maximum",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Maximum temperature in kelvin (K)",
+      "_section": "parameters"
+    },
+    {
+      "property": "Ratio",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "Context specific value depending on device, 0 to 1 based ratio",
+      "_section": "parameters"
+    },
+    {
+      "property": "On",
+      "type": "Boolean",
+      "access": "Read Write",
+      "value": "0",
+      "description": "Off",
+      "col5": "The current state of the Air Conditioner.",
+      "_section": "parameters"
+    },
+    {
+      "property": "RequiredPower",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Idle operating power quantity, does not necessarily include extra demand power",
+      "_section": "parameters"
+    },
+    {
+      "property": "PrefabHash",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "The hash of the structure",
+      "_section": "parameters"
+    },
+    {
+      "property": "PressureInput",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "The current pressure reading of the Air Conditioner's input",
+      "_section": "parameters"
+    },
+    {
+      "property": "TemperatureInput",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "The current temperature reading of the Air Conditioner's input",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioOxygenInput",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Oxygen in Air Conditioner's input",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioCarbonDioxideInput",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Carbon Dioxide in Air Conditioner's input",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioNitrogenInput",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Nitrogen in Air Conditioner's input",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioPollutantInput",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Pollutant in Air Conditioner's input",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioVolatilesInput",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Volatiles in Air Conditioner's input",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioWaterInput",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Water in Air Conditioner's input",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioNitrousOxideInput",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Nitrous Oxide in Air Conditioner's input",
+      "_section": "parameters"
+    },
+    {
+      "property": "TotalMolesInput",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Returns the total moles of the Air Conditioner's input",
+      "_section": "parameters"
+    },
+    {
+      "property": "PressureOutput",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "The current pressure reading of the Air Conditioner's output",
+      "_section": "parameters"
+    },
+    {
+      "property": "TemperatureOutput",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "The current temperature reading of the Air Conditioner's output",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioOxygenOutput",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Oxygen in Air Conditioner's output",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioCarbonDioxideOutput",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Carbon Dioxide in Air Conditioner's output",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioNitrogenOutput",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Nitrogen in Air Conditioner's output",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioPollutantOutput",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Pollutant in Air Conditioner's output",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioVolatilesOutput",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Volatiles in Air Conditioner's output",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioWaterOutput",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Water in Air Conditioner's output",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioNitrousOxideOutput",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Nitrous Oxide in Air Conditioner's output",
+      "_section": "parameters"
+    },
+    {
+      "property": "TotalMolesOutput",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Returns the total moles of the Air Conditioner's output",
+      "_section": "parameters"
+    },
+    {
+      "property": "PressureOutput2",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "The current pressure reading of the Air Conditioner's waste output",
+      "_section": "parameters"
+    },
+    {
+      "property": "TemperatureOutput2",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "The current temperature reading of the Air Conditioner's waste output",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioOxygenOutput2",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Oxygen in Air Conditioner's waste output",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioCarbonDioxideOutput2",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Carbon Dioxide in Air Conditioner's waste output",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioNitrogenOutput2",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Nitrogen in Air Conditioner's waste output",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioPollutantOutput2",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Pollutant in Air Conditioner's waste output",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioVolatilesOutput2",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Volatiles in Air Conditioner's waste output",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioWaterOutput2",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Water in Air Conditioner's waste output",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioNitrousOxideOutput2",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Nitrous Oxide in Air Conditioner's waste output",
+      "_section": "parameters"
+    },
+    {
+      "property": "TotalMolesOutput2",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Returns the total moles of the Air Conditioner's waste output",
+      "_section": "parameters"
+    },
+    {
+      "property": "CombustionInput",
+      "type": "Boolean",
+      "access": "Read",
+      "value": "0 or 1",
+      "description": "",
+      "col5": "Assess if the atmosphere is on fire. Returns 1 if Air Conditioner's input is on fire, 0 if not.",
+      "_section": "parameters"
+    },
+    {
+      "property": "CombustionOutput",
+      "type": "Boolean",
+      "access": "Read",
+      "value": "0 or 1",
+      "description": "",
+      "col5": "Assess if the atmosphere is on fire. Returns 1 if Air Conditioner's output is on fire, 0 if not.",
+      "_section": "parameters"
+    },
+    {
+      "property": "CombustionOutput2",
+      "type": "Boolean",
+      "access": "Read",
+      "value": "0 or 1",
+      "description": "",
+      "col5": "Assess if the atmosphere is on fire. Returns 1 if Air Conditioner's waste output is on fire, 0 if not.",
+      "_section": "parameters"
+    },
+    {
+      "property": "OperationalTemperatureEfficiency",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "How the input pipe's temperature effects the machines efficiency",
+      "_section": "parameters"
+    },
+    {
+      "property": "TemperatureDifferentialEfficiency",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "How the difference between the input pipe and waste pipe temperatures effect the machines efficiency",
+      "_section": "parameters"
+    },
+    {
+      "property": "PressureEfficiency",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "How the pressure of the input pipe and waste pipe effect the machines efficiency",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidNitrogenInput",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Liquid Nitrogen in Air Conditioner's input",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidNitrogenOutput",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Liquid Nitrogen in Air Conditioner's output",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidNitrogenOutput2",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Liquid Nitrogen in Air Conditioner's waste output",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidOxygenInput",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Liquid Oxygen in Air Conditioner's input",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidOxygenOutput",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Liquid Oxygen in Air Conditioner's output",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidOxygenOutput2",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Liquid Oxygen in Air Conditioner's waste output",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidVolatilesInput",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Liquid Volatiles in Air Conditioner's input",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidVolatilesOutput",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Liquid Volatiles in Air Conditioner's output",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidVolatilesOutput2",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Liquid Volatiles in Air Conditioner's waste output",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioSteamInput",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Steam in Air Conditioner's input",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioSteamOutput",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Steam in Air Conditioner's output",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioSteamOutput2",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Steam in Air Conditioner's waste output",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidCarbonDioxideInput",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Liquid Carbon Dioxide in Air Conditioner's input",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidCarbonDioxideOutput",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Liquid Carbon Dioxide in Air Conditioner's output",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidCarbonDioxideOutput2",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Liquid Carbon Dioxide in Air Conditioner's waste output",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidPollutantInput",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Liquid Pollutant in Air Conditioner's input",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidPollutantOutput",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Liquid Pollutant in Air Conditioner's output",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidPollutantOutput2",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Liquid Pollutant in Air Conditioner's waste output",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidNitrousOxideInput",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Liquid Nitrous Oxide in Air Conditioner's input",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidNitrousOxideOutput",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Liquid Nitrous Oxide in Air Conditioner's output",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidNitrousOxideOutput2",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Liquid Nitrous Oxide in Air Conditioner's waste output",
+      "_section": "parameters"
+    },
+    {
+      "property": "ReferenceId",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Unique Reference Identifier for this object",
+      "_section": "parameters"
+    },
+    {
+      "property": "NameHash",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Provides the hash value for the name of the object as a 32 bit integer.",
+      "_section": "parameters"
+    }
+  ]
+}

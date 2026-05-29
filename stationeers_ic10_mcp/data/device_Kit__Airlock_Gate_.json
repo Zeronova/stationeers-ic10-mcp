@@ -1,0 +1,41 @@
+{
+  "name": "Kit (Airlock Gate) – Unofficial Stationeers Wiki",
+  "properties": [
+    {
+      "property": "Lock",
+      "type": "Boolean",
+      "description": "Unknown.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Mode",
+      "type": "Boolean",
+      "description": "Unknown.",
+      "_section": "parameters"
+    },
+    {
+      "property": "On",
+      "type": "Boolean",
+      "description": "Turns the Airlock Gate on or off.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Open",
+      "type": "Boolean",
+      "description": "Close or open the Airlock Gate.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Setting",
+      "type": "Boolean",
+      "description": "Unknown as input.",
+      "_section": "parameters"
+    },
+    {
+      "property": "PrefabHash",
+      "type": "Integer",
+      "description": "0 or 1736080881",
+      "_section": "outputs"
+    }
+  ]
+}

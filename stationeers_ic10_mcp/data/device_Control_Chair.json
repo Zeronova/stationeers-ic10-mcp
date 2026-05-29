@@ -1,0 +1,53 @@
+{
+  "name": "Control Chair – Unofficial Stationeers Wiki",
+  "properties": [
+    {
+      "property": "Mode",
+      "type": "Integer",
+      "description": "(Unknown) Accepts a range from 0 to 2. Affects the Mode output.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Setting",
+      "type": "Float",
+      "description": "(Unknown) Accepts a range from 0.0 to 100.0. Affects the Setting output.",
+      "_section": "parameters"
+    },
+    {
+      "property": "On",
+      "type": "Boolean",
+      "description": "(Unknown) Supposedly turns the Control Chair on, when set to 1. Turns it off, when set to 0. Affects the On output.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Power",
+      "type": "Boolean",
+      "description": "Returns whether the Control Chair is turned on and receives power. (0 for no, 1 for yes)",
+      "_section": "outputs"
+    },
+    {
+      "property": "Error",
+      "type": "Boolean",
+      "description": "Returns whether the Control Chair is flashing an error.",
+      "_section": "outputs"
+    },
+    {
+      "property": "Maximum",
+      "type": "Integer",
+      "description": "(Unknown) Returns 100.",
+      "_section": "outputs"
+    },
+    {
+      "property": "Ratio",
+      "type": "Float",
+      "description": "Returns a range from 0.0 to 1.0. Returns the ratio of the set Setting to the Maximum.",
+      "_section": "outputs"
+    },
+    {
+      "property": "RequiredPower",
+      "description": "Returns the power, currently needed by the Control Chair, in watts.",
+      "_raw_type": "Returns the power, currently needed by the Control Chair, in watts.",
+      "_section": "outputs"
+    }
+  ]
+}

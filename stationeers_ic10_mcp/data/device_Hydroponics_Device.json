@@ -1,0 +1,161 @@
+{
+  "name": "Hydroponics Device",
+  "properties": [
+    {
+      "property": "Activate",
+      "type": "Boolean",
+      "description": "Unknown",
+      "_section": "parameters"
+    },
+    {
+      "property": "Combustion",
+      "type": "Boolean",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "PrefabHash",
+      "type": "Integer",
+      "description": "Returns ItemHash of device",
+      "_section": "outputs"
+    },
+    {
+      "property": "Pressure",
+      "type": "Float",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "RatioCarbonDioxide",
+      "type": "Float",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "RatioNitrogen",
+      "type": "Float",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "RatioNitrousOxide",
+      "type": "Float",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "RatioOxygen",
+      "type": "Float",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "RatioPollutant",
+      "type": "Float",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "RatioVolatiles",
+      "type": "Float",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "RatioWater",
+      "type": "Float",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "Temperature",
+      "type": "Float",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "TotalMoles",
+      "type": "Float",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "Number",
+      "description": "Description",
+      "_raw_type": "Name",
+      "_section": "unknown"
+    },
+    {
+      "property": "Name",
+      "description": "Description",
+      "_raw_type": "Data Type",
+      "_section": "unknown"
+    },
+    {
+      "property": "Class",
+      "description": "Item class ID.",
+      "_raw_type": "Integer",
+      "_section": "unknown"
+    },
+    {
+      "property": "Damage",
+      "description": "Item durability in percent.",
+      "_raw_type": "Integer",
+      "_section": "unknown"
+    },
+    {
+      "property": "Efficiency",
+      "description": "Returns the growth efficiency of the plant in the slot. (-1=Empty, 1.0 is baseline, but can be higher)",
+      "_raw_type": "Float",
+      "_section": "unknown"
+    },
+    {
+      "property": "Growth",
+      "description": "Returns the current growth state of the plant in the slot (Different plants have different growth states, -1=Empty, 0, 1, 2, 3, 4, 5, 6, 7, 8.)",
+      "_raw_type": "Integer",
+      "_section": "unknown"
+    },
+    {
+      "property": "Health",
+      "description": "Returns the health of the plant in the slot. (0 - 1)",
+      "_raw_type": "Float",
+      "_section": "unknown"
+    },
+    {
+      "property": "MaxQuantity",
+      "description": "Returns maximum stacksize.",
+      "_raw_type": "Integer",
+      "_section": "unknown"
+    },
+    {
+      "property": "Mature",
+      "description": "Returns 1 if the plant in this slot is mature, 0 when it isn't.",
+      "_raw_type": "Integer",
+      "_section": "unknown"
+    },
+    {
+      "property": "Occupied",
+      "description": "Returns whether the slot occupied. (0 for no, 1 for yes).",
+      "_raw_type": "Boolean",
+      "_section": "unknown"
+    },
+    {
+      "property": "OccupantHash",
+      "description": "Returns ItemHash of item in slot.",
+      "_raw_type": "Integer",
+      "_section": "unknown"
+    },
+    {
+      "property": "Quantity",
+      "description": "Size of stack.",
+      "_raw_type": "Integer",
+      "_section": "unknown"
+    },
+    {
+      "property": "Seeding",
+      "description": "Returns 1 if at least one seed can be harvested from the plant, 0 if not and still in seeding stage (-1=Not in seeding stage)",
+      "_raw_type": "Integer",
+      "_section": "unknown"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "name": "Kit (Advanced Composter) – Unofficial Stationeers Wiki",
+  "properties": [
+    {
+      "property": "Activate",
+      "type": "Boolean",
+      "description": "0 = Not Processing, 1 = Processing",
+      "_section": "parameters"
+    },
+    {
+      "property": "Clear Memory",
+      "type": "Integer?",
+      "description": "Writing on this Parameter will reset the ExportCount and ImportCount values to zero.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Lock",
+      "type": "Boolean",
+      "description": "If set to 1, will disable physical interaction.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Mode",
+      "type": "Boolean",
+      "description": "",
+      "_section": "parameters"
+    },
+    {
+      "property": "On",
+      "type": "Boolean",
+      "description": "0 = Off, 1 = On",
+      "_section": "parameters"
+    },
+    {
+      "property": "Open",
+      "type": "",
+      "description": "",
+      "_section": "parameters"
+    },
+    {
+      "property": "Setting",
+      "type": "",
+      "description": "",
+      "_section": "parameters"
+    },
+    {
+      "property": "Error",
+      "type": "",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "ExportCount",
+      "type": "Integer",
+      "description": "The number of stacks inserted, not number of items",
+      "_section": "outputs"
+    },
+    {
+      "property": "ImportCount",
+      "type": "Integer",
+      "description": "Number of fertilizers exported",
+      "_section": "outputs"
+    },
+    {
+      "property": "Maximum",
+      "type": "",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "Power",
+      "type": "",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "PrefabHash",
+      "type": "",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "Quantity",
+      "type": "Integer",
+      "description": "The number of unprocessed items in the system",
+      "_section": "outputs"
+    },
+    {
+      "property": "Ratio",
+      "type": "",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "RequiredPower",
+      "type": "",
+      "description": "",
+      "_section": "outputs"
+    }
+  ]
+}

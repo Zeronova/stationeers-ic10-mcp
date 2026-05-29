@@ -1,0 +1,95 @@
+{
+  "name": "Kit (Automated Rocket Salvage) – Unofficial Stationeers Wiki",
+  "properties": [
+    {
+      "property": "Mode",
+      "type": "Boolean",
+      "description": "Unknown",
+      "_section": "parameters"
+    },
+    {
+      "property": "Lock",
+      "type": "Boolean",
+      "description": "Unknown",
+      "_section": "parameters"
+    },
+    {
+      "property": "ClearMemory",
+      "type": "Boolean",
+      "description": "Resets internal counters, such as ExportCount, to zero when set to 1.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Activate",
+      "type": "Boolean",
+      "description": "Sets the mode of the module. Set to 0 to stop salvaging, or 1 to begin salvaging. Salvaging should only occur when the Automated Rocket Automation Module's Mode variable is 4 and the CollectableGoods variable is 1.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Setting",
+      "type": "Float",
+      "description": "Unknown",
+      "_section": "parameters"
+    },
+    {
+      "property": "Open",
+      "type": "Boolean",
+      "description": "Unknown",
+      "_section": "parameters"
+    },
+    {
+      "property": "On",
+      "type": "Boolean",
+      "description": "Unknown",
+      "_section": "parameters"
+    },
+    {
+      "property": "Maximum",
+      "type": "Integer",
+      "description": "Unknown",
+      "_section": "outputs"
+    },
+    {
+      "property": "ImportCount",
+      "type": "Integer",
+      "description": "Unknown",
+      "_section": "outputs"
+    },
+    {
+      "property": "ExportCount",
+      "type": "Integer",
+      "description": "Unknown",
+      "_section": "outputs"
+    },
+    {
+      "property": "Error",
+      "type": "Boolean",
+      "description": "Returns whether the Salvager is flashing an error. Typically an error will be indicating if the coupler and silo are not correctly configured. (0 for no, 1 for yes)",
+      "_section": "outputs"
+    },
+    {
+      "property": "RequiredPower",
+      "type": "Integer",
+      "description": "Returns the current amount of power, required by the Salvager, in watts.",
+      "_section": "outputs"
+    },
+    {
+      "property": "Ratio",
+      "type": "Float",
+      "description": "Unknown",
+      "_section": "outputs"
+    },
+    {
+      "property": "PrefabHash",
+      "type": "Integer",
+      "description": "Unknown",
+      "_section": "outputs"
+    },
+    {
+      "property": "Power",
+      "type": "Boolean",
+      "description": "Returns whether the Salvager is turned on and receives power. (0 for no, 1 for yes)",
+      "_section": "outputs"
+    }
+  ]
+}

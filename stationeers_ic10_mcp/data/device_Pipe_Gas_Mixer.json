@@ -1,0 +1,53 @@
+{
+  "name": "Pipe Gas Mixer – Unofficial Stationeers Wiki",
+  "properties": [
+    {
+      "property": "Lock",
+      "type": "Boolean",
+      "description": "",
+      "_section": "parameters"
+    },
+    {
+      "property": "Setting",
+      "type": "float",
+      "description": "Correspond to the percentage value of the Input 1",
+      "_section": "parameters"
+    },
+    {
+      "property": "On",
+      "type": "Boolean",
+      "description": "",
+      "_section": "parameters"
+    },
+    {
+      "property": "Power",
+      "type": "Boolean",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "Error",
+      "type": "Boolean",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "Maximum",
+      "type": "float",
+      "description": "Value of 100",
+      "_section": "outputs"
+    },
+    {
+      "property": "Ratio",
+      "type": "Float",
+      "description": "Contains the ratio corresponding to the Input 1 value (0.605, for the 60.5 value above)",
+      "_section": "outputs"
+    },
+    {
+      "property": "Requiredpower",
+      "type": "Integer",
+      "description": "In Watts. The Gas Mixer require 100W of power to function",
+      "_section": "outputs"
+    }
+  ]
+}

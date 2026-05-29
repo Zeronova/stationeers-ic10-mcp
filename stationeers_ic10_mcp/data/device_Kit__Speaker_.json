@@ -1,0 +1,323 @@
+{
+  "name": "Kit (Speaker) – Unofficial Stationeers Wiki",
+  "properties": [
+    {
+      "property": "Mode",
+      "type": "Integer",
+      "description": "Sets the Alarm/Music output",
+      "_section": "parameters"
+    },
+    {
+      "property": "Volume",
+      "type": "Integer",
+      "description": "Sets the device sound volume setting. (0 - 100)",
+      "_section": "parameters"
+    },
+    {
+      "property": "On",
+      "type": "Boolean",
+      "description": "Turns the speaker on, when set to 1. Turns it off, when set to 0.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Power",
+      "type": "Boolean",
+      "description": "Returns whether the speaker is turned on and receives power. (0 for no, 1 for yes)",
+      "_section": "outputs"
+    },
+    {
+      "property": "RequiredPower",
+      "type": "Integer",
+      "description": "Returns the current amount of power, required by the speaker, in watts.",
+      "_section": "outputs"
+    },
+    {
+      "property": "PrefabHash",
+      "type": "Integer",
+      "description": "-828056979",
+      "_section": "outputs"
+    },
+    {
+      "property": "Sound Name",
+      "description": "Description",
+      "_raw_type": "Mode Value",
+      "_section": "unknown"
+    },
+    {
+      "property": "None",
+      "description": "",
+      "_raw_type": "0",
+      "_section": "unknown"
+    },
+    {
+      "property": "Alarm2",
+      "description": "Klaxon 1",
+      "_raw_type": "1",
+      "_section": "unknown"
+    },
+    {
+      "property": "Alarm3",
+      "description": "Klaxon 2",
+      "_raw_type": "2",
+      "_section": "unknown"
+    },
+    {
+      "property": "Alarm4",
+      "description": "Fast rising beeps 1",
+      "_raw_type": "3",
+      "_section": "unknown"
+    },
+    {
+      "property": "Alarm5",
+      "description": "Eerie slow beeps",
+      "_raw_type": "4",
+      "_section": "unknown"
+    },
+    {
+      "property": "Alarm6",
+      "description": "Ringing and rising beeps",
+      "_raw_type": "5",
+      "_section": "unknown"
+    },
+    {
+      "property": "Alarm7",
+      "description": "Fast monotone beeps",
+      "_raw_type": "6",
+      "_section": "unknown"
+    },
+    {
+      "property": "Music1",
+      "description": "Epic",
+      "_raw_type": "7",
+      "_section": "unknown"
+    },
+    {
+      "property": "Music2",
+      "description": "Funky",
+      "_raw_type": "8",
+      "_section": "unknown"
+    },
+    {
+      "property": "Music3",
+      "description": "Calm",
+      "_raw_type": "9",
+      "_section": "unknown"
+    },
+    {
+      "property": "Alarm8",
+      "description": "Klaxon 4",
+      "_raw_type": "10",
+      "_section": "unknown"
+    },
+    {
+      "property": "Alarm9",
+      "description": "Fast rising beeps 2",
+      "_raw_type": "11",
+      "_section": "unknown"
+    },
+    {
+      "property": "Alarm10",
+      "description": "Air raid siren",
+      "_raw_type": "12",
+      "_section": "unknown"
+    },
+    {
+      "property": "Alarm11",
+      "description": "Rising whoops",
+      "_raw_type": "13",
+      "_section": "unknown"
+    },
+    {
+      "property": "Alarm12",
+      "description": "Dial up sounds",
+      "_raw_type": "14",
+      "_section": "unknown"
+    },
+    {
+      "property": "Danger",
+      "description": "Male voice",
+      "_raw_type": "15",
+      "_section": "unknown"
+    },
+    {
+      "property": "Warning",
+      "description": "Male voice",
+      "_raw_type": "16",
+      "_section": "unknown"
+    },
+    {
+      "property": "Alert",
+      "description": "Male voice",
+      "_raw_type": "17",
+      "_section": "unknown"
+    },
+    {
+      "property": "StormIncoming",
+      "description": "Male voice",
+      "_raw_type": "18",
+      "_section": "unknown"
+    },
+    {
+      "property": "IntruderAlert",
+      "description": "Male voice",
+      "_raw_type": "19",
+      "_section": "unknown"
+    },
+    {
+      "property": "DePressurising",
+      "description": "Male voice",
+      "_raw_type": "20",
+      "_section": "unknown"
+    },
+    {
+      "property": "Pressurising",
+      "description": "Male voice",
+      "_raw_type": "21",
+      "_section": "unknown"
+    },
+    {
+      "property": "AirlockCycling",
+      "description": "Male voice",
+      "_raw_type": "22",
+      "_section": "unknown"
+    },
+    {
+      "property": "Power Low",
+      "description": "Male voice",
+      "_raw_type": "23",
+      "_section": "unknown"
+    },
+    {
+      "property": "System Failure",
+      "description": "Male voice",
+      "_raw_type": "24",
+      "_section": "unknown"
+    },
+    {
+      "property": "Welcome",
+      "description": "Male voice \"Welcome enjoy your stay\"",
+      "_raw_type": "25",
+      "_section": "unknown"
+    },
+    {
+      "property": "MalfunctionDetected",
+      "description": "Male voice",
+      "_raw_type": "26",
+      "_section": "unknown"
+    },
+    {
+      "property": "HaltWhoGoesThere",
+      "description": "Male voice",
+      "_raw_type": "27",
+      "_section": "unknown"
+    },
+    {
+      "property": "FireFireFire",
+      "description": "Male voice",
+      "_raw_type": "28",
+      "_section": "unknown"
+    },
+    {
+      "property": "One",
+      "description": "Male voice",
+      "_raw_type": "29",
+      "_section": "unknown"
+    },
+    {
+      "property": "Two",
+      "description": "Male voice",
+      "_raw_type": "30",
+      "_section": "unknown"
+    },
+    {
+      "property": "Three",
+      "description": "Male voice",
+      "_raw_type": "31",
+      "_section": "unknown"
+    },
+    {
+      "property": "Four",
+      "description": "Male voice",
+      "_raw_type": "32",
+      "_section": "unknown"
+    },
+    {
+      "property": "Five",
+      "description": "Male voice",
+      "_raw_type": "33",
+      "_section": "unknown"
+    },
+    {
+      "property": "Floor",
+      "description": "Male voice",
+      "_raw_type": "34",
+      "_section": "unknown"
+    },
+    {
+      "property": "RocketLaunching",
+      "description": "Male voice",
+      "_raw_type": "35",
+      "_section": "unknown"
+    },
+    {
+      "property": "LiftOff",
+      "description": "Male voice",
+      "_raw_type": "36",
+      "_section": "unknown"
+    },
+    {
+      "property": "TraderIncoming",
+      "description": "Male voice \"Trader vessel incoming\"",
+      "_raw_type": "37",
+      "_section": "unknown"
+    },
+    {
+      "property": "Trader Landed",
+      "description": "Male voice \"Trader vessel landed\"",
+      "_raw_type": "38",
+      "_section": "unknown"
+    },
+    {
+      "property": "PressureHigh",
+      "description": "Male voice \"Warning pressure high\"",
+      "_raw_type": "39",
+      "_section": "unknown"
+    },
+    {
+      "property": "PressureLow",
+      "description": "Male voice \"Warning pressure low\"",
+      "_raw_type": "40",
+      "_section": "unknown"
+    },
+    {
+      "property": "TemperatureHigh",
+      "description": "Male voice \"Warning temperature high\"",
+      "_raw_type": "41",
+      "_section": "unknown"
+    },
+    {
+      "property": "TemperatureLow",
+      "description": "Male voice \"Warning temperature low\"",
+      "_raw_type": "42",
+      "_section": "unknown"
+    },
+    {
+      "property": "PollutantsDetected",
+      "description": "Male voice \"Warning pollutants detected\"",
+      "_raw_type": "43",
+      "_section": "unknown"
+    },
+    {
+      "property": "HighCarbonDioxide",
+      "description": "Male voice \"Warning high CO2 levels detected\"",
+      "_raw_type": "44",
+      "_section": "unknown"
+    },
+    {
+      "property": "Alarm1",
+      "description": "",
+      "_raw_type": "45",
+      "_section": "unknown"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "name": "IC Housing – Unofficial Stationeers Wiki",
+  "properties": [
+    {
+      "property": "Activate",
+      "type": "Boolean",
+      "description": "0 on placement. Once a 1 is written, it will not change.\n Can be used as a program start delay?",
+      "_section": "parameters"
+    },
+    {
+      "property": "Setting",
+      "type": "Float",
+      "description": "Can be used as an I/O variable",
+      "_section": "parameters"
+    },
+    {
+      "property": "On",
+      "type": "Boolean",
+      "description": "",
+      "_section": "parameters"
+    },
+    {
+      "property": "Error",
+      "type": "Boolean",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "RequiredPower",
+      "type": "Integer",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "PrefabHash",
+      "type": "Integer",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "LineNumber",
+      "type": "Integer",
+      "description": "Current Line Number",
+      "_section": "outputs"
+    },
+    {
+      "property": "Power",
+      "type": "Integer",
+      "description": "",
+      "_section": "outputs"
+    }
+  ]
+}

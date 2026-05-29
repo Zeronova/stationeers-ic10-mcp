@@ -1,0 +1,299 @@
+{
+  "name": "Sensors",
+  "properties": [
+    {
+      "property": "Value",
+      "description": "Description",
+      "_raw_type": "Name",
+      "_section": "unknown"
+    },
+    {
+      "property": "Mode",
+      "type": "Integer",
+      "access": "Read Write",
+      "value": "0",
+      "description": "Default",
+      "col5": "SolarAngle mode",
+      "_section": "parameters"
+    },
+    {
+      "property": "Activate",
+      "type": "Boolean",
+      "access": "Read Write",
+      "value": "",
+      "description": "",
+      "col5": "1 if light hits the sensor, 0 otherwise",
+      "_section": "parameters"
+    },
+    {
+      "property": "Horizontal",
+      "type": "Float",
+      "access": "Read Write",
+      "value": "",
+      "description": "",
+      "col5": "Same absolute value SolarAngle reported for Horizontal mode but with an inverted sign",
+      "_section": "parameters"
+    },
+    {
+      "property": "Vertical",
+      "type": "Float",
+      "access": "Read Write",
+      "value": "",
+      "description": "",
+      "col5": "Same as SolarAngle reported for Vertical mode",
+      "_section": "parameters"
+    },
+    {
+      "property": "SolarAngle",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "See Modes above. Probably soon deprecated in favor of Horizontal and Vertical",
+      "_section": "parameters"
+    },
+    {
+      "property": "On",
+      "type": "Boolean",
+      "access": "Read Write",
+      "value": "",
+      "description": "",
+      "col5": "0 if Off, 1 if On",
+      "_section": "parameters"
+    },
+    {
+      "property": "PrefabHash",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "The hash of the structure",
+      "_section": "parameters"
+    },
+    {
+      "property": "SolarIrradiance",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "The current solar irradiance (in W/m²)",
+      "_section": "parameters"
+    },
+    {
+      "property": "ReferenceId",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Unique Reference Identifier for this object",
+      "_section": "parameters"
+    },
+    {
+      "property": "NameHash",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Provides the hash value for the name of the object as a 32 bit integer",
+      "_section": "parameters"
+    },
+    {
+      "property": "Quantity",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Number of detected entities",
+      "_section": "parameters"
+    },
+    {
+      "property": "Pressure",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "In kPa",
+      "_section": "parameters"
+    },
+    {
+      "property": "Temperature",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "In Kelvin",
+      "_section": "parameters"
+    },
+    {
+      "property": "Combustion",
+      "type": "Boolean",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "1 if the atmosphere is on fire, 0 otherwise",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioOxygen",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Ratio of gaseous Oxygen in the atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioHydrogen",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Ratio of gaseous Hydrogen in the atmosphere (Hydrogen is deprecated and has been replaced by Volatiles)",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioCarbonDioxide",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Ratio of gaseous Carbon Dioxide in the atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioNitrogen",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Ratio of gaseous Nitrogen in the atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioPollutant",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Ratio of gaseous Pollutant in the atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioVolatiles",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Ratio of gaseous Volatiles in the atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioNitrousOxide",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Ratio of gaseous Nitrous Oxide in the atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioSteam",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Ratio of gaseous Water in the atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidOxygen",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Ratio of liquid Oxygen in the atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidHydrogen",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Ratio of liquid Hydrogen in the atmosphere (Hydrogen is deprecated and has been replaced by Volatiles)",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidCarbonDioxide",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Ratio of liquid Carbon Dioxide in the atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidNitrogen",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Ratio of liquid Nitrogen in the atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidPollutant",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Ratio of liquid Pollutant in the atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidVolatiles",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Ratio of liquid Volatiles in the atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidNitrousOxide",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Ratio of liquid Nitrous Oxide in the atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioWater",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Ratio of liquid Water in the atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioPollutedWater",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Ratio of liquid Polluted Water in the atmosphere",
+      "_section": "parameters"
+    },
+    {
+      "property": "Setting",
+      "type": "Float",
+      "access": "Read Write",
+      "value": "",
+      "description": "",
+      "col5": "Range of the sensor in meter (0 to 250",
+      "_section": "parameters"
+    }
+  ]
+}

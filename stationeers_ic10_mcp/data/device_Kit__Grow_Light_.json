@@ -1,0 +1,29 @@
+{
+  "name": "Kit (Grow Light) – Unofficial Stationeers Wiki",
+  "properties": [
+    {
+      "property": "On",
+      "type": "Boolean",
+      "description": "",
+      "_section": "parameters"
+    },
+    {
+      "property": "Power",
+      "type": "Boolean",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "PrefabHash",
+      "type": "Integer",
+      "description": "",
+      "_section": "outputs"
+    },
+    {
+      "property": "RequiredPower",
+      "type": "Integer",
+      "description": "",
+      "_section": "outputs"
+    }
+  ]
+}

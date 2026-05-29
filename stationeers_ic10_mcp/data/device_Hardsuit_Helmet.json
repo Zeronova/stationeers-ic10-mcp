@@ -1,0 +1,266 @@
+{
+  "name": "Hardsuit Helmet",
+  "properties": [
+    {
+      "property": "Power",
+      "type": "Boolean",
+      "access": "Read",
+      "value": "0",
+      "description": "Unpowered",
+      "col5": "Can be read to return if the Hardsuit Helmet is correctly powered or not, set via the power system, return 1 if powered and 0 if not",
+      "_section": "parameters"
+    },
+    {
+      "property": "Open",
+      "type": "Integer",
+      "access": "Read Write",
+      "value": "0",
+      "description": "Closed",
+      "col5": "Used to open or close the helmet visor.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Pressure",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "The current pressure reading of the Hardsuit Helmet",
+      "_section": "parameters"
+    },
+    {
+      "property": "Temperature",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "The current temperature reading of the Hardsuit Helmet",
+      "_section": "parameters"
+    },
+    {
+      "property": "Lock",
+      "type": "Boolean",
+      "access": "Read Write",
+      "value": "0",
+      "description": "Unlocked",
+      "col5": "Disable manual operation of the Hardsuit Helmet.",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioOxygen",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Oxygen inside the Hardsuit Helmet",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioCarbonDioxide",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Carbon Dioxide inside the Hardsuit Helmet",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioNitrogen",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Nitrogen inside the Hardsuit Helmet",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioPollutant",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Pollutant inside the Hardsuit Helmet",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioVolatiles",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Volatiles inside the Hardsuit Helmet",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioWater",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Water inside the Hardsuit Helmet",
+      "_section": "parameters"
+    },
+    {
+      "property": "On",
+      "type": "Boolean",
+      "access": "Read Write",
+      "value": "0",
+      "description": "Off",
+      "col5": "Used to turn the helmet light on or off.",
+      "_section": "parameters"
+    },
+    {
+      "property": "TotalMoles",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Returns the total moles of the Hardsuit Helmet",
+      "_section": "parameters"
+    },
+    {
+      "property": "Volume",
+      "type": "Integer",
+      "access": "Read Write",
+      "value": "",
+      "description": "",
+      "col5": "Returns the Hardsuit Helmet atmosphere volume",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioNitrousOxide",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Nitrous Oxide inside the Hardsuit Helmet",
+      "_section": "parameters"
+    },
+    {
+      "property": "Combustion",
+      "type": "Boolean",
+      "access": "Read",
+      "value": "0 or 1",
+      "description": "",
+      "col5": "Assess if the atmosphere is on fire. Returns 1 if atmosphere is on fire, 0 if not.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Flush",
+      "type": "Integer",
+      "access": "Write",
+      "value": "",
+      "description": "",
+      "col5": "Set to 1 to activate the flush function on the Hardsuit Helmet",
+      "_section": "parameters"
+    },
+    {
+      "property": "SoundAlert",
+      "type": "Integer",
+      "access": "Read Write",
+      "value": "",
+      "description": "",
+      "col5": "Plays a sound alert on the Hardsuit Helmets speaker",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidNitrogen",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Liquid Nitrogen inside the Hardsuit Helmet",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidOxygen",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Liquid Oxygen inside the Hardsuit Helmet",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidVolatiles",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Liquid Volatiles inside the Hardsuit Helmet",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioSteam",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Steam inside the Hardsuit Helmet",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidCarbonDioxide",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Liquid Carbon Dioxide inside the Hardsuit Helmet",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidPollutant",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Liquid Pollutant inside the Hardsuit Helmet",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidNitrousOxide",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of Liquid Nitrous Oxide inside the Hardsuit Helmet",
+      "_section": "parameters"
+    },
+    {
+      "property": "ReferenceId",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Unique Reference Identifier for this object",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioHydrogen",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "DEPRECATED",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioLiquidHydrogen",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "DEPRECATED",
+      "_section": "parameters"
+    },
+    {
+      "property": "RatioPollutedWater",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 to 1.0",
+      "description": "",
+      "col5": "The ratio of polluted water inside the Hardsuit Helmet",
+      "_section": "parameters"
+    }
+  ]
+}

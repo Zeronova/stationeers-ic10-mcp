@@ -1,0 +1,297 @@
+{
+  "name": "Kit (Satellite Dish)",
+  "properties": [
+    {
+      "property": "Minimum Power Setting",
+      "units": "watts",
+      "small satellite dish": "50",
+      "medium satellite dish": "500",
+      "large satellite dish": "2000",
+      "_section": "parameters"
+    },
+    {
+      "property": "Maximum Power Setting",
+      "units": "watts",
+      "small satellite dish": "200",
+      "medium satellite dish": "7,500",
+      "large satellite dish": "50,000",
+      "_section": "parameters"
+    },
+    {
+      "property": "Base Power Usage",
+      "units": "watts",
+      "small satellite dish": "10",
+      "medium satellite dish": "50",
+      "large satellite dish": "100",
+      "_section": "parameters"
+    },
+    {
+      "property": "Acquisition Power Usage, Ratio to Power Setting",
+      "units": "%",
+      "small satellite dish": "10%",
+      "_section": "parameters"
+    },
+    {
+      "property": "Azimuth Rotation Speed",
+      "units": "deg/second",
+      "small satellite dish": "9",
+      "medium satellite dish": "1.8",
+      "large satellite dish": "0.36-1.44*",
+      "_section": "parameters"
+    },
+    {
+      "property": "Elevation Rotation Speed",
+      "units": "deg/second",
+      "small satellite dish": "9",
+      "medium satellite dish": "0.9",
+      "large satellite dish": "0.36",
+      "_section": "parameters"
+    },
+    {
+      "property": "Degrees Off Trader",
+      "description": "Power Ratio",
+      "_raw_type": "Power Ratio",
+      "_section": "unknown"
+    },
+    {
+      "property": "0°",
+      "description": "1.00",
+      "_raw_type": "1.00",
+      "_section": "unknown"
+    },
+    {
+      "property": "2°",
+      "description": "1.00",
+      "_raw_type": "1.00",
+      "_section": "unknown"
+    },
+    {
+      "property": "5°",
+      "description": "0.90",
+      "_raw_type": "0.90",
+      "_section": "unknown"
+    },
+    {
+      "property": "22.5°",
+      "description": "0.10",
+      "_raw_type": "0.10",
+      "_section": "unknown"
+    },
+    {
+      "property": "45°",
+      "description": "0.05",
+      "_raw_type": "0.05",
+      "_section": "unknown"
+    },
+    {
+      "property": "90°",
+      "description": "0.01",
+      "_raw_type": "0.01",
+      "_section": "unknown"
+    },
+    {
+      "property": "180°",
+      "description": "0.001",
+      "_raw_type": "0.001",
+      "_section": "unknown"
+    },
+    {
+      "property": "Power",
+      "type": "Boolean",
+      "access": "Read",
+      "value": "0",
+      "description": "Unpowered",
+      "col5": "Can be read to return if the Satellite Dish is currectly powered or not",
+      "_section": "parameters"
+    },
+    {
+      "property": "Error",
+      "type": "Boolean",
+      "access": "Read",
+      "value": "0",
+      "description": "Normal",
+      "col5": "Can be read to return if the Satellite Dish is currently in an Error state or not",
+      "_section": "parameters"
+    },
+    {
+      "property": "Activate",
+      "type": "Boolean",
+      "access": "Read Write",
+      "value": "0",
+      "description": "Stop Current Action",
+      "col5": "Read the status or write to Activate interrogation or call down. Writing a 0 will stop any current action",
+      "_section": "parameters"
+    },
+    {
+      "property": "Setting",
+      "type": "Integer",
+      "access": "Read Write",
+      "value": "0 ~ Max Watts of Device",
+      "description": "",
+      "col5": "Read or Write the Power Setting",
+      "_section": "parameters"
+    },
+    {
+      "property": "Horizontal",
+      "type": "Float",
+      "access": "Read Write",
+      "value": "0-360",
+      "description": "",
+      "col5": "Read or Write the horizontal pointing setting, in degrees",
+      "_section": "parameters"
+    },
+    {
+      "property": "Vertical",
+      "type": "Float",
+      "access": "Read Write",
+      "value": "0-90",
+      "description": "",
+      "col5": "Read or Write the vertical pointing setting, in degrees",
+      "_section": "parameters"
+    },
+    {
+      "property": "On",
+      "type": "Boolean",
+      "access": "Read Write",
+      "value": "0",
+      "description": "Off",
+      "col5": "Read or Write the Satellite Dish On or Off",
+      "_section": "parameters"
+    },
+    {
+      "property": "RequiredPower",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "The minimum required power to interrogate the current signal",
+      "_section": "parameters"
+    },
+    {
+      "property": "Idle",
+      "type": "Boolean",
+      "access": "Read",
+      "value": "0",
+      "description": "Idle",
+      "col5": "The status of the satellite dish",
+      "_section": "parameters"
+    },
+    {
+      "property": "PrefabHash",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "The hash of the structure",
+      "_section": "parameters"
+    },
+    {
+      "property": "SignalStrength",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0-180.0",
+      "description": "",
+      "col5": "The angular distance from the current pointing angle to the signal, where 0 is pointing directly at the satellite",
+      "_section": "parameters"
+    },
+    {
+      "property": "SiganlID",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "The 4-digit signal identification number of the satellite. Can be forced to change by the Contact Filter",
+      "_section": "parameters"
+    },
+    {
+      "property": "InterrogationProgress",
+      "type": "Float",
+      "access": "Read",
+      "value": "0.0 - 100.0",
+      "description": "",
+      "col5": "If actively interogating a signal, will show the current progress, in percentage (%)",
+      "_section": "parameters"
+    },
+    {
+      "property": "TargetPaxIndex",
+      "type": "Integer",
+      "access": "Read Write",
+      "value": "",
+      "description": "",
+      "col5": "Read out or set current value of target landing pad index, useful if you want to call down the vessel by code",
+      "_section": "parameters"
+    },
+    {
+      "property": "SizeX",
+      "type": "Integer",
+      "access": "Read",
+      "value": "3, 5, 6",
+      "description": "",
+      "col5": "The length on X axis of the vessel",
+      "_section": "parameters"
+    },
+    {
+      "property": "SizeY",
+      "type": "Integer",
+      "access": "Read",
+      "value": "3, 5, 6",
+      "description": "",
+      "col5": "The length on Z axis of the vessel",
+      "_section": "parameters"
+    },
+    {
+      "property": "MinimumWattsToContact",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "The minimum watts required reaching target vessel before one can initiate interrogation; this is the requirement imposed by the vessel",
+      "_section": "parameters"
+    },
+    {
+      "property": "WattsReachingContact",
+      "type": "Float",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "The current effective watts reached target vessel due to angle setting and dish's watts output setting",
+      "_section": "parameters"
+    },
+    {
+      "property": "ContactTypeID",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "The category of the vessel",
+      "_section": "parameters"
+    },
+    {
+      "property": "ReferenceId",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Unique Reference Identifier for this object",
+      "_section": "parameters"
+    },
+    {
+      "property": "BestContactFilter",
+      "type": "Integer",
+      "access": "Read Write",
+      "value": "",
+      "description": "",
+      "col5": "Read current fitler, or set the filter to force the dish to show in logic the current data parameters for any trader in view, not just the most prominent; set this value by writing the traders SignalID",
+      "_section": "parameters"
+    },
+    {
+      "property": "NameHash",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "The hash of the custom name of the structure",
+      "_section": "parameters"
+    }
+  ]
+}

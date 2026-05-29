@@ -1,0 +1,122 @@
+{
+  "name": "Template:Data Parameters/row",
+  "properties": [
+    {
+      "property": "Power",
+      "type": "Boolean",
+      "access": "Read",
+      "value": "0",
+      "description": "Off",
+      "col5": "Can be read to return if the device is correctly powered or not, set via the power system, return 1 if powered and 0 if not",
+      "_section": "parameters"
+    },
+    {
+      "property": "Mode",
+      "type": "Integer",
+      "access": "Read Write",
+      "value": "0",
+      "description": "Split",
+      "col5": "The mode of the Sorter, Split does alternate outputs, Filter decides output via Motherboard (Sorter), Logic determines output via parameter Output",
+      "_section": "parameters"
+    },
+    {
+      "property": "Error",
+      "type": "Boolean",
+      "access": "Read",
+      "value": "0",
+      "description": "",
+      "col5": "1 if device is in error state, otherwise 0",
+      "_section": "parameters"
+    },
+    {
+      "property": "Lock",
+      "type": "Boolean",
+      "access": "Read Write",
+      "value": "0",
+      "description": "Unlocked",
+      "col5": "Disable manual operation of the Sorter.",
+      "_section": "parameters"
+    },
+    {
+      "property": "On",
+      "type": "Integer",
+      "access": "Read Write",
+      "value": "0",
+      "description": "On",
+      "col5": "The current state of the Sorter.",
+      "_section": "parameters"
+    },
+    {
+      "property": "RequiredPower",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Idle operating power quantity, does not necessarily include extra demand power",
+      "_section": "parameters"
+    },
+    {
+      "property": "ClearMemory",
+      "type": "Integer",
+      "access": "Write",
+      "value": "",
+      "description": "",
+      "col5": "When set to 1, clears the counter memory (e.g. ExportCount). Will set itself back to 0 when actioned",
+      "_section": "parameters"
+    },
+    {
+      "property": "ExportCount",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "How many items exported since last ClearMemory",
+      "_section": "parameters"
+    },
+    {
+      "property": "ImportCount",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "How many items imported since last ClearMemory",
+      "_section": "parameters"
+    },
+    {
+      "property": "Output",
+      "type": "Integer",
+      "access": "Read Write",
+      "value": "-1",
+      "description": "Unset",
+      "col5": "In Logic mode, decides which side the next item will be sent to. (defaults to -1 after action)",
+      "_section": "parameters"
+    },
+    {
+      "property": "PrefabHash",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "The hash of the structure",
+      "_section": "parameters"
+    },
+    {
+      "property": "ReferenceId",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Unique Reference Identifier for this object",
+      "_section": "parameters"
+    },
+    {
+      "property": "NameHash",
+      "type": "Integer",
+      "access": "Read",
+      "value": "",
+      "description": "",
+      "col5": "Provides the hash value for the name of the object as a 32 bit integer.",
+      "_section": "parameters"
+    }
+  ]
+}

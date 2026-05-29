@@ -1,0 +1,29 @@
+{
+  "name": "Kit (SDB Hopper) – Unofficial Stationeers Wiki",
+  "properties": [
+    {
+      "property": "Lock",
+      "type": "Boolean",
+      "description": "Unknown.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Open",
+      "type": "Boolean",
+      "description": "Close or open the SDB Hopper Advanced.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Import Count",
+      "type": "Boolean",
+      "description": "Total items inserted.",
+      "_section": "outputs"
+    },
+    {
+      "property": "PrefabHash",
+      "type": "Integer",
+      "description": "0 or 467225612",
+      "_section": "outputs"
+    }
+  ]
+}

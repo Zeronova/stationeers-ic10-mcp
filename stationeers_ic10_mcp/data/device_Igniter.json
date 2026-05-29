@@ -1,0 +1,11 @@
+{
+  "name": "Igniter – Unofficial Stationeers Wiki",
+  "properties": [
+    {
+      "property": "On",
+      "type": "Float",
+      "description": "Sparks the igniter, every time the input is set to any number larger or equal to 1.",
+      "_section": "parameters"
+    }
+  ]
+}

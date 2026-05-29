@@ -1,0 +1,41 @@
+{
+  "name": "Stellar Anchor – Unofficial Stationeers Wiki",
+  "properties": [
+    {
+      "property": "On",
+      "type": "Boolean",
+      "description": "Turns the Stellar Anchor on, when set to 1. Turns it off, when set to 0.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Activate",
+      "type": "Boolean",
+      "description": "",
+      "_section": "parameters"
+    },
+    {
+      "property": "Error",
+      "type": "Boolean",
+      "description": "Returns whether the Stellar Anchor is flashing an error. (0 for no, 1 for yes)",
+      "_section": "outputs"
+    },
+    {
+      "property": "RequiredPower",
+      "type": "Integer",
+      "description": "Returns the current amount of power needed for the Stellar Anchor.",
+      "_section": "outputs"
+    },
+    {
+      "property": "Prefab Hash",
+      "type": "Integer",
+      "description": "(Assumption) Returns (-411792553) a unique type identifier for the Stellar Anchor.",
+      "_section": "outputs"
+    },
+    {
+      "property": "Power",
+      "type": "Boolean",
+      "description": "Returns whether the Stellar Anchor is receiving power and is turned on. (0 for no, 1 for yes)",
+      "_section": "outputs"
+    }
+  ]
+}

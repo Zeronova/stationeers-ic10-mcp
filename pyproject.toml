@@ -1,0 +1,9 @@
+[project]
+name = "stationeers-ic10-mcp"
+version = "0.1.0"
+description = "MCP server for Stationeers IC10 programming language reference"
+requires-python = ">=3.11"
+dependencies = ["mcp>=1.0.0"]
+
+[project.scripts]
+stationeers-ic10-mcp = "stationeers_ic10_mcp.server:main"

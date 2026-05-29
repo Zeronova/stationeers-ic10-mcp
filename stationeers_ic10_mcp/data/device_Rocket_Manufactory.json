@@ -1,0 +1,326 @@
+{
+  "name": "Rocket Manufactory",
+  "properties": [
+    {
+      "property": "Tier",
+      "description": "Build Time",
+      "_raw_type": "Creation",
+      "_section": "unknown"
+    },
+    {
+      "property": "Tier One",
+      "description": "x1",
+      "_raw_type": "x1",
+      "_section": "unknown"
+    },
+    {
+      "property": "Item",
+      "description": "Input",
+      "_raw_type": "Tier",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Fuselage)",
+      "description": "120            60000            20",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Rocket Launch Tower)",
+      "description": "30            30000            10",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Launch Mount)",
+      "description": "240            120000            60",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Chute Umbilical)",
+      "description": "5            2500            3            10",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Power Umbilical)",
+      "description": "5            2500            5            5",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Liquid Umbilical)",
+      "description": "5            2500            5            5",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Gas Umbilical)",
+      "description": "5            2500            5            5",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Rocket Battery)",
+      "description": "10            10000            5            5            10",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Rocket Gas Fuel Tank)",
+      "description": "10            5000            5            10",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Rocket Liquid Fuel Tank)",
+      "description": "10            5000            5            20",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Avionics)",
+      "description": "5            2500            2            3",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Rocket Datalink)",
+      "description": "5            2500            2            3",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Rocket Celestial Tracker)",
+      "description": "5            2500            5            5",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Rocket Circuit Housing)",
+      "description": "5            2500            2            3",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Rocket Cargo Storage)",
+      "description": "30            30000            10            5            10",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Rocket Miner)",
+      "description": "60            60000            10            5            5            10",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Access Bridge)",
+      "description": "30            9000            2            3            10",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Stairwell)",
+      "description": "20            6000            15",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Rocket Scanner)",
+      "description": "60            60000            10            10",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Rocket Scanning Head",
+      "description": "60            60000            3            2",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Mining-Drill Head (Basic)",
+      "description": "30            5000            20",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Mining-Drill Head (Mineral)",
+      "description": "30            5000            10            10",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Mining-Drill Head (Ice)",
+      "description": "30            5000            10            10",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Mining-Drill Head (Durable)",
+      "description": "30            5000            10            10",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Mining-Drill Head (Long Term)",
+      "description": "30            5000            5            10",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Mining-Drill Head (High Speed Ice)",
+      "description": "30            5000            5            10",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Mining-Drill Head (High Speed Mineral)",
+      "description": "30            5000            5            10",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Pumped Gas Rocket Engine)",
+      "description": "60            60000            10            5            15",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Pressure Fed Gas Engine)",
+      "description": "60            60000            10            5            20            20",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Pressure Fed Liquid Engine)",
+      "description": "60            60000            10            5            15",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Pumped Liquid Engine)",
+      "description": "60            60000            10            5            15",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "Kit (Transformer Small (Rocket))",
+      "description": "60            12000            5            10",
+      "_raw_type": "Tier One",
+      "_section": "unknown"
+    },
+    {
+      "property": "On",
+      "type": "Boolean",
+      "value": "0",
+      "description": "Turns the device off. Also toogles the switch accordingly.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Open",
+      "type": "Boolean",
+      "value": "0",
+      "description": "Stops purging of stored materials in the structure. Also resets the lever accordingly.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Activate",
+      "type": "Boolean",
+      "value": "0",
+      "description": "Writing a 0 to the device stops the construction of the chosen item.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Lock",
+      "type": "Boolean",
+      "value": "0",
+      "description": "Allows manual interaction with the structure.",
+      "_section": "parameters"
+    },
+    {
+      "property": "ClearMemory",
+      "type": "Boolean",
+      "value": "0",
+      "description": "Writing a 0 to a structure doesn't have any impact.",
+      "_section": "parameters"
+    },
+    {
+      "property": "RecipeHash",
+      "type": "Integer",
+      "value": "",
+      "description": "Sets the machine to the recipe corresponding to the written hash number.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Power",
+      "type": "Boolean",
+      "value": "0",
+      "description": "Can be read to return if the device is correctly powered or not, set via the power system, return 1 if powered and O if not.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Error",
+      "type": "Boolean",
+      "value": "0",
+      "description": "1 if device is in error state, otherwise 0.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Reagents",
+      "type": "Integer",
+      "value": "",
+      "description": "Total number of reagents inside the device (e.g. 92g of iron = 92)",
+      "_section": "parameters"
+    },
+    {
+      "property": "RequiredPower",
+      "type": "Integer",
+      "value": "",
+      "description": "Idle operating power quantity. That does not include extra demand power for recipes.",
+      "_section": "parameters"
+    },
+    {
+      "property": "CompletionRatio",
+      "type": "Integer",
+      "value": "",
+      "description": "How complete the current production is for this device, bewteen 0 and 1",
+      "_section": "parameters"
+    },
+    {
+      "property": "ExportCount",
+      "type": "Integer",
+      "value": "",
+      "description": "How many items exported since last ClearMemory. This count is based on every ouput stack of items (e.g. 1 item and 12g of iron =2)",
+      "_section": "parameters"
+    },
+    {
+      "property": "ImportCount",
+      "type": "Integer",
+      "value": "",
+      "description": "How many items imported since last ClearMemory. The count is based on stacks (e.g. 92g of iron in on stack = 1)",
+      "_section": "parameters"
+    },
+    {
+      "property": "PrefabHash",
+      "type": "Integer",
+      "value": "",
+      "description": "The hash of the structure",
+      "_section": "parameters"
+    },
+    {
+      "property": "Referenceld",
+      "type": "Integer",
+      "value": "",
+      "description": "Unique Reference Identifier for this object",
+      "_section": "parameters"
+    },
+    {
+      "property": "Stage",
+      "description": "Tool for deconstruction",
+      "_raw_type": "Image",
+      "_section": "unknown"
+    }
+  ]
+}

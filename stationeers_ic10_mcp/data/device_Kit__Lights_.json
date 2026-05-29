@@ -1,0 +1,89 @@
+{
+  "name": "Kit (Lights) – Unofficial Stationeers Wiki",
+  "properties": [
+    {
+      "property": "Light Type",
+      "description": "PrefabHash",
+      "_raw_type": "PrefabHash",
+      "_section": "unknown"
+    },
+    {
+      "property": "Regular",
+      "description": "-1860064656",
+      "_raw_type": "-1860064656",
+      "_section": "unknown"
+    },
+    {
+      "property": "Long",
+      "description": "797794350",
+      "_raw_type": "797794350",
+      "_section": "unknown"
+    },
+    {
+      "property": "Long Wide",
+      "description": "555215790",
+      "_raw_type": "555215790",
+      "_section": "unknown"
+    },
+    {
+      "property": "Long Angled",
+      "description": "1847265835",
+      "_raw_type": "1847265835",
+      "_section": "unknown"
+    },
+    {
+      "property": "Battery Powered",
+      "description": "-1306415132",
+      "_raw_type": "-1306415132",
+      "_section": "unknown"
+    },
+    {
+      "property": "Round",
+      "description": "1514476632",
+      "_raw_type": "1514476632",
+      "_section": "unknown"
+    },
+    {
+      "property": "Round Angled",
+      "description": "1592905386",
+      "_raw_type": "1592905386",
+      "_section": "unknown"
+    },
+    {
+      "property": "Small Round",
+      "description": "1436121888",
+      "_raw_type": "1436121888",
+      "_section": "unknown"
+    },
+    {
+      "property": "On",
+      "type": "Boolean",
+      "description": "Turns the Light on, when set to 1. Turns it off, when set to 0.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Lock",
+      "type": "Boolean",
+      "description": "Locks the Light when set to 1. Unlocks it, when set to 0. When locked, Light cannot be turned on\\off by player.",
+      "_section": "parameters"
+    },
+    {
+      "property": "RequiredPower",
+      "type": "Integer",
+      "description": "Returns the current amount of power required by the Light, in watts.",
+      "_section": "outputs"
+    },
+    {
+      "property": "PrefabHash",
+      "type": "Integer",
+      "description": "Returns the Hash value for the selected light type. (See info panels on the right)",
+      "_section": "outputs"
+    },
+    {
+      "property": "Power",
+      "type": "Boolean",
+      "description": "Returns whether the Light is turned on and receives power. (0 for no, 1 for yes)",
+      "_section": "outputs"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Kit (Centrifuge) – Unofficial Stationeers Wiki",
+  "properties": [
+    {
+      "property": "On",
+      "type": "Boolean",
+      "description": "Turns the Centrifuge on, when set to 1. Turns it off, when set to 0.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Open",
+      "type": "Boolean",
+      "description": "Opens the Centrifuge, when set to 1. Close it, when set to 0.",
+      "_section": "parameters"
+    },
+    {
+      "property": "Type",
+      "description": "Description",
+      "_raw_type": "Output Name",
+      "_section": "unknown"
+    },
+    {
+      "property": "Logic",
+      "description": "Returns whether the Centrifuge is turned on and receiving power. (0 for no, 1 for yes)",
+      "_raw_type": "Power",
+      "_section": "unknown"
+    },
+    {
+      "property": "Slot",
+      "description": "returns 0 when slot is not occupied, 1 when it is",
+      "_raw_type": "Occupied",
+      "_section": "unknown"
+    }
+  ]
+}

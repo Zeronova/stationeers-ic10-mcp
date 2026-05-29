@@ -1,0 +1,35 @@
+{
+  "name": "Wind Turbine – Unofficial Stationeers Wiki",
+  "properties": [
+    {
+      "property": "World",
+      "description": "Average Power Output",
+      "_raw_type": "Average Power Output",
+      "_section": "unknown"
+    },
+    {
+      "property": "Mars",
+      "description": "~40W",
+      "_raw_type": "~40W",
+      "_section": "unknown"
+    },
+    {
+      "property": "Europa",
+      "description": "~190W",
+      "_raw_type": "~190W",
+      "_section": "unknown"
+    },
+    {
+      "property": "Venus",
+      "description": "~220W",
+      "_raw_type": "~220W",
+      "_section": "unknown"
+    },
+    {
+      "property": "PrefabHash",
+      "type": "Integer",
+      "description": "Returns ItemHash of device",
+      "_section": "outputs"
+    }
+  ]
+}
