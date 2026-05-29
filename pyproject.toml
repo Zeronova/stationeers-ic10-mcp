@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "stationeers-ic10-mcp"
-version = "0.3.0"
+version = "0.4.0"
 description = "MCP server for Stationeers IC10 programming language reference"
 requires-python = ">=3.11"
 dependencies = ["mcp>=1.0.0"]
