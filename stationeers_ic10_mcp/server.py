@@ -732,22 +732,80 @@ async def get_prompt(name: str, arguments: dict[str, str] | None = None) -> GetP
 
 # --- Main entry ---
 
-async def main():
+def _init_opts() -> InitializationOptions:
+    return InitializationOptions(
+        server_name="stationeers-ic10",
+        server_version="0.1.0",
+        capabilities=server.get_capabilities(
+            notification_options=NotificationOptions(),
+            experimental_capabilities={},
+        ),
+    )
+
+
+# --- Transports ---
+
+
+async def run_stdio():
+    """Run via stdio transport (default)."""
     async with mcp.server.stdio.stdio_server() as (read_stream, write_stream):
-        await server.run(
-            read_stream,
-            write_stream,
-            InitializationOptions(
-                server_name="stationeers-ic10",
-                server_version="0.1.0",
-                capabilities=server.get_capabilities(
-                    notification_options=NotificationOptions(),
-                    experimental_capabilities={},
-                ),
-            ),
+        await server.run(read_stream, write_stream, _init_opts())
+
+
+async def run_sse(host: str = "0.0.0.0", port: int = 8765):
+    """Run via SSE transport over HTTP."""
+    from mcp.server.sse import SseServerTransport
+
+    sse = SseServerTransport("/messages/")
+
+    async def handle_sse(request):
+        async with sse.connect_sse(
+            request.scope, request.receive, request._send
+        ) as (read_stream, write_stream):
+            await server.run(read_stream, write_stream, _init_opts())
+
+    async def handle_messages(request):
+        return await sse.handle_post_message(
+            request.scope, request.receive, request._send
         )
+
+    from starlette.applications import Starlette
+    from starlette.routing import Route
+
+    starlette_app = Starlette(
+        routes=[
+            Route("/sse", endpoint=handle_sse),
+            Route("/messages/", endpoint=handle_messages, methods=["POST"]),
+        ]
+    )
+
+    import uvicorn
+    config = uvicorn.Config(starlette_app, host=host, port=port, log_level="info")
+    server = uvicorn.Server(config)
+    await server.serve()
+
+
+def main():
+    """Entry point. Use --sse or MCP_TRANSPORT=sse for HTTP mode."""
+    import argparse
+
+    parser = argparse.ArgumentParser(description="Stationeers IC10 MCP Server")
+    parser.add_argument(
+        "--sse",
+        action="store_true",
+        help="Run in SSE/HTTP mode instead of stdio",
+    )
+    parser.add_argument("--host", default="0.0.0.0", help="SSE bind host")
+    parser.add_argument("--port", type=int, default=8765, help="SSE bind port")
+    args = parser.parse_args()
+
+    import asyncio
+
+    if args.sse or os.environ.get("MCP_TRANSPORT", "").lower() == "sse":
+        asyncio.run(run_sse(host=args.host, port=args.port))
+    else:
+        asyncio.run(run_stdio())
 
 
 if __name__ == "__main__":
-    import asyncio
-    asyncio.run(main())
+    main()

@@ -10,6 +10,7 @@ requires-python = ">=3.11"
 dependencies = ["mcp>=1.0.0"]
 
 [project.scripts]
+stationeers-ic10 = "stationeers_ic10_mcp.server:main"
 stationeers-ic10-mcp = "stationeers_ic10_mcp.server:main"
 
 [tool.setuptools.package-data]

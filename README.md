@@ -29,21 +29,73 @@ Der Server erlaubt einem AI-Agenten (wie mir), IC10-Befehle und Device-Propertie
 | `search_example` | Code-Beispiele für häufige Pattern finden |
 | `get_ic10_basics` | IC10 Grundlagen: Register, Syntax, Aliase |
 
-## Installation
+## Transportmodi
 
-### Docker (empfohlen)
+Der Server unterstützt zwei Modi – **SSE/HTTP** und **Stdio**.
 
-Auf dem Medienserver bauen und starten:
+### SSE/HTTP (empfohlen für Docker)
+
+Läuft als langlaufender Webservice auf einem Port. Der AI-Agent verbindet sich via URL.
+
+```bash
+# Docker
+docker run -d -p 8765:8765 stationeers-ic10-mcp
+
+# Oder direkt
+python3 -m stationeers_ic10_mcp.server --sse
+```
+
+### Stdio (für direkte Einbindung)
+
+Der Agent startet den Server als Subprozess, Kommunikation über stdin/stdout.
+
+```bash
+python3 -m stationeers_ic10_mcp.server
+```
+
+## Docker
 
 ```bash
 git clone https://github.com/Zeronova/stationeers-ic10-mcp
 cd stationeers-ic10-mcp
 docker build -t stationeers-ic10-mcp .
-# Oder via docker-compose:
+# Oder:
 docker compose build
 ```
 
-MCP-Client-Konfiguration (z.B. nanobot config.json):
+### docker-compose
+
+```yaml
+services:
+  stationeers-ic10-mcp:
+    build: .
+    image: stationeers-ic10-mcp:latest
+    container_name: stationeers-ic10-mcp
+    ports:
+      - "8765:8765"
+    environment:
+      - MCP_TRANSPORT=sse
+    restart: unless-stopped
+```
+
+## MCP Client Konfiguration
+
+### nanobot / Claude Desktop – via HTTP/SSE
+
+```json
+{
+  "mcpServers": {
+    "stationeers-ic10": {
+      "url": "http://192.168.2.7:8765/sse"
+    }
+  }
+}
+```
+
+Ersetze `192.168.2.7` durch die IP deines Medienservers. Der Container läuft dauerhaft, nanobot verbindet sich bei Bedarf.
+
+### nanobot – via Stdio (Docker-subprozess)
+
 ```json
 {
   "mcpServers": {
@@ -55,13 +107,11 @@ MCP-Client-Konfiguration (z.B. nanobot config.json):
 }
 ```
 
-> **Warum Docker?** Der Server läuft als MCP stdio-Prozess – der Docker-Container wird vom AI-Agenten bei Bedarf gestartet, kommuniziert via stdin/stdout, und wird danach automatisch gelöscht (`--rm`).
+Lässt nanobot den Container on demand starten, ohne dass ein Port freigegeben werden muss.
 
-### Oder direkt mit Python
+### Direkt mit Python
 
 ```bash
-git clone https://github.com/Zeronova/stationeers-ic10-mcp
-cd stationeers-ic10-mcp
 pip install -e .
 ```
 
@@ -75,6 +125,13 @@ pip install -e .
   }
 }
 ```
+
+## Umgebungsvariablen
+
+| Variable | Effekt |
+|----------|--------|
+| `MCP_TRANSPORT=sse` | Startet automatisch im SSE-Modus (default im Docker-Image) |
+| `MCP_TRANSPORT=stdio` | Explizit Stdio-Modus |
 
 ## Beispiel
 
