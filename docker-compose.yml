@@ -1,0 +1,9 @@
+version: "3"
+services:
+  stationeers-ic10-mcp:
+    build: .
+    image: stationeers-ic10-mcp:latest
+    # MCP stdio: runs as subprocess via stdin/stdout
+    # Used by AI agent like: docker run -i --rm stationeers-ic10-mcp:latest
+    stdin_open: true
+    tty: false

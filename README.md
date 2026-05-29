@@ -31,26 +31,39 @@ Der Server erlaubt einem AI-Agenten (wie mir), IC10-Befehle und Device-Propertie
 
 ## Installation
 
+### Docker (empfohlen)
+
+Auf dem Medienserver bauen und starten:
+
 ```bash
 git clone https://github.com/Zeronova/stationeers-ic10-mcp
 cd stationeers-ic10-mcp
-pip install -e .
+docker build -t stationeers-ic10-mcp .
+# Oder via docker-compose:
+docker compose build
 ```
 
-### MCP Client Config (Claude Desktop / nanobot)
-
+MCP-Client-Konfiguration (z.B. nanobot config.json):
 ```json
 {
   "mcpServers": {
     "stationeers-ic10": {
-      "command": "uv",
-      "args": ["run", "--directory", "/pfad/zu/stationeers-ic10-mcp", "stationeers-ic10-mcp"]
+      "command": "docker",
+      "args": ["run", "-i", "--rm", "stationeers-ic10-mcp:latest"]
     }
   }
 }
 ```
 
-Oder direkt mit Python:
+> **Warum Docker?** Der Server läuft als MCP stdio-Prozess – der Docker-Container wird vom AI-Agenten bei Bedarf gestartet, kommuniziert via stdin/stdout, und wird danach automatisch gelöscht (`--rm`).
+
+### Oder direkt mit Python
+
+```bash
+git clone https://github.com/Zeronova/stationeers-ic10-mcp
+cd stationeers-ic10-mcp
+pip install -e .
+```
 
 ```json
 {

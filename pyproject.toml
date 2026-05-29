@@ -1,3 +1,7 @@
+[build-system]
+requires = ["setuptools>=64.0"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "stationeers-ic10-mcp"
 version = "0.1.0"
@@ -7,3 +11,6 @@ dependencies = ["mcp>=1.0.0"]
 
 [project.scripts]
 stationeers-ic10-mcp = "stationeers_ic10_mcp.server:main"
+
+[tool.setuptools.package-data]
+stationeers_ic10_mcp = ["data/*.json"]
